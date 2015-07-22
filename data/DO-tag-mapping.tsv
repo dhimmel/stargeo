@@ -1,28 +1,28 @@
 doid_id	doid_name	min_distance	case_tag	control_tag
 DOID:10652	Alzheimer's disease	0	AD	AD_Control
 DOID:9206	Barrett's esophagus	0	BE_Tissue	
-DOID:13241	Behcet's disease	0		
+DOID:13241	Behcet's disease	0	Behcet	Behcet_control
 DOID:11949	Creutzfeldt-Jakob disease	0		
-DOID:8778	Crohn's disease	0		
+DOID:8778	Crohn's disease	0	CD	CD_control
 DOID:11555	Fuchs' endothelial dystrophy	0		
 DOID:11119	Gilles de la Tourette syndrome	0		
 DOID:12361	Graves' disease	0		
-DOID:2986	IgA glomerulonephritis	0		
+DOID:2986	IgA glomerulonephritis	0	IgA_nephropathy	IgA_nephropathy_control
 DOID:13378	Kawasaki disease	0		
 DOID:5408	Paget's disease of bone	0		
-DOID:14330	Parkinson's disease	0		
+DOID:14330	Parkinson's disease	0	PD	PD_control
 DOID:7693	abdominal aortic aneurysm	0		
 DOID:635	acquired immunodeficiency syndrome	0		
 DOID:3953	adrenal gland cancer	0		
-DOID:10871	age related macular degeneration	0		
+DOID:10871	age related macular degeneration	0	AMD	AMD_control
 DOID:0050741	alcohol dependence	0		
-DOID:4481	allergic rhinitis	0		
+DOID:4481	allergic rhinitis	0	allergic_rhinitis	allergic_rhinitis_control
 DOID:986	alopecia areata	0		
 DOID:332	amyotrophic lateral sclerosis	0	ALS	ALS_control
 DOID:2355	anemia	0		
-DOID:7147	ankylosing spondylitis	0		
+DOID:7147	ankylosing spondylitis	0	ankylosing_spondylitis	ankylosing_spondylitis_control
 DOID:11239	appendix cancer	0		
-DOID:2841	asthma	0		
+DOID:2841	asthma	0	asthma	asthma_control
 DOID:1936	atherosclerosis	0		
 DOID:3310	atopic dermatitis	0	Eczema	Eczema_ctrl
 DOID:1094	attention deficit hyperactivity disorder	0		
@@ -133,10 +133,10 @@ DOID:363	uterine cancer	0
 DOID:13223	uterine fibroid	0		
 DOID:119	vaginal cancer	0		
 DOID:175	vascular cancer	0		
-DOID:12306	vitiligo	0		
+DOID:12306	vitiligo	0	Vitiligo	Vitiligo_control
 DOID:1245	vulva cancer	0		
 DOID:0050655	Bamforth-Lazarus syndrome	1		
-DOID:0060192	Crohn's colitis	1	CD	CD_control
+DOID:0060192	Crohn's colitis	1		
 DOID:0060213	FTDALS1	1		
 DOID:0060214	FTDALS2	1		
 DOID:0060080	Her2-receptor negative breast cancer	1		
