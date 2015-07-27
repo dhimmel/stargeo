@@ -2,20 +2,20 @@ doid_id	doid_name	min_distance	case_tag	control_tag
 DOID:10652	Alzheimer's disease	0	AD	AD_Control
 DOID:9206	Barrett's esophagus	0	BE_Tissue	
 DOID:13241	Behcet's disease	0	Behcet	Behcet_control
-DOID:11949	Creutzfeldt-Jakob disease	0		
+DOID:11949	Creutzfeldt-Jakob disease	0	CJD	CJD_control
 DOID:8778	Crohn's disease	0	CD	CD_control
 DOID:11555	Fuchs' endothelial dystrophy	0		
 DOID:11119	Gilles de la Tourette syndrome	0		
 DOID:12361	Graves' disease	0		
 DOID:2986	IgA glomerulonephritis	0	IgA_nephropathy	IgA_nephropathy_control
-DOID:13378	Kawasaki disease	0		
+DOID:13378	Kawasaki disease	0	Kawasaki	Kawasaki_control
 DOID:5408	Paget's disease of bone	0		
 DOID:14330	Parkinson's disease	0	PD	PD_control
 DOID:7693	abdominal aortic aneurysm	0		
 DOID:635	acquired immunodeficiency syndrome	0		
 DOID:3953	adrenal gland cancer	0		
 DOID:10871	age related macular degeneration	0	AMD	AMD_control
-DOID:0050741	alcohol dependence	0		
+DOID:0050741	alcohol dependence	0	alcoholism	alcoholism_control
 DOID:4481	allergic rhinitis	0	allergic_rhinitis	allergic_rhinitis_control
 DOID:986	alopecia areata	0		
 DOID:332	amyotrophic lateral sclerosis	0	ALS	ALS_control
@@ -25,8 +25,8 @@ DOID:11239	appendix cancer	0
 DOID:2841	asthma	0	asthma	asthma_control
 DOID:1936	atherosclerosis	0		
 DOID:3310	atopic dermatitis	0	Eczema	Eczema_ctrl
-DOID:1094	attention deficit hyperactivity disorder	0		
-DOID:12849	autistic disorder	0		
+DOID:1094	attention deficit hyperactivity disorder	0	ADHD	ADHD_control
+DOID:12849	autistic disorder	0	autism	autism_control
 DOID:14227	azoospermia	0		
 DOID:4606	bile duct cancer	0		
 DOID:3312	bipolar disorder	0	Bipolar_Disorder	Bipolar_Disorder_Control
@@ -36,8 +36,8 @@ DOID:1612	breast cancer	0	BC	BTissue_control
 DOID:10608	celiac disease	0	Celiac	Celiac_control
 DOID:4362	cervical cancer	0		
 DOID:784	chronic kidney failure	0	CKD	CKD_Control
-DOID:3083	chronic obstructive pulmonary disease	0	COPD	
-DOID:9296	cleft lip	0		
+DOID:3083	chronic obstructive pulmonary disease	0	COPD	COPD_control
+DOID:9296	cleft lip	0	cleft_lip	cleft_lip_control
 DOID:219	colon cancer	0		
 DOID:12995	conduct disorder	0		
 DOID:3393	coronary artery disease	0	CAD	CAD_control
@@ -53,14 +53,14 @@ DOID:1312	focal segmental glomerulosclerosis	0
 DOID:3121	gallbladder cancer	0		
 DOID:2994	germ cell cancer	0		
 DOID:11714	gestational diabetes	0		
-DOID:1686	glaucoma	0		
+DOID:1686	glaucoma	0	glaucoma	glaucoma_control
 DOID:13189	gout	0		
 DOID:11934	head and neck cancer	0		
 DOID:2531	hematologic cancer	0		
 DOID:2043	hepatitis B	0		
 DOID:10763	hypertension	0	hypertension	hypertension_control
 DOID:1459	hypothyroidism	0		
-DOID:0050156	idiopathic pulmonary fibrosis	0		
+DOID:0050156	idiopathic pulmonary fibrosis	0	IPF	IPF_control
 DOID:10153	ileum cancer	0		
 DOID:10941	intracranial aneurysm	0		
 DOID:13499	jejunal cancer	0		
@@ -82,7 +82,7 @@ DOID:5099	middle ear cancer	0
 DOID:6364	migraine	0		
 DOID:2377	multiple sclerosis	0	MS	MS_control
 DOID:4045	muscle cancer	0		
-DOID:8986	narcolepsy	0		
+DOID:8986	narcolepsy	0	narcolepsy	narcolepsy_control
 DOID:10811	nasal cavity cancer	0		
 DOID:585	nephrolithiasis	0		
 DOID:0050742	nicotine dependence	0		
@@ -96,15 +96,15 @@ DOID:1793	pancreatic cancer	0	Pancreatic_cancer	Pancreatic_cancer_control
 DOID:4989	pancreatitis	0		
 DOID:594	panic disorder	0		
 DOID:11615	penile cancer	0		
-DOID:824	periodontitis	0		
+DOID:824	periodontitis	0	periodontitis	periodontitis_control
 DOID:1192	peripheral nervous system neoplasm	0		
 DOID:1725	peritoneum cancer	0		
 DOID:0060119	pharynx cancer	0		
 DOID:11612	polycystic ovary syndrome	0		
 DOID:12236	primary biliary cirrhosis	0		
 DOID:10283	prostate cancer	0	PC	PC_Control;ProstateCancer_control
-DOID:8893	psoriasis	0	Psoriasis	
-DOID:9008	psoriatic arthritis	0		
+DOID:8893	psoriasis	0	psoriasis	psoriasis_control
+DOID:9008	psoriatic arthritis	0	PsA	PsA_control
 DOID:1993	rectum cancer	0		
 DOID:9835	refractive error	0		
 DOID:0050425	restless legs syndrome	0		
@@ -112,13 +112,13 @@ DOID:5875	retroperitoneal cancer	0
 DOID:7148	rheumatoid arthritis	0	RA	RA_control
 DOID:8850	salivary gland cancer	0		
 DOID:1115	sarcoma	0		
-DOID:5419	schizophrenia	0	Schizophrenia	Schizophrenia_Control
+DOID:5419	schizophrenia	0	Schizophrenia	Schizophrenia_Control;Psychiatric_Control
 DOID:14268	sclerosing cholangitis	0		
 DOID:4159	skin cancer	0		
 DOID:5612	spinal cancer	0		
 DOID:10534	stomach cancer	0		
 DOID:9074	systemic lupus erythematosus	0	SLE	SLE_control
-DOID:418	systemic scleroderma	0		
+DOID:418	systemic scleroderma	0	systemic_scleroderma	systemic_scleroderma_control
 DOID:2998	testicular cancer	0		
 DOID:14004	thoracic aortic aneurysm	0		
 DOID:3277	thymus cancer	0		
@@ -126,11 +126,11 @@ DOID:1781	thyroid cancer	0
 DOID:11920	tracheal cancer	0		
 DOID:9744	type 1 diabetes mellitus	0	T1D	T1D_control
 DOID:9352	type 2 diabetes mellitus	0	T2D	T2D_control
-DOID:8577	ulcerative colitis	0	UC	
+DOID:8577	ulcerative colitis	0	UC	UC_control
 DOID:11819	ureter cancer	0		
 DOID:11054	urinary bladder cancer	0		
 DOID:363	uterine cancer	0		
-DOID:13223	uterine fibroid	0		
+DOID:13223	uterine fibroid	0	uterine_fibroid	uterine_fibroid_control
 DOID:119	vaginal cancer	0		
 DOID:175	vascular cancer	0		
 DOID:12306	vitiligo	0	Vitiligo	Vitiligo_control

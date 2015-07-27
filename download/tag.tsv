@@ -5,6 +5,8 @@ id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
 5	Ruptured	Ruptured	T	2014-11-26 02:29:38	9	2014-11-26 02:29:38	9
 6	Unruptured	Unruptured	T	2014-11-26 02:31:04	9	2014-11-26 02:31:04	9
 7	DHF	Dengue hemorrhagic fever	T	2014-11-26 06:03:44	1	2014-11-26 06:03:44	1
+48	UC	ulcerative colitis (DOID:8577)	T	2015-02-04 02:46:10	14	2015-07-22 21:51:32	32
+80	psoriasis	psoriasis (DOID:8893)	T	2015-02-09 05:08:38	16	2015-07-22 22:38:30	32
 20	MB_Cerebellum_Control		T	2014-12-18 18:45:33	4	2014-12-18 18:45:33	4
 21	GB_YesNo	Glioblastoma Samples	T	2014-12-18 20:00:59	4	2014-12-18 20:00:59	4
 22	Species		T	2015-01-02 17:15:50	1	2015-01-02 17:15:50	1
@@ -25,7 +27,6 @@ id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
 45	GB_control	Guillain-Barre control	T	2015-02-03 18:13:05	14	2015-02-03 18:13:05	14
 46	Eczema	Atopic Dermatitis	T	2015-02-04 00:09:48	16	2015-02-04 00:09:48	16
 47	Eczema_ctrl	Atopic Dermatitis	T	2015-02-04 00:10:28	16	2015-02-04 00:10:28	16
-48	UC	Ulcerative Colitis	T	2015-02-04 02:46:10	14	2015-02-04 02:46:10	14
 49	CD	Crohn's Disease	T	2015-02-04 02:52:23	14	2015-02-04 02:52:23	14
 50	HD	Huntington Disease	T	2015-02-04 19:27:20	17	2015-02-04 19:27:20	17
 51	HD_control	Huntington Disease Control	T	2015-02-04 19:29:11	17	2015-02-04 19:29:11	17
@@ -47,7 +48,6 @@ id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
 96	GIST_Tissue 	Gastrointestinal stromal tumor tissue 	T	2015-02-10 04:46:12	22	2015-02-10 04:46:12	22
 79	EAC_Control	Normal epithelium from healthy patient (EAC, BE, ESCC control)	T	2015-02-08 21:58:20	22	2015-02-08 21:58:20	22
 97	GIST_Control	Normal gastrointestinal stromal from GIST patients 	T	2015-02-10 04:49:29	22	2015-02-10 04:49:29	22
-80	Psoriasis	Psoriasis	T	2015-02-09 05:08:38	16	2015-02-09 05:08:38	16
 83	MCC_Tumor	Merkel cell carcinoma tissue 	T	2015-02-09 21:05:28	22	2015-02-09 21:05:28	22
 86	HNSCC_Tumor	Head and neck squamous cell carcinoma tissue (from several origins) 	T	2015-02-09 21:49:48	22	2015-02-09 21:49:48	22
 87	HNSCC_Non_Tumor	Head and neck squamous cell normal adjacent tissue in HSNCC patients (several origins)	T	2015-02-09 21:52:06	22	2015-02-09 21:52:06	22
@@ -112,7 +112,6 @@ id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
 190	Dorsolateral_Prefrontal_Cortex	Dorsolateral Prefrontal Cortex of Brain	T	2015-03-30 04:25:18	34	2015-03-30 04:25:18	34
 191	Orbitofrontal_Cortex	Orbitofrontal cortex of brain	T	2015-03-30 04:32:51	34	2015-03-30 04:32:51	34
 192	Postmortem_Brain	Postmortem brain sample	T	2015-03-30 04:39:10	34	2015-03-30 04:39:10	34
-158	COPD	Chronic Obstructive Pulmonary Disease	T	2015-03-16 19:27:03	19	2015-03-16 19:27:03	19
 159	Nonsmoker	Nonsmoker	T	2015-03-16 19:28:23	19	2015-03-16 19:28:23	19
 160	CAD	Coronary artery disease	T	2015-03-16 23:14:02	30	2015-03-16 23:14:02	30
 161	CAD_control	Coronary artery disease control	T	2015-03-16 23:14:23	30	2015-03-16 23:14:23	30
@@ -159,3 +158,49 @@ id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
 219	Convalescent	Convalescent dengue samples	T	2015-06-15 17:44:02	36	2015-06-15 17:44:02	36
 221	Dengue_Late_Acute	Dengue days of fever = 4 to 7	T	2015-06-15 17:52:10	36	2015-06-15 17:52:10	36
 220	Dengue_Early_Acute	Dengue days of fever = 0 to 3	T	2015-06-15 17:51:36	36	2015-06-15 17:52:17	36
+222	PD	Parkinson's disease (DOID:14330)	T	2015-07-19 01:03:55	32	2015-07-19 01:03:55	32
+223	PD_control	Parkinson's disease (DOID:14330) control	T	2015-07-19 01:04:46	32	2015-07-19 01:04:46	32
+226	allergic_rhinitis	allergic rhinitis (DOID:4481)	T	2015-07-21 22:34:01	32	2015-07-21 22:34:01	32
+227	allergic_rhinitis_control	allergic rhinitis (DOID:4481) control	T	2015-07-21 22:34:30	32	2015-07-21 22:34:30	32
+265	IPF	idiopathic pulmonary fibrosis (DOID:0050156)	T	2015-07-27 06:18:39	32	2015-07-27 06:18:39	32
+225	Vitiligo_control	vitiligo (DOID:12306) control	T	2015-07-21 18:24:47	1	2015-07-21 22:35:15	32
+224	Vitiligo	vitiligo (DOID:12306)	T	2015-07-21 18:24:40	1	2015-07-21 22:35:23	32
+228	Behcet	Behcet's disease (DOID:13241)	T	2015-07-22 17:34:36	32	2015-07-22 17:34:36	32
+229	Behcet_control	Behcet's disease (DOID:13241) control	T	2015-07-22 17:34:51	32	2015-07-22 17:34:51	32
+230	IgA_nephropathy	IgA nephropathy (DOID:2986)	T	2015-07-22 17:44:01	32	2015-07-22 17:44:01	32
+231	IgA_nephropathy_control	IgA nephropathy (DOID:2986) control	T	2015-07-22 17:44:21	32	2015-07-22 17:44:21	32
+232	AMD	age related macular degeneration (DOID:10871)	T	2015-07-22 17:56:22	32	2015-07-22 17:56:22	32
+233	AMD_control	age related macular degeneration (DOID:10871) control	T	2015-07-22 17:56:48	32	2015-07-22 17:56:48	32
+234	ankylosing_spondylitis	ankylosing spondylitis (DOID:7147)	T	2015-07-22 18:03:37	32	2015-07-22 18:03:37	32
+235	ankylosing_spondylitis_control	ankylosing spondylitis (DOID:7147) control	T	2015-07-22 18:04:05	32	2015-07-22 18:04:05	32
+236	asthma	asthma (DOID:2841)	T	2015-07-22 18:17:52	32	2015-07-22 18:17:52	32
+237	asthma_control	asthma (DOID:2841) control	T	2015-07-22 18:18:05	32	2015-07-22 18:18:05	32
+238	ADHD	attention deficit hyperactivity disorder (DOID:1094)	T	2015-07-22 20:10:24	32	2015-07-22 20:10:24	32
+239	ADHD_control	attention deficit hyperactivity disorder (DOID:1094) control	T	2015-07-22 20:10:38	32	2015-07-22 20:10:38	32
+240	autism	autistic disorder (DOID:12849)	T	2015-07-22 20:13:27	32	2015-07-22 20:13:27	32
+241	autism_control	autistic disorder (DOID:12849) control	T	2015-07-22 20:13:43	32	2015-07-22 20:13:43	32
+242	cleft_lip	cleft lip (DOID:9296)	T	2015-07-22 20:33:18	32	2015-07-22 20:33:18	32
+243	cleft_lip_control	cleft lip (DOID:9296) control	T	2015-07-22 20:33:34	32	2015-07-22 20:33:34	32
+244	glaucoma	glaucoma (DOID:1686)	T	2015-07-22 20:36:04	32	2015-07-22 20:36:04	32
+245	glaucoma_control	glaucoma (DOID:1686) control	T	2015-07-22 20:36:13	32	2015-07-22 20:36:25	32
+246	UC_control	ulcerative colitis (DOID:8577) control	T	2015-07-22 21:51:19	32	2015-07-22 21:51:19	32
+247	systemic_scleroderma	systemic scleroderma (DOID:418)	T	2015-07-22 22:15:27	32	2015-07-22 22:15:27	32
+248	systemic_scleroderma_control	systemic scleroderma (DOID:418) control	T	2015-07-22 22:15:42	32	2015-07-22 22:15:42	32
+249	psoriasis_control	psoriasis (DOID:8893) control	T	2015-07-22 22:38:46	32	2015-07-22 22:38:46	32
+250	CJD	Creutzfeldt-Jakob disease (DOID:11949)	T	2015-07-26 23:12:44	32	2015-07-26 23:12:44	32
+251	CJD_control	Creutzfeldt-Jakob disease (DOID:11949) control	T	2015-07-26 23:12:56	32	2015-07-26 23:12:56	32
+252	Kawasaki	Kawasaki disease (DOID:13378)	T	2015-07-26 23:17:38	32	2015-07-26 23:17:38	32
+253	Kawasaki_control	Kawasaki disease (DOID:13378) control	T	2015-07-26 23:17:52	32	2015-07-26 23:17:52	32
+255	alcoholism_control	alcohol dependence (DOID:0050741) control	T	2015-07-26 23:32:03	32	2015-07-26 23:32:49	32
+254	alcoholism	alcohol dependence (DOID:0050741)	T	2015-07-26 23:31:44	32	2015-07-26 23:33:00	32
+158	COPD	chronic obstructive pulmonary disease (DOID:3083)	T	2015-03-16 19:27:03	19	2015-07-27 02:18:45	32
+256	COPD_control	chronic obstructive pulmonary disease (DOID:3083) control	T	2015-07-27 02:18:55	32	2015-07-27 02:18:55	32
+257	narcolepsy	narcolepsy (DOID:8986)	T	2015-07-27 02:56:54	32	2015-07-27 02:56:54	32
+258	narcolepsy_control	narcolepsy (DOID:8986) control	T	2015-07-27 02:57:16	32	2015-07-27 02:57:25	32
+259	PsA	psoriatic arthritis (DOID:9008)	T	2015-07-27 03:00:54	32	2015-07-27 03:00:54	32
+260	PsA_control	psoriatic arthritis (DOID:9008) control	T	2015-07-27 03:01:11	32	2015-07-27 03:01:11	32
+261	uterine_fibroid	uterine fibroid (DOID:13223)	T	2015-07-27 03:44:18	32	2015-07-27 03:44:18	32
+262	uterine_fibroid_control	uterine fibroid (DOID:13223) control	T	2015-07-27 03:44:32	32	2015-07-27 03:44:40	32
+263	periodontitis	periodontitis (DOID:824)	T	2015-07-27 04:19:39	32	2015-07-27 04:19:39	32
+264	periodontitis_control	periodontitis (DOID:824) control	T	2015-07-27 04:19:50	32	2015-07-27 04:19:50	32
+266	IPF_control	idiopathic pulmonary fibrosis (DOID:0050156) control	T	2015-07-27 06:18:53	32	2015-07-27 06:18:53	32
