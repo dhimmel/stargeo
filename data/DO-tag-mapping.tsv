@@ -102,7 +102,7 @@ DOID:1725	peritoneum cancer	0
 DOID:0060119	pharynx cancer	0			
 DOID:11612	polycystic ovary syndrome	0	PCOS	PCOS_control	
 DOID:12236	primary biliary cirrhosis	0			
-DOID:10283	prostate cancer	0	PC;PC_tissue_case	PC_Control;PC_tissue_control	
+DOID:10283	prostate cancer	0	PC;PC_tissue_case	PC_control;PC_tissue_control	
 DOID:8893	psoriasis	0	psoriasis	psoriasis_control	
 DOID:9008	psoriatic arthritis	0	PsA	PsA_control	
 DOID:1993	rectum cancer	0			

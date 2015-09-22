@@ -3,7 +3,7 @@ DOID:0050156	idiopathic pulmonary fibrosis	IPF == 'IPF'	IPF_control == 'IPF_cont
 DOID:0050741	alcohol dependence	alcoholism == 'alcoholism'	alcoholism_control == 'alcoholism_control'
 DOID:0050742	nicotine dependence	Smoker == 'Smoker'	Nonsmoker == 'Nonsmoker'
 DOID:1024	leprosy	borderline_leprosy == 'borderline_leprosy' or leprosy == 'leprosy'	leprosy_control == 'leprosy_control'
-DOID:10283	prostate cancer	PC == 'PC' or PC_tissue_case == 'PC_tissue_case'	PC_Control == 'PC_Control' or PC_tissue_control == 'PC_tissue_control'
+DOID:10283	prostate cancer	PC == 'PC' or PC_tissue_case == 'PC_tissue_case'	PC_control == 'PC_control' or PC_tissue_control == 'PC_tissue_control'
 DOID:10534	stomach cancer	stomach_cancer_tissue == 'stomach_cancer_tissue'	stomach_cancer_tissue_control == 'stomach_cancer_tissue_control'
 DOID:10608	celiac disease	celiac == 'celiac'	celiac_control == 'celiac_control'
 DOID:10652	Alzheimer's disease	AD == 'AD'	AD_Control == 'AD_Control'
