@@ -10,11 +10,7 @@ from funcy import first, log_durations, imap, memoize, cat, re_all
 import numpy as np
 import pandas as pd
 import scipy.stats as stats
-
-###connect to DB###
-import conf, psycopg2, psycopg2.extras
-conn = psycopg2.connect(conf.DB_PARAMATERS)
-cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+import psycopg2.extras
 
 #### create logger
 logger = logging.getLogger(__name__)
@@ -29,10 +25,12 @@ logger.addHandler(fh)
 logger.addHandler(ch)
 
 @log_durations(logger.debug)
-def perform_analysis(analysis, debug=False):
+def perform_analysis(conn, analysis, debug=False):
+    cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+
     logger.info('Started %s analysis', analysis.analysis_name)
     with log_durations(logger.debug, 'Loading dataframe for %s' % analysis.analysis_name):
-        df = get_analysis_df(analysis.case_query, analysis.control_query, analysis.modifier_query)
+        df = get_analysis_df(conn, analysis.case_query, analysis.control_query, analysis.modifier_query)
     debug and df.to_csv("%s.analysis_df.csv" % analysis.analysis_name)
 
     logger.info('Matching sources: %d' % df.groupby(['series_id', 'platform_id']).ngroups)
@@ -70,7 +68,7 @@ def perform_analysis(analysis, debug=False):
     # NOTE: we are doing load_gse() lazily here to avoid loading all matrices at once.
     logger.info('Loading data and calculating fold changes for %s', analysis.analysis_name)
     with log_durations(logger.debug, 'Load/fold for %s' % analysis.analysis_name):
-        gses = (load_gse(df, series_id) for series_id in sorted(df.series_id.unique()))
+        gses = (load_gse(cursor, df, series_id) for series_id in sorted(df.series_id.unique()))
         fold_changes = pd.concat(imap(get_fold_change_analysis, gses))
         debug and fold_changes.to_csv("%s.fc.csv" % debug)
 
@@ -127,7 +125,7 @@ COLUMNS = {
 }
 
 @log_durations(logger.debug)
-def get_analysis_df(case_query, control_query, modifier_query=""):
+def get_analysis_df(conn, case_query, control_query, modifier_query=""):
     # Fetch all relevant data
     queries = [case_query, control_query, modifier_query]
     tokens = set(cat(re_all('[a-zA-Z]\w*', query) for query in queries))
@@ -183,35 +181,35 @@ def get_analysis_df(case_query, control_query, modifier_query=""):
     return df.dropna(subset=["sample_class"])
 
 @log_durations(logger.debug)
-def load_gse(df, series_id):
+def load_gse(cursor, df, series_id):
     gse_name = series_gse_name(series_id)
     logger.debug('Loading data for %s, id = %d', gse_name, series_id)
     gpl2data = {}
     gpl2probes = {}
 
     for platform_id in df.query("""series_id == %s""" % series_id).platform_id.unique():
-        gpl_name = platform_gpl_name(platform_id)
+        gpl_name = platform_gpl_name(cursor, platform_id)
         gpl2data[gpl_name] = get_data(series_id, platform_id)
         gpl2probes[gpl_name] = get_probes(platform_id)
     samples = df.query('series_id == %s' % series_id)
     return Gse(gse_name, samples, gpl2data, gpl2probes)
 
-def query_record(id, table, id_field="id"):
+def query_record(cursor, id, table, id_field="id"):
     sql = """select * from %s where %s """ % (table, id_field) + """= %s"""
     cursor.execute(sql, (id,))
     return cursor.fetchone()
 
 
 # @make_lookuper
-def series_gse_name(series_id):
-    return query_record(series_id, "series")['gse_name']
+def series_gse_name(cursor, series_id):
+    return query_record(cursor, series_id, "series")['gse_name']
 
     # return Series.objects.values_list('id', 'gse_name')
 
 # @make_lookuper
-def platform_gpl_name(platform_id):
+def platform_gpl_name(cursor, platform_id):
     # return Platform.objects.values_list('id', 'gpl_name')
-    return query_record(platform_id, "platform")['gpl_name']
+    return query_record(cursor, platform_id, "platform")['gpl_name']
 
 
 def __getMatrixNumHeaderLines(inStream):
@@ -222,10 +220,10 @@ def __getMatrixNumHeaderLines(inStream):
 
 
 def matrix_filenames(series_id, platform_id):
-    gse_name = series_gse_name(series_id)
+    gse_name = series_gse_name(cursor, series_id)
     yield "%s/%s_series_matrix.txt.gz" % (gse_name, gse_name)
 
-    gpl_name = platform_gpl_name(platform_id)
+    gpl_name = platform_gpl_name(cursor, platform_id)
     yield "%s/%s-%s_series_matrix.txt.gz" % (gse_name, gse_name, gpl_name)
 
 
@@ -642,6 +640,17 @@ def is_logged(df):
     return np.max(df.values) < 10
 
 if __name__ == "__main__":
+    import psycopg2
+    import psycopg2.extras
+    # Read database connection info
+    with open('dsn.txt') as read_file:
+        dsn = read_file.read()
+
+    # Connect to database
+    conn = psycopg2.connect(dsn)
+
+    cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+
     analysis = EasyDict(
         analysis_name = "test",
         case_query = """DHF=='DHF' or DSS=='DSS'""",
@@ -649,5 +658,5 @@ if __name__ == "__main__":
         modifier_query = """Dengue_Acute=="Dengue_Acute" or Dengue_Early_Acute=='Dengue_Early_Acute' or Dengue_Late_Acute == 'Dengue_Late_Acute' or Dengue_DOF <= 7""",
         min_samples = 3
     )
-    analysis = perform_analysis(analysis=analysis)
-    analysis.to_csv("analysis.csv")
+    results = perform_analysis(cursor=cursor, analysis=analysis)
+    #analysis.to_csv("analysis.csv")
