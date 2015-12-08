@@ -1,0 +1,48 @@
+Started DOID_9744 analysis
+375.65 ms in get_analysis_df("T1D == 'T1D'", "T1D_control == 'T1D_c..., '')
+375.86 ms in Loading dataframe for DOID_9744
+Matching sources: 13
+Excluded 4 sources as single-class
+Stats: 9 sources, 8 series, 6 platforms, 384 samples
+Loading data and calculating fold change for DOID_9744
+Loading data for GSE10586, id = 157
+  1.21 s in get_probes(4)
+  7.70 s in load_gse( series_id platform_id..., 157, False)
+930.11 ms in get_gene_fold_change(<Gse GSE10586>, False, 0, None)
+Loading data for GSE11907, id = 488
+657.01 ms in get_probes(50)
+ 14.67 s in load_gse( series_id platform_id..., 488, False)
+365.81 ms in get_gene_fold_change(<Gse GSE11907>, False, 0, None)
+Loading data for GSE14368, id = 1122
+914.07 ms in get_probes(331)
+  5.14 s in load_gse( series_id platform_id..., 1122, False)
+495.52 ms in get_gene_fold_change(<Gse GSE14368>, False, 0, None)
+Loading data for GSE24147, id = 3647
+  1.07 s in get_probes(4)
+ 10.98 s in load_gse( series_id platform_id..., 3647, False)
+  1.16 s in get_gene_fold_change(<Gse GSE24147>, False, 0, None)
+Loading data for GSE29142, id = 4902
+807.69 ms in get_probes(937)
+  6.52 s in load_gse( series_id platform_id..., 4902, False)
+645.11 ms in get_gene_fold_change(<Gse GSE29142>, False, 0, None)
+Loading data for GSE3447, id = 6176
+142.23 ms in get_probes(654)
+  2.68 s in load_gse( series_id platform_id..., 6176, False)
+ 92.86 ms in get_gene_fold_change(<Gse GSE3447>, False, 0, None)
+Loading data for GSE55098, id = 10293
+  1.11 s in get_probes(4)
+  6.77 s in load_gse( series_id platform_id..., 10293, False)
+886.43 ms in get_gene_fold_change(<Gse GSE55098>, False, 0, None)
+Loading data for GSE9006, id = 11628
+827.58 ms in get_probes(2)
+718.06 ms in get_probes(50)
+ 19.53 s in load_gse( series_id platform_id..., 11628, False)
+  1.36 s in get_gene_fold_change(<Gse GSE9006>, False, 0, None)
+ 80.40 s in Load/fold for DOID_9744
+Meta-Analyzing DOID_9744
+ 56.93 s in meta analysis of real data for DOID_9744
+165.27 ms in meta analysis of permutations for DOID_9744
+ 20.98 mks in get_balanced_permutations( C H H_lower H_upper \..., Empty DataFrame Column...)
+ 57.18 s in Meta analysis for DOID_9744
+DONE DOID_9744 analysis
+137.98 s in perform_analysis({'analysis_name': 'DOI...)

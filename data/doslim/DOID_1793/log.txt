@@ -1,0 +1,52 @@
+Started DOID_1793 analysis
+281.72 ms in get_analysis_df("pancreatic_cancer == ..., "pancreatic_cancer_con..., '')
+282.01 ms in Loading dataframe for DOID_1793
+Matching sources: 28
+Excluded 16 sources as single-class
+Excluded 3 sources by min samples
+Stats: 9 sources, 9 series, 5 platforms, 250 samples
+Loading data and calculating fold change for DOID_1793
+Loading data for GSE14245, id = 1080
+  1.15 s in get_probes(4)
+  6.89 s in load_gse( series_id platform_id..., 1080, False)
+884.00 ms in get_gene_fold_change(<Gse GSE14245>, False, 0, None)
+Loading data for GSE15932, id = 1550
+  1.26 s in get_probes(4)
+  8.84 s in load_gse( series_id platform_id..., 1550, False)
+931.92 ms in get_gene_fold_change(<Gse GSE15932>, False, 0, None)
+Loading data for GSE19279, id = 2400
+810.20 ms in get_probes(2)
+  4.84 s in load_gse( series_id platform_id..., 2400, False)
+364.54 ms in get_gene_fold_change(<Gse GSE19279>, False, 0, None)
+Loading data for GSE19650, id = 2485
+  1.12 s in get_probes(4)
+  7.43 s in load_gse( series_id platform_id..., 2485, False)
+900.48 ms in get_gene_fold_change(<Gse GSE19650>, False, 0, None)
+Loading data for GSE21163, id = 2867
+  2.85 s in get_probes(54)
+ 19.12 s in load_gse( series_id platform_id..., 2867, False)
+  6.27 s in get_gene_fold_change(<Gse GSE21163>, False, 0, None)
+Loading data for GSE22780, id = 3283
+  1.30 s in get_probes(4)
+  6.39 s in load_gse( series_id platform_id..., 3283, False)
+839.31 ms in get_gene_fold_change(<Gse GSE22780>, False, 0, None)
+Loading data for GSE23397, id = 3450
+  2.56 s in get_probes(54)
+ 21.11 s in load_gse( series_id platform_id..., 3450, False)
+  6.22 s in get_gene_fold_change(<Gse GSE23397>, False, 0, None)
+Loading data for GSE28735, id = 4791
+734.84 ms in get_probes(283)
+  9.85 s in load_gse( series_id platform_id..., 4791, False)
+985.75 ms in get_gene_fold_change(<Gse GSE28735>, False, 0, None)
+Loading data for GSE30134, id = 5154
+174.81 ms in get_probes(963)
+  1.96 s in load_gse( series_id platform_id..., 5154, False)
+101.27 ms in get_gene_fold_change(<Gse GSE30134>, False, 0, None)
+105.11 s in Load/fold for DOID_1793
+Meta-Analyzing DOID_1793
+ 60.00 s in meta analysis of real data for DOID_1793
+751.65 ms in meta analysis of permutations for DOID_1793
+ 20.98 mks in get_balanced_permutations( C H H_lower H_upper \..., Empty DataFrame Column...)
+ 60.84 s in Meta analysis for DOID_1793
+DONE DOID_1793 analysis
+166.25 s in perform_analysis({'analysis_name': 'DOI...)

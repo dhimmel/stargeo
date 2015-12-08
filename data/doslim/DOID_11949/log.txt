@@ -1,0 +1,7 @@
+Started DOID_11949 analysis
+142.55 ms in get_analysis_df("CJD == 'CJD'", "CJD_control == 'CJD_c..., '')
+142.77 ms in Loading dataframe for DOID_11949
+Matching sources: 1
+Excluded 1 source by min samples
+FAIL Can't perform meta-analysis on no data
+160.86 ms in perform_analysis({'analysis_name': 'DOI...)

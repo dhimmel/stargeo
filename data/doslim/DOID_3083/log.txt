@@ -1,0 +1,50 @@
+Started DOID_3083 analysis
+571.06 ms in get_analysis_df("COPD == 'COPD'", "COPD_control == 'COPD..., '')
+571.29 ms in Loading dataframe for DOID_3083
+Matching sources: 22
+Excluded 4 sources as single-class
+Stats: 18 sources, 17 series, 7 platforms, 1720 samples
+Loading data and calculating fold change for DOID_3083
+Loading data for GSE10006, id = 4
+  1.16 s in get_probes(4)
+  8.99 s in load_gse( series_id platform_id..., 4, False)
+  1.65 s in get_gene_fold_change(<Gse GSE10006>, False, 0, None)
+Loading data for GSE11784, id = 450
+  1.08 s in get_probes(4)
+ 15.50 s in load_gse( series_id platform_id..., 450, False)
+  2.45 s in get_gene_fold_change(<Gse GSE11784>, False, 0, None)
+Loading data for GSE12472, id = 652
+815.71 ms in get_probes(26)
+  5.96 s in load_gse( series_id platform_id..., 652, False)
+950.49 ms in get_gene_fold_change(<Gse GSE12472>, False, 0, None)
+Loading data for GSE16972, id = 1810
+779.01 ms in get_probes(2)
+  3.94 s in load_gse( series_id platform_id..., 1810, False)
+386.00 ms in get_gene_fold_change(<Gse GSE16972>, False, 0, None)
+Loading data for GSE19407, id = 2430
+  1.12 s in get_probes(4)
+ 12.45 s in load_gse( series_id platform_id..., 2430, False)
+  2.13 s in get_gene_fold_change(<Gse GSE19407>, False, 0, None)
+Loading data for GSE20257, id = 2650
+  1.14 s in get_probes(4)
+ 13.10 s in load_gse( series_id platform_id..., 2650, False)
+  2.26 s in get_gene_fold_change(<Gse GSE20257>, False, 0, None)
+Loading data for GSE27536, id = 4511
+  1.05 s in get_probes(4)
+ 12.62 s in load_gse( series_id platform_id..., 4511, False)
+  1.22 s in get_gene_fold_change(<Gse GSE27536>, False, 0, None)
+Loading data for GSE27597, id = 4518
+  1.03 s in get_probes(280)
+  9.54 s in load_gse( series_id platform_id..., 4518, False)
+  1.06 s in get_gene_fold_change(<Gse GSE27597>, False, 0, None)
+Loading data for GSE29133, id = 4897
+  1.12 s in get_probes(4)
+  4.96 s in load_gse( series_id platform_id..., 4897, False)
+729.57 ms in get_gene_fold_change(<Gse GSE29133>, False, 0, None)
+Loading data for GSE30063, id = 5140
+  1.14 s in get_probes(4)
+  9.44 s in load_gse( series_id platform_id..., 5140, False)
+skipping GPL570: sample ids mismatch
+ 31.50 ms in get_gene_fold_change(<Gse GSE30063>, False, 0, None)
+109.74 s in Load/fold for DOID_3083
+110.35 s in perform_analysis({'analysis_name': 'DOI...)

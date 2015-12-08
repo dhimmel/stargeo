@@ -1,0 +1,36 @@
+Started DOID_0050741 analysis
+298.37 ms in get_analysis_df("alcoholism == 'alcoho..., "alcoholism_control ==..., '')
+298.58 ms in Loading dataframe for DOID_0050741
+Matching sources: 8
+Stats: 8 sources, 8 series, 8 platforms, 435 samples
+Loading data and calculating fold change for DOID_0050741
+Loading data for GSE10356, id = 95
+ 28.41 ms in get_probes(36)
+  3.51 s in load_gse( series_id platform_id..., 95, False)
+ 50.53 ms in get_gene_fold_change(<Gse GSE10356>, False, 0, None)
+  3.59 s in Load/fold for DOID_0050741
+  3.91 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_0050741 analysis
+299.38 ms in get_analysis_df("alcoholism == 'alcoho..., "alcoholism_control ==..., '')
+299.59 ms in Loading dataframe for DOID_0050741
+Matching sources: 8
+Stats: 8 sources, 8 series, 8 platforms, 435 samples
+Loading data and calculating fold change for DOID_0050741
+Loading data for GSE10356, id = 95
+ 28.21 ms in get_probes(36)
+  3.38 s in load_gse( series_id platform_id..., 95, False)
+ 44.13 ms in get_gene_fold_change(<Gse GSE10356>, False, 0, None)
+  3.46 s in Load/fold for DOID_0050741
+  3.78 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_0050741 analysis
+297.13 ms in get_analysis_df("alcoholism == 'alcoho..., "alcoholism_control ==..., '')
+297.35 ms in Loading dataframe for DOID_0050741
+Matching sources: 8
+Stats: 8 sources, 8 series, 8 platforms, 435 samples
+Loading data and calculating fold change for DOID_0050741
+Loading data for GSE10356, id = 95
+ 28.22 ms in get_probes(36)
+  3.47 s in load_gse( series_id platform_id..., 95, False)
+ 43.78 ms in get_gene_fold_change(<Gse GSE10356>, False, 0, None)
+  3.55 s in Load/fold for DOID_0050741
+  3.87 s in perform_analysis({'analysis_name': 'DOI...)

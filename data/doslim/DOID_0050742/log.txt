@@ -1,0 +1,84 @@
+Started DOID_0050742 analysis
+451.03 ms in get_analysis_df("Smoker == 'Smoker'", "Nonsmoker == 'Nonsmok..., '')
+451.26 ms in Loading dataframe for DOID_0050742
+Matching sources: 21
+Excluded 2 sources as single-class
+Stats: 19 sources, 17 series, 6 platforms, 1423 samples
+Loading data and calculating fold change for DOID_0050742
+Loading data for GSE10006, id = 4
+  1.09 s in get_probes(4)
+ 14.89 s in load_gse( series_id platform_id..., 4, False)
+  1.70 s in get_gene_fold_change(<Gse GSE10006>, False, 0, None)
+Loading data for GSE11784, id = 450
+  1.18 s in get_probes(4)
+ 20.79 s in load_gse( series_id platform_id..., 450, False)
+  2.58 s in get_gene_fold_change(<Gse GSE11784>, False, 0, None)
+Loading data for GSE11906, id = 487
+  1.07 s in get_probes(4)
+ 26.41 s in load_gse( series_id platform_id..., 487, False)
+  3.32 s in get_gene_fold_change(<Gse GSE11906>, False, 0, None)
+Loading data for GSE19407, id = 2430
+  1.20 s in get_probes(4)
+ 17.61 s in load_gse( series_id platform_id..., 2430, False)
+  2.12 s in get_gene_fold_change(<Gse GSE19407>, False, 0, None)
+Loading data for GSE20257, id = 2650
+  1.10 s in get_probes(4)
+ 19.04 s in load_gse( series_id platform_id..., 2650, False)
+  2.16 s in get_gene_fold_change(<Gse GSE20257>, False, 0, None)
+Loading data for GSE20568, id = 2733
+ 28.86 ms in get_probes(689)
+  2.20 s in load_gse( series_id platform_id..., 2733, False)
+ 75.09 ms in get_gene_fold_change(<Gse GSE20568>, False, 0, None)
+Loading data for GSE27272, id = 4446
+969.12 ms in get_probes(331)
+ 14.60 s in load_gse( series_id platform_id..., 4446, False)
+  1.45 s in get_gene_fold_change(<Gse GSE27272>, False, 0, None)
+Loading data for GSE30063, id = 5140
+  1.18 s in get_probes(4)
+ 14.29 s in load_gse( series_id platform_id..., 5140, False)
+skipping GPL570: sample ids mismatch
+ 31.11 ms in get_gene_fold_change(<Gse GSE30063>, False, 0, None)
+143.58 s in Load/fold for DOID_0050742
+144.06 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_0050742 analysis
+417.95 ms in get_analysis_df("Smoker == 'Smoker'", "Nonsmoker == 'Nonsmok..., '')
+418.16 ms in Loading dataframe for DOID_0050742
+Matching sources: 21
+Excluded 2 sources as single-class
+Stats: 19 sources, 17 series, 6 platforms, 1423 samples
+Loading data and calculating fold change for DOID_0050742
+Loading data for GSE10006, id = 4
+  1.14 s in get_probes(4)
+  8.75 s in load_gse( series_id platform_id..., 4, False)
+  1.72 s in get_gene_fold_change(<Gse GSE10006>, False, 0, None)
+Loading data for GSE11784, id = 450
+  1.17 s in get_probes(4)
+ 15.02 s in load_gse( series_id platform_id..., 450, False)
+  2.51 s in get_gene_fold_change(<Gse GSE11784>, False, 0, None)
+Loading data for GSE11906, id = 487
+  1.05 s in get_probes(4)
+ 20.38 s in load_gse( series_id platform_id..., 487, False)
+  3.36 s in get_gene_fold_change(<Gse GSE11906>, False, 0, None)
+Loading data for GSE19407, id = 2430
+  1.25 s in get_probes(4)
+ 12.60 s in load_gse( series_id platform_id..., 2430, False)
+  2.18 s in get_gene_fold_change(<Gse GSE19407>, False, 0, None)
+Loading data for GSE20257, id = 2650
+  1.17 s in get_probes(4)
+ 13.14 s in load_gse( series_id platform_id..., 2650, False)
+  2.25 s in get_gene_fold_change(<Gse GSE20257>, False, 0, None)
+Loading data for GSE20568, id = 2733
+ 29.12 ms in get_probes(689)
+452.06 ms in load_gse( series_id platform_id..., 2733, False)
+ 81.88 ms in get_gene_fold_change(<Gse GSE20568>, False, 0, None)
+Loading data for GSE27272, id = 4446
+868.97 ms in get_probes(331)
+  8.84 s in load_gse( series_id platform_id..., 4446, False)
+  1.42 s in get_gene_fold_change(<Gse GSE27272>, False, 0, None)
+Loading data for GSE30063, id = 5140
+  1.11 s in get_probes(4)
+  9.17 s in load_gse( series_id platform_id..., 5140, False)
+skipping GPL570: sample ids mismatch
+ 38.13 ms in get_gene_fold_change(<Gse GSE30063>, False, 0, None)
+102.21 s in Load/fold for DOID_0050742
+102.66 s in perform_analysis({'analysis_name': 'DOI...)

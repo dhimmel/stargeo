@@ -1,0 +1,35 @@
+Started DOID_2986 analysis
+210.23 ms in get_analysis_df("IgA_nephropathy == 'I..., "IgA_nephropathy_contr..., '')
+210.44 ms in Loading dataframe for DOID_2986
+Matching sources: 6
+Stats: 6 sources, 5 series, 3 platforms, 161 samples
+Loading data and calculating fold change for DOID_2986
+Loading data for GSE14795, id = 1241
+800.58 ms in get_probes(2)
+  6.56 s in load_gse( series_id platform_id..., 1241, False)
+437.82 ms in get_gene_fold_change(<Gse GSE14795>, False, 0, None)
+Loading data for GSE35487, id = 6431
+770.78 ms in get_probes(2)
+  5.55 s in load_gse( series_id platform_id..., 6431, False)
+504.64 ms in get_gene_fold_change(<Gse GSE35487>, False, 0, None)
+Loading data for GSE35488, id = 6432
+548.63 ms in get_probes(1019)
+  4.88 s in load_gse( series_id platform_id..., 6432, False)
+307.96 ms in get_gene_fold_change(<Gse GSE35488>, False, 0, None)
+Loading data for GSE35489, id = 6433
+557.26 ms in get_probes(1019)
+776.39 ms in get_probes(2)
+ 13.72 s in load_gse( series_id platform_id..., 6433, False)
+743.05 ms in get_gene_fold_change(<Gse GSE35489>, False, 0, None)
+Loading data for GSE58539, id = 12726
+924.26 ms in get_probes(674)
+  6.73 s in load_gse( series_id platform_id..., 12726, False)
+712.11 ms in get_gene_fold_change(<Gse GSE58539>, False, 0, None)
+ 40.42 s in Load/fold for DOID_2986
+Meta-Analyzing DOID_2986
+ 37.35 s in meta analysis of real data for DOID_2986
+ 83.48 ms in meta analysis of permutations for DOID_2986
+ 25.03 mks in get_balanced_permutations( C H H_lower H_upper \..., Empty DataFrame Column...)
+ 37.52 s in Meta analysis for DOID_2986
+DONE DOID_2986 analysis
+ 78.17 s in perform_analysis({'analysis_name': 'DOI...)

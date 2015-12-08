@@ -1,0 +1,23 @@
+Started DOID_1324 analysis
+932.33 ms in get_analysis_df("NSCLC == 'NSCLC' or P..., "lung_cancer_control =..., '')
+932.56 ms in Loading dataframe for DOID_1324
+Matching sources: 51
+Excluded 49 sources as single-class
+Stats: 2 sources, 2 series, 2 platforms, 800 samples
+Loading data and calculating fold change for DOID_1324
+Loading data for GSE19804, id = 2533
+  1.24 s in get_probes(4)
+ 18.16 s in load_gse( series_id platform_id..., 2533, False)
+  2.02 s in get_gene_fold_change(<Gse GSE19804>, False, 0, None)
+Loading data for GSE66499, id = 13592
+867.09 ms in get_probes(283)
+ 51.35 s in load_gse( series_id platform_id..., 13592, False)
+  4.21 s in get_gene_fold_change(<Gse GSE66499>, False, 0, None)
+ 75.89 s in Load/fold for DOID_1324
+Meta-Analyzing DOID_1324
+ 42.25 s in meta analysis of real data for DOID_1324
+ 47.91 ms in meta analysis of permutations for DOID_1324
+ 21.93 mks in get_balanced_permutations( C H H_lower H_upper I..., Empty DataFrame Column...)
+ 42.38 s in Meta analysis for DOID_1324
+DONE DOID_1324 analysis
+119.24 s in perform_analysis({'analysis_name': 'DOI...)

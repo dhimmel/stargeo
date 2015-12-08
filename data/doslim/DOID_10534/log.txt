@@ -1,0 +1,14 @@
+Started DOID_10534 analysis
+323.91 ms in get_analysis_df("stomach_cancer_tissue..., "stomach_cancer_tissue..., '')
+324.12 ms in Loading dataframe for DOID_10534
+Matching sources: 2
+Excluded 1 source as single-class
+FAIL Can't perform meta-analysis on single source
+342.29 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_10534 analysis
+160.86 ms in get_analysis_df("stomach_cancer_tissue..., "stomach_cancer_tissue..., '')
+161.07 ms in Loading dataframe for DOID_10534
+Matching sources: 2
+Excluded 1 source as single-class
+FAIL Can't perform meta-analysis on single source
+178.07 ms in perform_analysis({'analysis_name': 'DOI...)

@@ -1,0 +1,22 @@
+Started DOID_14227 analysis
+140.72 ms in get_analysis_df("azoospermia == 'azoos..., "azoospermia_control =..., '')
+140.95 ms in Loading dataframe for DOID_14227
+Matching sources: 2
+Stats: 2 sources, 2 series, 1 platforms, 51 samples
+Loading data and calculating fold change for DOID_14227
+Loading data for GSE45885, id = 8763
+869.57 ms in get_probes(283)
+  6.29 s in load_gse( series_id platform_id..., 8763, False)
+644.73 ms in get_gene_fold_change(<Gse GSE45885>, False, 0, None)
+Loading data for GSE45887, id = 8764
+672.74 ms in get_probes(283)
+  5.38 s in load_gse( series_id platform_id..., 8764, False)
+578.59 ms in get_gene_fold_change(<Gse GSE45887>, False, 0, None)
+ 12.99 s in Load/fold for DOID_14227
+Meta-Analyzing DOID_14227
+ 46.40 s in meta analysis of real data for DOID_14227
+ 32.32 ms in meta analysis of permutations for DOID_14227
+ 19.07 mks in get_balanced_permutations( C H H_lower H_upper I..., Empty DataFrame Column...)
+ 46.52 s in Meta analysis for DOID_14227
+DONE DOID_14227 analysis
+ 59.67 s in perform_analysis({'analysis_name': 'DOI...)

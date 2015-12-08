@@ -1,0 +1,23 @@
+Started DOID_824 analysis
+131.94 ms in get_analysis_df("periodontitis == 'per..., "periodontitis_control..., '')
+132.15 ms in Loading dataframe for DOID_824
+Matching sources: 3
+Excluded 1 source by min samples
+Stats: 2 sources, 2 series, 2 platforms, 33 samples
+Loading data and calculating fold change for DOID_824
+Loading data for GSE27993, id = 4587
+881.38 ms in get_probes(283)
+  4.75 s in load_gse( series_id platform_id..., 4587, False)
+518.76 ms in get_gene_fold_change(<Gse GSE27993>, False, 0, None)
+Loading data for GSE43525, id = 8303
+  1.00 s in get_probes(674)
+  7.65 s in load_gse( series_id platform_id..., 8303, False)
+706.90 ms in get_gene_fold_change(<Gse GSE43525>, False, 0, None)
+ 13.70 s in Load/fold for DOID_824
+Meta-Analyzing DOID_824
+ 43.21 s in meta analysis of real data for DOID_824
+ 38.58 ms in meta analysis of permutations for DOID_824
+ 20.03 mks in get_balanced_permutations( C H H_lower H_upper I..., Empty DataFrame Column...)
+ 43.33 s in Meta analysis for DOID_824
+DONE DOID_824 analysis
+ 57.19 s in perform_analysis({'analysis_name': 'DOI...)

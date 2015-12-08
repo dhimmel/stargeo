@@ -1,0 +1,32 @@
+Started DOID_418 analysis
+250.02 ms in get_analysis_df("systemic_scleroderma ..., "systemic_scleroderma_..., '')
+250.25 ms in Loading dataframe for DOID_418
+Matching sources: 10
+Excluded 4 sources as single-class
+Excluded 2 sources by min samples
+Stats: 4 sources, 4 series, 3 platforms, 157 samples
+Loading data and calculating fold change for DOID_418
+Loading data for GSE3886, id = 7181
+116.21 ms in get_probes(1119)
+  5.04 s in load_gse( series_id platform_id..., 7181, False)
+131.92 ms in get_gene_fold_change(<Gse GSE3886>, False, 0, None)
+Loading data for GSE4385, id = 8361
+115.54 ms in get_probes(1119)
+  4.82 s in load_gse( series_id platform_id..., 8361, False)
+ 82.73 ms in get_gene_fold_change(<Gse GSE4385>, False, 0, None)
+Loading data for GSE45536, id = 8688
+  1.21 s in get_probes(4)
+ 15.31 s in load_gse( series_id platform_id..., 8688, False)
+  2.05 s in get_gene_fold_change(<Gse GSE45536>, False, 0, None)
+Loading data for GSE63903, id = 13309
+  1.03 s in get_probes(674)
+  6.07 s in load_gse( series_id platform_id..., 13309, False)
+642.83 ms in get_gene_fold_change(<Gse GSE63903>, False, 0, None)
+ 34.36 s in Load/fold for DOID_418
+Meta-Analyzing DOID_418
+ 43.39 s in meta analysis of real data for DOID_418
+ 54.06 ms in meta analysis of permutations for DOID_418
+ 20.03 mks in get_balanced_permutations( C H H_lower H_upper I..., Empty DataFrame Column...)
+ 43.52 s in Meta analysis for DOID_418
+DONE DOID_418 analysis
+ 78.15 s in perform_analysis({'analysis_name': 'DOI...)

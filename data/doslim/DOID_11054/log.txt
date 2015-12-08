@@ -1,0 +1,5 @@
+Started DOID_11054 analysis
+248.11 ms in get_analysis_df("bladder_cancer == 'bl..., "bladder_cancer_contro..., '')
+248.33 ms in Loading dataframe for DOID_11054
+Matching sources: 0
+256.16 ms in perform_analysis({'analysis_name': 'DOI...)

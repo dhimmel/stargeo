@@ -1,0 +1,6 @@
+Started DOID_14221 analysis
+272.46 ms in get_analysis_df("MetS == 'MetS'", "MetS_Control == 'MetS..., '')
+272.69 ms in Loading dataframe for DOID_14221
+Matching sources: 4
+Excluded 4 sources as single-class
+282.79 ms in perform_analysis({'analysis_name': 'DOI...)

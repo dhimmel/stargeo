@@ -1,0 +1,31 @@
+Started DOID_1686 analysis
+352.67 ms in get_analysis_df("glaucoma == 'glaucoma'", "glaucoma_control == '..., '')
+352.90 ms in Loading dataframe for DOID_1686
+Matching sources: 11
+Excluded 1 source as single-class
+Excluded 3 sources by min samples
+Stats: 7 sources, 6 series, 5 platforms, 138 samples
+Loading data and calculating fold change for DOID_1686
+Loading data for GSE2378, id = 3554
+523.41 ms in get_probes(7)
+  5.02 s in load_gse( series_id platform_id..., 3554, False)
+253.74 ms in get_gene_fold_change(<Gse GSE2378>, False, 0, None)
+Loading data for GSE27276, id = 4448
+722.55 ms in get_probes(39)
+  9.31 s in load_gse( series_id platform_id..., 4448, False)
+566.58 ms in get_gene_fold_change(<Gse GSE27276>, False, 0, None)
+Loading data for GSE45570, id = 8697
+  1.14 s in get_probes(280)
+  4.89 s in load_gse( series_id platform_id..., 8697, False)
+676.60 ms in get_gene_fold_change(<Gse GSE45570>, False, 0, None)
+Loading data for GSE9944, id = 11879
+843.74 ms in get_probes(9)
+553.96 ms in get_probes(7)
+ 12.72 s in load_gse( series_id platform_id..., 11879, False)
+836.18 ms in get_gene_fold_change(<Gse GSE9944>, False, 0, None)
+Loading data for GSE27057, id = 11946
+ 31.37 ms in get_probes(1703)
+  1.74 s in load_gse( series_id platform_id..., 11946, False)
+ 55.29 ms in get_gene_fold_change(<Gse GSE27057>, False, 0, None)
+ 36.25 s in Load/fold for DOID_1686
+ 36.63 s in perform_analysis({'analysis_name': 'DOI...)

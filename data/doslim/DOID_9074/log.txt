@@ -1,0 +1,6 @@
+Started DOID_9074 analysis
+618.64 ms in get_analysis_df("SLE == 'SLE'", "SLE_control == 'SLE_c..., '')
+618.90 ms in Loading dataframe for DOID_9074
+Matching sources: 21
+Excluded 21 sources as single-class
+630.83 ms in perform_analysis({'analysis_name': 'DOI...)

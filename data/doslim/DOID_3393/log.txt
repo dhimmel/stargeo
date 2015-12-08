@@ -1,0 +1,43 @@
+Started DOID_3393 analysis
+447.47 ms in get_analysis_df("CAD == 'CAD'", "CAD_control == 'CAD_c..., '')
+447.69 ms in Loading dataframe for DOID_3393
+Matching sources: 8
+Excluded 1 source as single-class
+Stats: 7 sources, 7 series, 6 platforms, 524 samples
+Loading data and calculating fold change for DOID_3393
+Loading data for GSE10195, id = 57
+892.17 ms in get_probes(26)
+  9.42 s in load_gse( series_id platform_id..., 57, False)
+846.53 ms in get_gene_fold_change(<Gse GSE10195>, False, 0, None)
+Loading data for GSE12288, id = 598
+809.29 ms in get_probes(2)
+ 12.47 s in load_gse( series_id platform_id..., 598, False)
+  1.57 s in get_gene_fold_change(<Gse GSE12288>, False, 0, None)
+Loading data for GSE18608, id = 2234
+  1.18 s in get_probes(4)
+  6.09 s in load_gse( series_id platform_id..., 2234, False)
+884.69 ms in get_gene_fold_change(<Gse GSE18608>, False, 0, None)
+Loading data for GSE23561, id = 3492
+  1.07 s in get_probes(780)
+  6.80 s in load_gse( series_id platform_id..., 3492, False)
+675.34 ms in get_gene_fold_change(<Gse GSE23561>, False, 0, None)
+Loading data for GSE42148, id = 7959
+  1.19 s in get_probes(866)
+  7.25 s in load_gse( series_id platform_id..., 7959, False)
+981.68 ms in get_gene_fold_change(<Gse GSE42148>, False, 0, None)
+Loading data for GSE7638, id = 11305
+715.95 ms in get_probes(9)
+ 12.48 s in load_gse( series_id platform_id..., 11305, False)
+  1.22 s in get_gene_fold_change(<Gse GSE7638>, False, 0, None)
+Loading data for GSE974, id = 11812
+718.18 ms in get_probes(2)
+  5.05 s in load_gse( series_id platform_id..., 11812, False)
+532.39 ms in get_gene_fold_change(<Gse GSE974>, False, 0, None)
+ 66.71 s in Load/fold for DOID_3393
+Meta-Analyzing DOID_3393
+ 55.92 s in meta analysis of real data for DOID_3393
+157.14 ms in meta analysis of permutations for DOID_3393
+ 22.17 mks in get_balanced_permutations( C H H_lower H_upper \..., Empty DataFrame Column...)
+ 56.16 s in Meta analysis for DOID_3393
+DONE DOID_3393 analysis
+123.34 s in perform_analysis({'analysis_name': 'DOI...)

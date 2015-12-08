@@ -1,0 +1,6 @@
+Started DOID_13378 analysis
+151.57 ms in get_analysis_df("Kawasaki == 'Kawasaki'", "Kawasaki_control == '..., '')
+151.80 ms in Loading dataframe for DOID_13378
+Matching sources: 1
+FAIL Can't perform meta-analysis on single source
+170.25 ms in perform_analysis({'analysis_name': 'DOI...)

@@ -1,0 +1,7 @@
+Started DOID_784 analysis
+149.60 ms in get_analysis_df("CKD == 'CKD'", "CKD_Control == 'CKD_C..., '')
+149.82 ms in Loading dataframe for DOID_784
+Matching sources: 2
+Excluded 1 source as single-class
+FAIL Can't perform meta-analysis on single source
+167.09 ms in perform_analysis({'analysis_name': 'DOI...)

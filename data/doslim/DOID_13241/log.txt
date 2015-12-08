@@ -1,0 +1,6 @@
+Started DOID_13241 analysis
+160.63 ms in get_analysis_df("Behcet == 'Behcet'", "Behcet_control == 'Be..., '')
+160.86 ms in Loading dataframe for DOID_13241
+Matching sources: 1
+FAIL Can't perform meta-analysis on single source
+179.31 ms in perform_analysis({'analysis_name': 'DOI...)

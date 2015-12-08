@@ -1,0 +1,6 @@
+Started DOID_8986 analysis
+145.07 ms in get_analysis_df("narcolepsy == 'narcol..., "narcolepsy_control ==..., '')
+145.31 ms in Loading dataframe for DOID_8986
+Matching sources: 1
+FAIL Can't perform meta-analysis on single source
+162.67 ms in perform_analysis({'analysis_name': 'DOI...)
