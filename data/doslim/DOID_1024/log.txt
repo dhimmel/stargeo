@@ -12,3 +12,17 @@ Matching sources: 1
 Excluded 1 source by min samples
 FAIL Can't perform meta-analysis on no data
 179.97 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_1024 analysis
+216.74 ms in get_analysis_df("borderline_leprosy ==..., "leprosy_control == 'l..., '')
+217.56 ms in Loading dataframe for DOID_1024
+Matching sources: 1
+Excluded 1 source by min samples
+FAIL Can't perform meta-analysis on no data
+238.46 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_1024 analysis
+230.88 ms in get_analysis_df("borderline_leprosy ==..., "leprosy_control == 'l..., '')
+231.74 ms in Loading dataframe for DOID_1024
+Matching sources: 1
+Excluded 1 source by min samples
+FAIL Can't perform meta-analysis on no data
+252.40 ms in perform_analysis({'analysis_name': 'DOI...)

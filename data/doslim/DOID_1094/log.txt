@@ -5,3 +5,17 @@ Matching sources: 1
 Excluded 1 source by min samples
 FAIL Can't perform meta-analysis on no data
 151.63 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_1094 analysis
+136.44 ms in get_analysis_df("ADHD == 'ADHD'", "ADHD_control == 'ADHD..., '')
+137.25 ms in Loading dataframe for DOID_1094
+Matching sources: 1
+Excluded 1 source by min samples
+FAIL Can't perform meta-analysis on no data
+157.26 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_1094 analysis
+134.90 ms in get_analysis_df("ADHD == 'ADHD'", "ADHD_control == 'ADHD..., '')
+135.68 ms in Loading dataframe for DOID_1094
+Matching sources: 1
+Excluded 1 source by min samples
+FAIL Can't perform meta-analysis on no data
+154.87 ms in perform_analysis({'analysis_name': 'DOI...)

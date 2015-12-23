@@ -25,3 +25,30 @@ Meta-Analyzing DOID_2394
  53.80 s in Meta analysis for DOID_2394
 DONE DOID_2394 analysis
  82.05 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_2394 analysis
+200.19 ms in get_analysis_df("ovarian_cancer == 'ov..., "ovarian_cancer_contro..., '')
+201.03 ms in Loading dataframe for DOID_2394
+Matching sources: 4
+Excluded 1 source as single-class
+Stats: 3 sources, 3 series, 2 platforms, 123 samples
+Loading data and calculating fold change for DOID_2394
+Loading data for GSE29220, id = 4918
+  1.32 s in get_probes(4)
+  3.89 s in load_gse( series_id platform_id..., 4918, False)
+531.84 ms in get_gene_fold_change(<Gse GSE29220>, False, 0, None)
+Loading data for GSE31682, id = 5516
+833.20 ms in get_probes(60)
+  3.91 s in load_gse( series_id platform_id..., 5516, False)
+449.88 ms in get_gene_fold_change(<Gse GSE31682>, False, 0, None)
+Loading data for GSE38666, id = 7137
+  1.33 s in get_probes(4)
+  5.39 s in load_gse( series_id platform_id..., 7137, False)
+747.58 ms in get_gene_fold_change(<Gse GSE38666>, False, 0, None)
+ 15.11 s in Load/fold for DOID_2394
+Meta-Analyzing DOID_2394
+ 52.96 s in meta analysis of real data for DOID_2394
+ 74.45 ms in meta analysis of permutations for DOID_2394
+ 23.84 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 53.12 s in Meta analysis for DOID_2394
+DONE DOID_2394 analysis
+ 68.45 s in perform_analysis({'analysis_name': 'DOI...)

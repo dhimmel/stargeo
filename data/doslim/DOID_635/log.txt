@@ -30,3 +30,35 @@ Meta-Analyzing DOID_635
  48.29 s in Meta analysis for DOID_635
 DONE DOID_635 analysis
  78.36 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_635 analysis
+478.75 ms in get_analysis_df("HIV_Stage1 == 'HIV_St..., "HIV_healthycontrol ==..., '')
+479.60 ms in Loading dataframe for DOID_635
+Matching sources: 27
+Excluded 22 sources as single-class
+Excluded 1 source by min samples
+Stats: 4 sources, 4 series, 4 platforms, 188 samples
+Loading data and calculating fold change for DOID_635
+Loading data for GSE16363, id = 1658
+  1.21 s in get_probes(4)
+  5.47 s in load_gse( series_id platform_id..., 1658, False)
+883.49 ms in get_gene_fold_change(<Gse GSE16363>, False, 0, None)
+Loading data for GSE30310, id = 5201
+333.79 ms in get_probes(616)
+  1.68 s in load_gse( series_id platform_id..., 5201, False)
+150.36 ms in get_gene_fold_change(<Gse GSE30310>, False, 0, None)
+Loading data for GSE52900, id = 9963
+  1.17 s in get_probes(389)
+  2.94 s in load_gse( series_id platform_id..., 9963, False)
+324.08 ms in get_gene_fold_change(<Gse GSE52900>, False, 0, None)
+Loading data for GSE6740, id = 11026
+893.68 ms in get_probes(2)
+  3.17 s in load_gse( series_id platform_id..., 11026, False)
+334.10 ms in get_gene_fold_change(<Gse GSE6740>, False, 0, None)
+ 15.21 s in Load/fold for DOID_635
+Meta-Analyzing DOID_635
+ 49.26 s in meta analysis of real data for DOID_635
+ 71.55 ms in meta analysis of permutations for DOID_635
+ 21.93 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 49.42 s in Meta analysis for DOID_635
+DONE DOID_635 analysis
+ 65.14 s in perform_analysis({'analysis_name': 'DOI...)

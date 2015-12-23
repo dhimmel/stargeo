@@ -30,3 +30,35 @@ Meta-Analyzing DOID_1936
  49.43 s in Meta analysis for DOID_1936
 DONE DOID_1936 analysis
  90.22 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_1936 analysis
+325.60 ms in get_analysis_df("atherosclerosis == 'a..., "atherosclerosis_contr..., '')
+326.42 ms in Loading dataframe for DOID_1936
+Matching sources: 6
+Excluded 1 source as single-class
+Excluded 1 source by min samples
+Stats: 4 sources, 4 series, 4 platforms, 346 samples
+Loading data and calculating fold change for DOID_1936
+Loading data for GSE20129, id = 2612
+867.49 ms in get_probes(3)
+  5.49 s in load_gse( series_id platform_id..., 2612, False)
+780.51 ms in get_gene_fold_change(<Gse GSE20129>, False, 0, None)
+Loading data for GSE23746, id = 3545
+962.11 ms in get_probes(74)
+  3.53 s in load_gse( series_id platform_id..., 3545, False)
+546.82 ms in get_gene_fold_change(<Gse GSE23746>, False, 0, None)
+Loading data for GSE37356, id = 6873
+  1.30 s in get_probes(674)
+  6.28 s in load_gse( series_id platform_id..., 6873, False)
+801.87 ms in get_gene_fold_change(<Gse GSE37356>, False, 0, None)
+Loading data for GSE9874, id = 11861
+840.46 ms in get_probes(2)
+  2.94 s in load_gse( series_id platform_id..., 11861, False)
+474.98 ms in get_gene_fold_change(<Gse GSE9874>, False, 0, None)
+ 21.04 s in Load/fold for DOID_1936
+Meta-Analyzing DOID_1936
+ 49.72 s in meta analysis of real data for DOID_1936
+ 65.55 ms in meta analysis of permutations for DOID_1936
+ 20.03 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 49.87 s in Meta analysis for DOID_1936
+DONE DOID_1936 analysis
+ 71.26 s in perform_analysis({'analysis_name': 'DOI...)

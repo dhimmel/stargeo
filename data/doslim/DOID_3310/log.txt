@@ -31,3 +31,39 @@ Meta-Analyzing DOID_3310
 623.82 ms in meta analysis of real data for DOID_3310
 624.01 ms in Meta analysis for DOID_3310
  40.30 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_3310 analysis
+193.82 ms in get_analysis_df("eczema == 'eczema'", "eczema_control == 'ec..., '')
+194.66 ms in Loading dataframe for DOID_3310
+Matching sources: 8
+Excluded 2 sources as single-class
+Stats: 6 sources, 5 series, 5 platforms, 129 samples
+Loading data and calculating fold change for DOID_3310
+Loading data for GSE12511, id = 664
+  1.01 s in get_probes(367)
+  3.20 s in load_gse( series_id platform_id..., 664, False)
+391.44 ms in get_gene_fold_change(<Gse GSE12511>, False, 0, None)
+Loading data for GSE13709, id = 966
+460.53 ms in get_probes(414)
+367.77 ms in get_probes(415)
+  1.56 s in load_gse( series_id platform_id..., 966, False)
+191.78 ms in get_gene_fold_change(<Gse GSE13709>, False, 0, None)
+Loading data for GSE16161, id = 1619
+  1.36 s in get_probes(4)
+  3.61 s in load_gse( series_id platform_id..., 1619, False)
+516.51 ms in get_gene_fold_change(<Gse GSE16161>, False, 0, None)
+Loading data for GSE26952, id = 4370
+888.34 ms in get_probes(74)
+  1.76 s in load_gse( series_id platform_id..., 4370, False)
+216.79 ms in get_gene_fold_change(<Gse GSE26952>, False, 0, None)
+Loading data for GSE32924, id = 5815
+  1.24 s in get_probes(4)
+  4.65 s in load_gse( series_id platform_id..., 5815, False)
+528.87 ms in get_gene_fold_change(<Gse GSE32924>, False, 0, None)
+ 16.95 s in Load/fold for DOID_3310
+Meta-Analyzing DOID_3310
+ 54.79 s in meta analysis of real data for DOID_3310
+108.89 ms in meta analysis of permutations for DOID_3310
+ 20.03 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 54.98 s in Meta analysis for DOID_3310
+DONE DOID_3310 analysis
+ 72.15 s in perform_analysis({'analysis_name': 'DOI...)

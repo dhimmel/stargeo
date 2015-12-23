@@ -15,3 +15,20 @@ Loading data for GSE65737, id = 13510
  54.11 ms in get_gene_fold_change(<Gse GSE65737>, False, 0, None)
   8.79 s in Load/fold for DOID_11714
   9.00 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_11714 analysis
+194.34 ms in get_analysis_df("GDM == 'GDM'", "GDM_control == 'GDM_c..., '')
+195.23 ms in Loading dataframe for DOID_11714
+Matching sources: 4
+Excluded 2 sources by min samples
+Stats: 2 sources, 2 series, 2 platforms, 12 samples
+Loading data and calculating fold change for DOID_11714
+Loading data for GSE49524, id = 9415
+858.72 ms in get_probes(482)
+  1.47 s in load_gse( series_id platform_id..., 9415, False)
+199.38 ms in get_gene_fold_change(<Gse GSE49524>, False, 0, None)
+Loading data for GSE65737, id = 13510
+ 31.55 ms in get_probes(1802)
+  1.25 s in load_gse( series_id platform_id..., 13510, False)
+ 48.64 ms in get_gene_fold_change(<Gse GSE65737>, False, 0, None)
+  2.99 s in Load/fold for DOID_11714
+  3.21 s in perform_analysis({'analysis_name': 'DOI...)

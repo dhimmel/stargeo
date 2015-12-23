@@ -29,3 +29,49 @@ Meta-Analyzing DOID_10652
  26.87 s in Meta analysis for DOID_10652
 DONE DOID_10652 analysis
  87.89 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_10652 analysis
+302.12 ms in get_analysis_df("AD == 'AD'", "AD_Control == 'AD_Con..., '')
+303.09 ms in Loading dataframe for DOID_10652
+Matching sources: 4
+Excluded 2 sources as single-class
+Stats: 2 sources, 2 series, 2 platforms, 512 samples
+Loading data and calculating fold change for DOID_10652
+Loading data for GSE33000, id = 5836
+892.28 ms in get_probes(297)
+ 44.98 s in load_gse( series_id platform_id..., 5836, False)
+  3.27 s in get_gene_fold_change(<Gse GSE33000>, False, 0, None)
+Loading data for GSE6613, id = 11004
+848.89 ms in get_probes(2)
+  3.85 s in load_gse( series_id platform_id..., 11004, False)
+416.30 ms in get_gene_fold_change(<Gse GSE6613>, False, 0, None)
+ 52.63 s in Load/fold for DOID_10652
+Meta-Analyzing DOID_10652
+ 27.68 s in meta analysis of real data for DOID_10652
+ 32.73 ms in meta analysis of permutations for DOID_10652
+ 20.98 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper I..., Empty DataFrame Column...)
+ 27.79 s in Meta analysis for DOID_10652
+DONE DOID_10652 analysis
+ 80.75 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_10652 analysis
+288.91 ms in get_analysis_df("AD == 'AD'", "AD_Control == 'AD_Con..., '')
+289.71 ms in Loading dataframe for DOID_10652
+Matching sources: 4
+Excluded 2 sources as single-class
+Stats: 2 sources, 2 series, 2 platforms, 512 samples
+Loading data and calculating fold change for DOID_10652
+Loading data for GSE33000, id = 5836
+874.28 ms in get_probes(297)
+ 47.10 s in load_gse( series_id platform_id..., 5836, False)
+  3.33 s in get_gene_fold_change(<Gse GSE33000>, False, 0, None)
+Loading data for GSE6613, id = 11004
+919.61 ms in get_probes(2)
+  3.95 s in load_gse( series_id platform_id..., 11004, False)
+407.80 ms in get_gene_fold_change(<Gse GSE6613>, False, 0, None)
+ 54.90 s in Load/fold for DOID_10652
+Meta-Analyzing DOID_10652
+ 27.73 s in meta analysis of real data for DOID_10652
+ 33.38 ms in meta analysis of permutations for DOID_10652
+ 21.93 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper I..., Empty DataFrame Column...)
+ 27.85 s in Meta analysis for DOID_10652
+DONE DOID_10652 analysis
+ 83.06 s in perform_analysis({'analysis_name': 'DOI...)

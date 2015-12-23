@@ -34,3 +34,39 @@ Loading data for GSE14857, id = 1267
  50.94 ms in get_gene_fold_change(<Gse GSE14857>, False, 0, None)
   5.83 s in Load/fold for DOID_10283
   6.19 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_10283 analysis
+540.96 ms in get_analysis_df("PC == 'PC' or PC_tiss..., "PC_control == 'PC_con..., '')
+541.89 ms in Loading dataframe for DOID_10283
+Matching sources: 19
+Excluded 5 sources as single-class
+Excluded 2 sources by min samples
+Stats: 12 sources, 8 series, 11 platforms, 1101 samples
+Loading data and calculating fold change for DOID_10283
+Loading data for GSE11682, id = 437
+943.35 ms in get_probes(10)
+  4.22 s in load_gse( series_id platform_id..., 437, False)
+550.34 ms in get_gene_fold_change(<Gse GSE11682>, False, 0, None)
+Loading data for GSE14857, id = 1267
+ 29.66 ms in get_probes(477)
+667.85 ms in load_gse( series_id platform_id..., 1267, False)
+ 42.84 ms in get_gene_fold_change(<Gse GSE14857>, False, 0, None)
+  5.57 s in Load/fold for DOID_10283
+  6.14 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_10283 analysis
+541.87 ms in get_analysis_df("PC == 'PC' or PC_tiss..., "PC_control == 'PC_con..., '')
+542.75 ms in Loading dataframe for DOID_10283
+Matching sources: 19
+Excluded 5 sources as single-class
+Excluded 2 sources by min samples
+Stats: 12 sources, 8 series, 11 platforms, 1101 samples
+Loading data and calculating fold change for DOID_10283
+Loading data for GSE11682, id = 437
+817.29 ms in get_probes(10)
+  4.03 s in load_gse( series_id platform_id..., 437, False)
+535.98 ms in get_gene_fold_change(<Gse GSE11682>, False, 0, None)
+Loading data for GSE14857, id = 1267
+ 31.43 ms in get_probes(477)
+662.22 ms in load_gse( series_id platform_id..., 1267, False)
+ 42.58 ms in get_gene_fold_change(<Gse GSE14857>, False, 0, None)
+  5.36 s in Load/fold for DOID_10283
+  5.94 s in perform_analysis({'analysis_name': 'DOI...)

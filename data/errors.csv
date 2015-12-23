@@ -1,0 +1,18 @@
+slim_id,slim_name,case_query,control_query,error,name
+DOID:0050741,alcohol dependence,alcoholism == 'alcoholism',alcoholism_control == 'alcoholism_control',zero-size array to reduction operation maximum which has no identity,DOID_0050741
+DOID:10283,prostate cancer,PC == 'PC' or PC_tissue_case == 'PC_tissue_case',PC_control == 'PC_control' or PC_tissue_control == 'PC_tissue_control',zero-size array to reduction operation maximum which has no identity,DOID_10283
+DOID:11054,urinary bladder cancer,bladder_cancer == 'bladder_cancer',bladder_cancer_control == 'bladder_cancer_control','Int64Index' object has no attribute 'labels',DOID_11054
+DOID:11714,gestational diabetes,GDM == 'GDM',GDM_control == 'GDM_control',zero-size array to reduction operation maximum which has no identity,DOID_11714
+DOID:12849,autistic disorder,autism == 'autism',autism_control == 'autism_control',zero-size array to reduction operation maximum which has no identity,DOID_12849
+DOID:14221,metabolic syndrome X,MetS == 'MetS',MetS_Control == 'MetS_Control','Int64Index' object has no attribute 'labels',DOID_14221
+DOID:1686,glaucoma,glaucoma == 'glaucoma',glaucoma_control == 'glaucoma_control',zero-size array to reduction operation maximum which has no identity,DOID_1686
+DOID:2377,multiple sclerosis,MS == 'MS',MS_control == 'MS_control',zero-size array to reduction operation maximum which has no identity,DOID_2377
+DOID:2841,asthma,asthma == 'asthma',asthma_control == 'asthma_control',zero-size array to reduction operation maximum which has no identity,DOID_2841
+DOID:2998,testicular cancer,testicular_cancer == 'testicular_cancer',testicular_cancer_control == 'testicular_cancer_control','Int64Index' object has no attribute 'labels',DOID_2998
+DOID:3083,chronic obstructive pulmonary disease,COPD == 'COPD',COPD_control == 'COPD_control',"Can't find matrix file for series 6962, platform 4",DOID_3083
+DOID:4606,bile duct cancer,bile_duct_cancer == 'bile_duct_cancer',bile_duct_cancer_control == 'bile_duct_cancer_control','Int64Index' object has no attribute 'labels',DOID_4606
+DOID:5419,schizophrenia,schizophrenia == 'schizophrenia',Psychiatric_Control == 'Psychiatric_Control' or schizophrenia_Control == 'schizophrenia_Control',zero-size array to reduction operation maximum which has no identity,DOID_5419
+DOID:7148,rheumatoid arthritis,RA == 'RA',RA_control == 'RA_control','Int64Index' object has no attribute 'labels',DOID_7148
+DOID:8893,psoriasis,psoriasis == 'psoriasis',psoriasis_control == 'psoriasis_control',zero-size array to reduction operation maximum which has no identity,DOID_8893
+DOID:9074,systemic lupus erythematosus,SLE == 'SLE',SLE_control == 'SLE_control','Int64Index' object has no attribute 'labels',DOID_9074
+DOID:9352,type 2 diabetes mellitus,T2D == 'T2D',T2D_control == 'T2D_control',zero-size array to reduction operation maximum which has no identity,DOID_9352

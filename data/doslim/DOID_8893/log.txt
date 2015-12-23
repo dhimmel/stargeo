@@ -36,3 +36,41 @@ Loading data for GSE63741, id = 13298
  49.76 ms in get_gene_fold_change(<Gse GSE63741>, False, 0, None)
  77.37 s in Load/fold for DOID_8893
  77.74 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_8893 analysis
+335.54 ms in get_analysis_df("psoriasis == 'psorias..., "psoriasis_control == ..., '')
+336.40 ms in Loading dataframe for DOID_8893
+Matching sources: 10
+Excluded 2 sources as single-class
+Excluded 1 source by min samples
+Stats: 7 sources, 7 series, 6 platforms, 313 samples
+Loading data and calculating fold change for DOID_8893
+Loading data for GSE32407, id = 5703
+975.53 ms in get_probes(9)
+  3.40 s in load_gse( series_id platform_id..., 5703, False)
+419.71 ms in get_gene_fold_change(<Gse GSE32407>, False, 0, None)
+Loading data for GSE47598, id = 9087
+  1.05 s in get_probes(674)
+  3.44 s in load_gse( series_id platform_id..., 9087, False)
+429.91 ms in get_gene_fold_change(<Gse GSE47598>, False, 0, None)
+Loading data for GSE57225, id = 10556
+  1.02 s in get_probes(1010)
+  6.17 s in load_gse( series_id platform_id..., 10556, False)
+580.42 ms in get_gene_fold_change(<Gse GSE57225>, False, 0, None)
+Loading data for GSE57383, id = 12627
+  1.36 s in get_probes(901)
+ 10.43 s in load_gse( series_id platform_id..., 12627, False)
+785.71 ms in get_gene_fold_change(<Gse GSE57383>, False, 0, None)
+Loading data for GSE57405, id = 12629
+  1.22 s in get_probes(901)
+ 10.33 s in load_gse( series_id platform_id..., 12629, False)
+782.54 ms in get_gene_fold_change(<Gse GSE57405>, False, 0, None)
+Loading data for GSE61281, id = 12998
+  1.18 s in get_probes(53)
+  5.50 s in load_gse( series_id platform_id..., 12998, False)
+451.95 ms in get_gene_fold_change(<Gse GSE61281>, False, 0, None)
+Loading data for GSE63741, id = 13298
+ 31.17 ms in get_probes(1794)
+532.04 ms in load_gse( series_id platform_id..., 13298, False)
+ 37.56 ms in get_gene_fold_change(<Gse GSE63741>, False, 0, None)
+ 43.56 s in Load/fold for DOID_8893
+ 43.93 s in perform_analysis({'analysis_name': 'DOI...)

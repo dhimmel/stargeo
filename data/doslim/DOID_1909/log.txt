@@ -48,3 +48,53 @@ Meta-Analyzing DOID_1909
  55.75 s in Meta analysis for DOID_1909
 DONE DOID_1909 analysis
 144.54 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_1909 analysis
+565.47 ms in get_analysis_df("melanoma == 'melanoma'", "melanoma_control == '..., '')
+566.33 ms in Loading dataframe for DOID_1909
+Matching sources: 47
+Excluded 36 sources as single-class
+Excluded 1 source by min samples
+Stats: 10 sources, 8 series, 5 platforms, 390 samples
+Loading data and calculating fold change for DOID_1909
+Loading data for GSE15605, id = 1479
+  1.26 s in get_probes(4)
+  7.72 s in load_gse( series_id platform_id..., 1479, False)
+635.99 ms in get_gene_fold_change(<Gse GSE15605>, False, 0, None)
+Loading data for GSE3189, id = 5563
+900.72 ms in get_probes(2)
+  3.20 s in load_gse( series_id platform_id..., 5563, False)
+443.55 ms in get_gene_fold_change(<Gse GSE3189>, False, 0, None)
+Loading data for GSE44660, id = 8515
+  1.16 s in get_probes(280)
+  2.19 s in load_gse( series_id platform_id..., 8515, False)
+400.79 ms in get_gene_fold_change(<Gse GSE44660>, False, 0, None)
+Loading data for GSE46517, id = 8884
+898.16 ms in get_probes(2)
+  5.71 s in load_gse( series_id platform_id..., 8884, False)
+756.43 ms in get_gene_fold_change(<Gse GSE46517>, False, 0, None)
+Loading data for GSE4840, id = 9237
+837.67 ms in get_probes(2)
+806.25 ms in get_probes(50)
+  3.26 s in load_gse( series_id platform_id..., 9237, False)
+407.22 ms in get_gene_fold_change(<Gse GSE4840>, False, 0, None)
+Loading data for GSE4845, id = 9251
+840.31 ms in get_probes(2)
+714.53 ms in get_probes(50)
+  3.93 s in load_gse( series_id platform_id..., 9251, False)
+570.20 ms in get_gene_fold_change(<Gse GSE4845>, False, 0, None)
+Loading data for GSE7469, id = 11250
+  1.04 s in get_probes(26)
+  2.89 s in load_gse( series_id platform_id..., 11250, False)
+417.76 ms in get_gene_fold_change(<Gse GSE7469>, False, 0, None)
+Loading data for GSE7553, id = 11277
+  1.20 s in get_probes(4)
+  8.85 s in load_gse( series_id platform_id..., 11277, False)
+966.22 ms in get_gene_fold_change(<Gse GSE7553>, False, 0, None)
+ 42.85 s in Load/fold for DOID_1909
+Meta-Analyzing DOID_1909
+ 56.91 s in meta analysis of real data for DOID_1909
+188.74 ms in meta analysis of permutations for DOID_1909
+ 20.03 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 57.19 s in Meta analysis for DOID_1909
+DONE DOID_1909 analysis
+100.64 s in perform_analysis({'analysis_name': 'DOI...)

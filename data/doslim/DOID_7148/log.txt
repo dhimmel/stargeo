@@ -4,3 +4,9 @@ Started DOID_7148 analysis
 Matching sources: 21
 Excluded 21 sources as single-class
 335.04 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_7148 analysis
+336.34 ms in get_analysis_df("RA == 'RA'", "RA_control == 'RA_con..., '')
+337.18 ms in Loading dataframe for DOID_7148
+Matching sources: 21
+Excluded 21 sources as single-class
+348.63 ms in perform_analysis({'analysis_name': 'DOI...)
