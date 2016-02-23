@@ -60,3 +60,34 @@ Meta-Analyzing DOID_7693
  51.64 s in Meta analysis for DOID_7693
 DONE DOID_7693 analysis
  65.18 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_7693 analysis
+941.04 ms in get_analysis_df("AAA == 'AAA'", "AAA_control == 'AAA_c..., '')
+945.36 ms in Loading dataframe for DOID_7693
+Matching sources: 5
+Excluded 1 source by min samples
+Stats: 4 sources, 4 series, 3 platforms, 104 samples
+Loading data and calculating fold change for DOID_7693
+Loading data for GSE21803, id = 3020
+ 70.88 ms in get_probes(724)
+397.36 ms in load_gse( series_id platform_id..., 3020, False)
+318.35 ms in get_gene_fold_change(<Gse GSE21803>, False, 0, None)
+Loading data for GSE47472, id = 9057
+  1.46 s in get_probes(674)
+ 12.92 s in load_gse( series_id platform_id..., 9057, False)
+  2.45 s in get_gene_fold_change(<Gse GSE47472>, False, 0, None)
+Loading data for GSE7084, id = 11146
+979.33 ms in get_probes(39)
+ 10.45 s in load_gse( series_id platform_id..., 11146, False)
+  1.44 s in get_gene_fold_change(<Gse GSE7084>, False, 0, None)
+Loading data for GSE57691, id = 12645
+  1.51 s in get_probes(674)
+ 32.21 s in load_gse( series_id platform_id..., 12645, False)
+  3.94 s in get_gene_fold_change(<Gse GSE57691>, False, 0, None)
+ 65.44 s in Load/fold for DOID_7693
+Meta-Analyzing DOID_7693
+380.52 s in meta analysis of real data for DOID_7693
+229.06 ms in meta analysis of permutations for DOID_7693
+116.11 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+381.36 s in Meta analysis for DOID_7693
+DONE DOID_7693 analysis
+447.92 s in perform_analysis({'analysis_name': 'DOI...)

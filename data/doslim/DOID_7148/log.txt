@@ -10,3 +10,88 @@ Started DOID_7148 analysis
 Matching sources: 21
 Excluded 21 sources as single-class
 348.63 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_7148 analysis
+836.12 ms in get_analysis_df("RA == 'RA'", "RA_control == 'RA_con..., '')
+840.33 ms in Loading dataframe for DOID_7148
+Matching sources: 21
+Excluded 1 source as single-class
+Excluded 2 sources by min samples
+Stats: 18 sources, 17 series, 13 platforms, 607 samples
+Loading data and calculating fold change for DOID_7148
+Loading data for GSE10500, id = 137
+676.85 ms in get_probes(7)
+  4.84 s in load_gse( series_id platform_id..., 137, False)
+862.93 ms in get_gene_fold_change(<Gse GSE10500>, False, 0, None)
+Loading data for GSE11827, id = 457
+ 38.59 ms in get_probes(36)
+ 13.28 s in load_gse( series_id platform_id..., 457, False)
+219.69 ms in get_gene_fold_change(<Gse GSE11827>, False, 0, None)
+Loading data for GSE12021, id = 517
+  1.01 s in get_probes(2)
+976.56 ms in get_probes(50)
+ 27.70 s in load_gse( series_id platform_id..., 517, False)
+  2.74 s in get_gene_fold_change(<Gse GSE12021>, False, 0, None)
+Loading data for GSE13026, id = 799
+ 36.09 ms in get_probes(36)
+ 12.34 s in load_gse( series_id platform_id..., 799, False)
+198.96 ms in get_gene_fold_change(<Gse GSE13026>, False, 0, None)
+Loading data for GSE15573, id = 1473
+  1.15 s in get_probes(17)
+ 24.28 s in load_gse( series_id platform_id..., 1473, False)
+  2.32 s in get_gene_fold_change(<Gse GSE15573>, False, 0, None)
+Loading data for GSE17755, id = 2014
+840.14 ms in get_probes(51)
+ 59.47 s in load_gse( series_id platform_id..., 2014, False)
+  3.93 s in get_gene_fold_change(<Gse GSE17755>, False, 0, None)
+Loading data for GSE1919, id = 2379
+676.45 ms in get_probes(8)
+  5.44 s in load_gse( series_id platform_id..., 2379, False)
+937.33 ms in get_gene_fold_change(<Gse GSE1919>, False, 0, None)
+Loading data for GSE2053, id = 2720
+480.76 ms in get_probes(688)
+  4.93 s in load_gse( series_id platform_id..., 2720, False)
+640.52 ms in get_gene_fold_change(<Gse GSE2053>, False, 0, None)
+Loading data for GSE21959, id = 3055
+  1.44 s in get_probes(10)
+ 22.63 s in load_gse( series_id platform_id..., 3055, False)
+  3.06 s in get_gene_fold_change(<Gse GSE21959>, False, 0, None)
+Loading data for GSE23561, id = 3492
+  1.44 s in get_probes(780)
+ 17.16 s in load_gse( series_id platform_id..., 3492, False)
+  2.09 s in get_gene_fold_change(<Gse GSE23561>, False, 0, None)
+Loading data for GSE29746, id = 5051
+  1.51 s in get_probes(10)
+ 20.47 s in load_gse( series_id platform_id..., 5051, False)
+  2.39 s in get_gene_fold_change(<Gse GSE29746>, False, 0, None)
+Loading data for GSE4588, id = 8761
+  1.61 s in get_probes(4)
+ 32.58 s in load_gse( series_id platform_id..., 8761, False)
+  3.67 s in get_gene_fold_change(<Gse GSE4588>, False, 0, None)
+Loading data for GSE49604, id = 9430
+  1.33 s in get_probes(674)
+ 16.42 s in load_gse( series_id platform_id..., 9430, False)
+  2.00 s in get_gene_fold_change(<Gse GSE49604>, False, 0, None)
+Loading data for GSE55235, id = 10308
+  1.04 s in get_probes(2)
+ 10.64 s in load_gse( series_id platform_id..., 10308, False)
+  1.65 s in get_gene_fold_change(<Gse GSE55235>, False, 0, None)
+Loading data for GSE55457, id = 10327
+996.78 ms in get_probes(2)
+ 11.29 s in load_gse( series_id platform_id..., 10327, False)
+  1.75 s in get_gene_fold_change(<Gse GSE55457>, False, 0, None)
+Loading data for GSE57383, id = 12627
+  1.66 s in get_probes(901)
+ 56.18 s in load_gse( series_id platform_id..., 12627, False)
+  4.37 s in get_gene_fold_change(<Gse GSE57383>, False, 0, None)
+Loading data for GSE57405, id = 12629
+  1.67 s in get_probes(901)
+ 55.31 s in load_gse( series_id platform_id..., 12629, False)
+  4.38 s in get_gene_fold_change(<Gse GSE57405>, False, 0, None)
+437.92 s in Load/fold for DOID_7148
+Meta-Analyzing DOID_7148
+473.95 s in meta analysis of real data for DOID_7148
+  1.07 s in meta analysis of permutations for DOID_7148
+118.97 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+475.65 s in Meta analysis for DOID_7148
+DONE DOID_7148 analysis
+914.67 s in perform_analysis({'analysis_name': 'DOI...)

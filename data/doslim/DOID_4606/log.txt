@@ -8,3 +8,8 @@ Started DOID_4606 analysis
 350.68 ms in Loading dataframe for DOID_4606
 Matching sources: 0
 368.21 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_4606 analysis
+889.34 ms in get_analysis_df("bile_duct_cancer == '..., "bile_duct_cancer_cont..., '')
+893.67 ms in Loading dataframe for DOID_4606
+Matching sources: 0
+957.83 ms in perform_analysis({'analysis_name': 'DOI...)

@@ -42,3 +42,25 @@ Meta-Analyzing DOID_986
  48.26 s in Meta analysis for DOID_986
 DONE DOID_986 analysis
  54.69 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_986 analysis
+777.64 ms in get_analysis_df("alopecia_areata == 'a..., "alopecia_areata_contr..., '')
+781.95 ms in Loading dataframe for DOID_986
+Matching sources: 2
+Stats: 2 sources, 2 series, 1 platforms, 17 samples
+Loading data and calculating fold change for DOID_986
+Loading data for GSE45512, id = 8684
+  1.54 s in get_probes(4)
+ 11.32 s in load_gse( series_id platform_id..., 8684, False)
+  2.41 s in get_gene_fold_change(<Gse GSE45512>, False, 0, None)
+Loading data for GSE58573, id = 10697
+  1.62 s in get_probes(4)
+  9.51 s in load_gse( series_id platform_id..., 10697, False)
+  2.25 s in get_gene_fold_change(<Gse GSE58573>, False, 0, None)
+ 26.00 s in Load/fold for DOID_986
+Meta-Analyzing DOID_986
+366.19 s in meta analysis of real data for DOID_986
+239.84 ms in meta analysis of permutations for DOID_986
+119.92 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper I..., Empty DataFrame Column...)
+367.13 s in Meta analysis for DOID_986
+DONE DOID_986 analysis
+394.07 s in perform_analysis({'analysis_name': 'DOI...)

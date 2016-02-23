@@ -78,3 +78,43 @@ Meta-Analyzing DOID_12365
  59.14 s in Meta analysis for DOID_12365
 DONE DOID_12365 analysis
  99.03 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_12365 analysis
+818.53 ms in get_analysis_df("malaria == 'malaria'", "malaria_control == 'm..., '')
+823.29 ms in Loading dataframe for DOID_12365
+Matching sources: 8
+Excluded 1 source as single-class
+Excluded 1 source by min samples
+Stats: 6 sources, 6 series, 5 platforms, 295 samples
+Loading data and calculating fold change for DOID_12365
+Loading data for GSE15221, id = 1372
+  1.28 s in get_probes(17)
+ 19.15 s in load_gse( series_id platform_id..., 1372, False)
+  2.35 s in get_gene_fold_change(<Gse GSE15221>, False, 0, None)
+Loading data for GSE18323, id = 2164
+  1.03 s in get_probes(9)
+ 50.09 s in load_gse( series_id platform_id..., 2164, False)
+  2.82 s in get_gene_fold_change(<Gse GSE18323>, False, 0, None)
+Loading data for GSE24849, id = 3840
+  1.60 s in get_probes(4)
+ 20.52 s in load_gse( series_id platform_id..., 3840, False)
+  3.09 s in get_gene_fold_change(<Gse GSE24849>, False, 0, None)
+Loading data for GSE34404, id = 6155
+  1.39 s in get_probes(674)
+ 80.91 s in load_gse( series_id platform_id..., 6155, False)
+  9.56 s in get_gene_fold_change(<Gse GSE34404>, False, 0, None)
+Loading data for GSE5418, id = 10145
+969.36 ms in get_probes(2)
+ 14.84 s in load_gse( series_id platform_id..., 10145, False)
+  2.44 s in get_gene_fold_change(<Gse GSE5418>, False, 0, None)
+Loading data for GSE7586, id = 11293
+  1.51 s in get_probes(4)
+ 14.41 s in load_gse( series_id platform_id..., 11293, False)
+  2.73 s in get_gene_fold_change(<Gse GSE7586>, False, 0, None)
+225.28 s in Load/fold for DOID_12365
+Meta-Analyzing DOID_12365
+455.48 s in meta analysis of real data for DOID_12365
+593.64 ms in meta analysis of permutations for DOID_12365
+139.00 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+456.69 s in Meta analysis for DOID_12365
+DONE DOID_12365 analysis
+683.01 s in perform_analysis({'analysis_name': 'DOI...)

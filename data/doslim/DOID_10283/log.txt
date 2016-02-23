@@ -70,3 +70,30 @@ Loading data for GSE14857, id = 1267
  42.58 ms in get_gene_fold_change(<Gse GSE14857>, False, 0, None)
   5.36 s in Load/fold for DOID_10283
   5.94 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_10283 analysis
+  1.16 s in get_analysis_df("PC == 'PC' or PC_tiss..., "PC_control == 'PC_con..., '')
+  1.16 s in Loading dataframe for DOID_10283
+Matching sources: 16
+Excluded 13 sources as single-class
+Stats: 3 sources, 3 series, 2 platforms, 464 samples
+Loading data and calculating fold change for DOID_10283
+Loading data for GSE11682, id = 437
+  1.40 s in get_probes(10)
+ 22.60 s in load_gse( series_id platform_id..., 437, False)
+  3.22 s in get_gene_fold_change(<Gse GSE11682>, False, 0, None)
+Loading data for GSE30994, id = 5362
+  1.44 s in get_probes(10)
+ 11.63 s in load_gse( series_id platform_id..., 5362, False)
+  1.99 s in get_gene_fold_change(<Gse GSE30994>, False, 0, None)
+Loading data for GSE62872, id = 13217
+ 38.47 ms in get_probes(1787)
+ 86.92 s in load_gse( series_id platform_id..., 13217, False)
+429.86 ms in get_gene_fold_change(<Gse GSE62872>, False, 0, None)
+128.09 s in Load/fold for DOID_10283
+Meta-Analyzing DOID_10283
+345.82 s in meta analysis of real data for DOID_10283
+261.77 ms in meta analysis of permutations for DOID_10283
+156.16 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper I..., Empty DataFrame Column...)
+346.80 s in Meta analysis for DOID_10283
+DONE DOID_10283 analysis
+476.26 s in perform_analysis({'analysis_name': 'DOI...)

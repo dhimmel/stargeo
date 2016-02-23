@@ -76,3 +76,42 @@ Meta-Analyzing DOID_13223
  37.80 s in Meta analysis for DOID_13223
 DONE DOID_13223 analysis
  50.05 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_13223 analysis
+747.72 ms in get_analysis_df("uterine_fibroid == 'u..., "uterine_fibroid_contr..., '')
+752.43 ms in Loading dataframe for DOID_13223
+Matching sources: 7
+Excluded 1 source as single-class
+Stats: 6 sources, 6 series, 5 platforms, 124 samples
+Loading data and calculating fold change for DOID_13223
+Loading data for GSE2724, id = 4435
+913.52 ms in get_probes(2)
+  5.73 s in load_gse( series_id platform_id..., 4435, False)
+  1.67 s in get_gene_fold_change(<Gse GSE2724>, False, 0, None)
+Loading data for GSE28945, id = 4848
+130.80 ms in get_probes(929)
+640.44 ms in load_gse( series_id platform_id..., 4848, False)
+384.30 ms in get_gene_fold_change(<Gse GSE28945>, False, 0, None)
+Loading data for GSE41386, id = 7773
+  1.58 s in get_probes(4)
+ 10.08 s in load_gse( series_id platform_id..., 7773, False)
+  2.64 s in get_gene_fold_change(<Gse GSE41386>, False, 0, None)
+Loading data for GSE593, id = 10753
+  1.01 s in get_probes(2)
+  4.53 s in load_gse( series_id platform_id..., 10753, False)
+  1.50 s in get_gene_fold_change(<Gse GSE593>, False, 0, None)
+Loading data for GSE9511, id = 11757
+473.53 ms in get_probes(22)
+  2.72 s in load_gse( series_id platform_id..., 11757, False)
+706.71 ms in get_gene_fold_change(<Gse GSE9511>, False, 0, None)
+Loading data for GSE64763, id = 13408
+  1.01 s in get_probes(9)
+ 15.53 s in load_gse( series_id platform_id..., 13408, False)
+  2.72 s in get_gene_fold_change(<Gse GSE64763>, False, 0, None)
+ 51.02 s in Load/fold for DOID_13223
+Meta-Analyzing DOID_13223
+280.91 s in meta analysis of real data for DOID_13223
+313.82 ms in meta analysis of permutations for DOID_13223
+118.02 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+281.85 s in Meta analysis for DOID_13223
+DONE DOID_13223 analysis
+333.83 s in perform_analysis({'analysis_name': 'DOI...)

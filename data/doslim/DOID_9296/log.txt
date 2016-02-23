@@ -10,3 +10,9 @@ Started DOID_9296 analysis
 Matching sources: 1
 FAIL Can't perform meta-analysis on single source
 164.53 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_9296 analysis
+637.71 ms in get_analysis_df("cleft_lip == 'cleft_l..., "cleft_lip_control == ..., '')
+641.95 ms in Loading dataframe for DOID_9296
+Matching sources: 1
+FAIL Can't perform meta-analysis on single source
+777.37 ms in perform_analysis({'analysis_name': 'DOI...)

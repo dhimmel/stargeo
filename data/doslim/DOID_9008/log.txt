@@ -50,3 +50,29 @@ Meta-Analyzing DOID_9008
  55.24 s in Meta analysis for DOID_9008
 DONE DOID_9008 analysis
  83.56 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_9008 analysis
+639.79 ms in get_analysis_df("PsA == 'PsA'", "PsA_control == 'PsA_c..., '')
+644.11 ms in Loading dataframe for DOID_9008
+Matching sources: 3
+Stats: 3 sources, 3 series, 2 platforms, 141 samples
+Loading data and calculating fold change for DOID_9008
+Loading data for GSE57383, id = 12627
+  1.81 s in get_probes(901)
+ 55.97 s in load_gse( series_id platform_id..., 12627, False)
+  4.86 s in get_gene_fold_change(<Gse GSE57383>, False, 0, None)
+Loading data for GSE57405, id = 12629
+  1.74 s in get_probes(901)
+ 54.26 s in load_gse( series_id platform_id..., 12629, False)
+  4.79 s in get_gene_fold_change(<Gse GSE57405>, False, 0, None)
+Loading data for GSE61281, id = 12998
+  1.67 s in get_probes(53)
+ 28.12 s in load_gse( series_id platform_id..., 12998, False)
+  2.77 s in get_gene_fold_change(<Gse GSE61281>, False, 0, None)
+151.94 s in Load/fold for DOID_9008
+Meta-Analyzing DOID_9008
+413.81 s in meta analysis of real data for DOID_9008
+318.07 ms in meta analysis of permutations for DOID_9008
+117.06 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+414.75 s in Meta analysis for DOID_9008
+DONE DOID_9008 analysis
+567.51 s in perform_analysis({'analysis_name': 'DOI...)

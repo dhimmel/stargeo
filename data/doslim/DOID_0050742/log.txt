@@ -254,3 +254,9 @@ Meta-Analyzing DOID_0050742
  59.28 s in Meta analysis for DOID_0050742
 DONE DOID_0050742 analysis
 194.17 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_0050742 analysis
+  1.22 s in get_analysis_df("Smoker == 'Smoker'", "Nonsmoker == 'Nonsmok..., '')
+  1.23 s in Loading dataframe for DOID_0050742
+Matching sources: 21
+Excluded 21 sources as single-class
+  1.33 s in perform_analysis({'analysis_name': 'DOI...)
