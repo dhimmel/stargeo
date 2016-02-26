@@ -118,3 +118,83 @@ Meta-Analyzing DOID_12365
 456.69 s in Meta analysis for DOID_12365
 DONE DOID_12365 analysis
 683.01 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_12365 analysis
+231.42 ms in get_analysis_df("malaria == 'malaria'", "malaria_control == 'm..., '')
+232.31 ms in Loading dataframe for DOID_12365
+Matching sources: 8
+Excluded 1 source as single-class
+Excluded 1 source by min samples
+Stats: 6 sources, 6 series, 5 platforms, 295 samples
+Loading data and calculating fold change for DOID_12365
+Loading data for GSE15221, id = 1372
+246.96 ms in get_probes(17)
+  2.89 s in load_gse( series_id platform_id..., 1372, False)
+347.43 ms in get_gene_fold_change(<Gse GSE15221>, False, 0, None)
+Loading data for GSE18323, id = 2164
+237.08 ms in get_probes(9)
+  7.31 s in load_gse( series_id platform_id..., 2164, False)
+404.49 ms in get_gene_fold_change(<Gse GSE18323>, False, 0, None)
+Loading data for GSE24849, id = 3840
+299.49 ms in get_probes(4)
+  3.24 s in load_gse( series_id platform_id..., 3840, False)
+439.74 ms in get_gene_fold_change(<Gse GSE24849>, False, 0, None)
+Loading data for GSE34404, id = 6155
+280.25 ms in get_probes(674)
+ 11.55 s in load_gse( series_id platform_id..., 6155, False)
+  1.47 s in get_gene_fold_change(<Gse GSE34404>, False, 0, None)
+Loading data for GSE5418, id = 10145
+233.59 ms in get_probes(2)
+  2.36 s in load_gse( series_id platform_id..., 10145, False)
+346.68 ms in get_gene_fold_change(<Gse GSE5418>, False, 0, None)
+Loading data for GSE7586, id = 11293
+294.00 ms in get_probes(4)
+  2.26 s in load_gse( series_id platform_id..., 11293, False)
+415.88 ms in get_gene_fold_change(<Gse GSE7586>, False, 0, None)
+ 33.38 s in Load/fold for DOID_12365
+Meta-Analyzing DOID_12365
+ 57.08 s in meta analysis of real data for DOID_12365
+110.84 ms in meta analysis of permutations for DOID_12365
+ 20.03 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 57.27 s in Meta analysis for DOID_12365
+DONE DOID_12365 analysis
+ 90.91 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_12365 analysis
+236.10 ms in get_analysis_df("malaria == 'malaria'", "malaria_control == 'm..., '')
+236.88 ms in Loading dataframe for DOID_12365
+Matching sources: 8
+Excluded 1 source as single-class
+Excluded 1 source by min samples
+Stats: 6 sources, 6 series, 5 platforms, 295 samples
+Loading data and calculating fold change for DOID_12365
+Loading data for GSE15221, id = 1372
+254.79 ms in get_probes(17)
+  2.99 s in load_gse( series_id platform_id..., 1372, False)
+359.37 ms in get_gene_fold_change(<Gse GSE15221>, False, 0, None)
+Loading data for GSE18323, id = 2164
+243.61 ms in get_probes(9)
+  7.55 s in load_gse( series_id platform_id..., 2164, False)
+416.03 ms in get_gene_fold_change(<Gse GSE18323>, False, 0, None)
+Loading data for GSE24849, id = 3840
+303.64 ms in get_probes(4)
+  3.38 s in load_gse( series_id platform_id..., 3840, False)
+491.39 ms in get_gene_fold_change(<Gse GSE24849>, False, 0, None)
+Loading data for GSE34404, id = 6155
+282.66 ms in get_probes(674)
+ 11.88 s in load_gse( series_id platform_id..., 6155, False)
+  1.62 s in get_gene_fold_change(<Gse GSE34404>, False, 0, None)
+Loading data for GSE5418, id = 10145
+240.23 ms in get_probes(2)
+  2.48 s in load_gse( series_id platform_id..., 10145, False)
+366.67 ms in get_gene_fold_change(<Gse GSE5418>, False, 0, None)
+Loading data for GSE7586, id = 11293
+303.56 ms in get_probes(4)
+  2.29 s in load_gse( series_id platform_id..., 11293, False)
+447.21 ms in get_gene_fold_change(<Gse GSE7586>, False, 0, None)
+ 34.63 s in Load/fold for DOID_12365
+Meta-Analyzing DOID_12365
+ 60.00 s in meta analysis of real data for DOID_12365
+137.25 ms in meta analysis of permutations for DOID_12365
+ 23.13 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 60.23 s in Meta analysis for DOID_12365
+DONE DOID_12365 analysis
+ 95.13 s in perform_analysis({'analysis_name': 'DOI...)

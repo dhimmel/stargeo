@@ -16,3 +16,15 @@ Started DOID_14221 analysis
 Matching sources: 4
 Excluded 4 sources as single-class
 791.44 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_14221 analysis
+211.86 ms in get_analysis_df("MetS == 'MetS'", "MetS_Control == 'MetS..., '')
+212.69 ms in Loading dataframe for DOID_14221
+Matching sources: 4
+Excluded 4 sources as single-class
+223.84 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_14221 analysis
+201.88 ms in get_analysis_df("MetS == 'MetS'", "MetS_Control == 'MetS..., '')
+202.71 ms in Loading dataframe for DOID_14221
+Matching sources: 4
+Excluded 4 sources as single-class
+214.33 ms in perform_analysis({'analysis_name': 'DOI...)

@@ -16,3 +16,15 @@ Started DOID_8986 analysis
 Matching sources: 1
 FAIL Can't perform meta-analysis on single source
 874.13 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_8986 analysis
+179.65 ms in get_analysis_df("narcolepsy == 'narcol..., "narcolepsy_control ==..., '')
+180.60 ms in Loading dataframe for DOID_8986
+Matching sources: 1
+FAIL Can't perform meta-analysis on single source
+201.57 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_8986 analysis
+174.28 ms in get_analysis_df("narcolepsy == 'narcol..., "narcolepsy_control ==..., '')
+175.07 ms in Loading dataframe for DOID_8986
+Matching sources: 1
+FAIL Can't perform meta-analysis on single source
+194.40 ms in perform_analysis({'analysis_name': 'DOI...)

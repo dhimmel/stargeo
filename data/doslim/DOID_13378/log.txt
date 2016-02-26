@@ -16,3 +16,15 @@ Started DOID_13378 analysis
 Matching sources: 1
 FAIL Can't perform meta-analysis on single source
 908.00 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_13378 analysis
+138.33 ms in get_analysis_df("Kawasaki == 'Kawasaki'", "Kawasaki_control == '..., '')
+139.15 ms in Loading dataframe for DOID_13378
+Matching sources: 1
+FAIL Can't perform meta-analysis on single source
+157.27 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_13378 analysis
+134.44 ms in get_analysis_df("Kawasaki == 'Kawasaki'", "Kawasaki_control == '..., '')
+135.27 ms in Loading dataframe for DOID_13378
+Matching sources: 1
+FAIL Can't perform meta-analysis on single source
+154.03 ms in perform_analysis({'analysis_name': 'DOI...)

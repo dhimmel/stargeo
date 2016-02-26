@@ -64,3 +64,47 @@ Meta-Analyzing DOID_14227
 349.66 s in Meta analysis for DOID_14227
 DONE DOID_14227 analysis
 378.54 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_14227 analysis
+131.36 ms in get_analysis_df("azoospermia == 'azoos..., "azoospermia_control =..., '')
+132.24 ms in Loading dataframe for DOID_14227
+Matching sources: 2
+Stats: 2 sources, 2 series, 1 platforms, 51 samples
+Loading data and calculating fold change for DOID_14227
+Loading data for GSE45885, id = 8763
+254.51 ms in get_probes(283)
+  2.40 s in load_gse( series_id platform_id..., 8763, False)
+347.58 ms in get_gene_fold_change(<Gse GSE45885>, False, 0, None)
+Loading data for GSE45887, id = 8764
+244.67 ms in get_probes(283)
+  1.72 s in load_gse( series_id platform_id..., 8764, False)
+287.71 ms in get_gene_fold_change(<Gse GSE45887>, False, 0, None)
+  4.85 s in Load/fold for DOID_14227
+Meta-Analyzing DOID_14227
+ 45.95 s in meta analysis of real data for DOID_14227
+ 28.48 ms in meta analysis of permutations for DOID_14227
+ 20.03 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper I..., Empty DataFrame Column...)
+ 46.07 s in Meta analysis for DOID_14227
+DONE DOID_14227 analysis
+ 51.07 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_14227 analysis
+131.47 ms in get_analysis_df("azoospermia == 'azoos..., "azoospermia_control =..., '')
+132.32 ms in Loading dataframe for DOID_14227
+Matching sources: 2
+Stats: 2 sources, 2 series, 1 platforms, 51 samples
+Loading data and calculating fold change for DOID_14227
+Loading data for GSE45885, id = 8763
+249.80 ms in get_probes(283)
+  2.19 s in load_gse( series_id platform_id..., 8763, False)
+346.06 ms in get_gene_fold_change(<Gse GSE45885>, False, 0, None)
+Loading data for GSE45887, id = 8764
+247.67 ms in get_probes(283)
+  1.69 s in load_gse( series_id platform_id..., 8764, False)
+298.05 ms in get_gene_fold_change(<Gse GSE45887>, False, 0, None)
+  4.62 s in Load/fold for DOID_14227
+Meta-Analyzing DOID_14227
+ 47.59 s in meta analysis of real data for DOID_14227
+ 32.89 ms in meta analysis of permutations for DOID_14227
+ 20.03 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper I..., Empty DataFrame Column...)
+ 47.72 s in Meta analysis for DOID_14227
+DONE DOID_14227 analysis
+ 52.49 s in perform_analysis({'analysis_name': 'DOI...)

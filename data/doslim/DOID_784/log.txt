@@ -19,3 +19,17 @@ Matching sources: 2
 Excluded 1 source as single-class
 FAIL Can't perform meta-analysis on single source
 816.51 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_784 analysis
+166.38 ms in get_analysis_df("CKD == 'CKD'", "CKD_Control == 'CKD_C..., '')
+167.24 ms in Loading dataframe for DOID_784
+Matching sources: 2
+Excluded 1 source as single-class
+FAIL Can't perform meta-analysis on single source
+187.09 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_784 analysis
+157.52 ms in get_analysis_df("CKD == 'CKD'", "CKD_Control == 'CKD_C..., '')
+158.34 ms in Loading dataframe for DOID_784
+Matching sources: 2
+Excluded 1 source as single-class
+FAIL Can't perform meta-analysis on single source
+177.73 ms in perform_analysis({'analysis_name': 'DOI...)

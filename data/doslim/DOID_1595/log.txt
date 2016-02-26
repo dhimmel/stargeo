@@ -211,3 +211,145 @@ Meta-Analyzing DOID_1595
 462.97 s in Meta analysis for DOID_1595
 DONE DOID_1595 analysis
 827.97 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_1595 analysis
+498.41 ms in get_analysis_df("Depression == 'Depres..., "MDD_control == 'MDD_c..., '')
+499.28 ms in Loading dataframe for DOID_1595
+Matching sources: 19
+Excluded 5 sources as single-class
+Stats: 14 sources, 14 series, 6 platforms, 533 samples
+Loading data and calculating fold change for DOID_1595
+Loading data for GSE12654, id = 704
+195.65 ms in get_probes(7)
+  1.48 s in load_gse( series_id platform_id..., 704, False)
+179.13 ms in get_gene_fold_change(<Gse GSE12654>, False, 0, None)
+Loading data for GSE19738, id = 2518
+324.71 ms in get_probes(282)
+  6.65 s in load_gse( series_id platform_id..., 2518, False)
+  1.21 s in get_gene_fold_change(<Gse GSE19738>, False, 0, None)
+Loading data for GSE39653, id = 7363
+312.42 ms in get_probes(674)
+  4.50 s in load_gse( series_id platform_id..., 7363, False)
+597.37 ms in get_gene_fold_change(<Gse GSE39653>, False, 0, None)
+Loading data for GSE54562, id = 10202
+251.01 ms in get_probes(389)
+  2.34 s in load_gse( series_id platform_id..., 10202, False)
+351.11 ms in get_gene_fold_change(<Gse GSE54562>, False, 0, None)
+Loading data for GSE54563, id = 10203
+277.73 ms in get_probes(389)
+  5.03 s in load_gse( series_id platform_id..., 10203, False)
+583.37 ms in get_gene_fold_change(<Gse GSE54563>, False, 0, None)
+Loading data for GSE54564, id = 10204
+253.87 ms in get_probes(389)
+  4.07 s in load_gse( series_id platform_id..., 10204, False)
+510.48 ms in get_gene_fold_change(<Gse GSE54564>, False, 0, None)
+Loading data for GSE54565, id = 10205
+295.63 ms in get_probes(4)
+  4.21 s in load_gse( series_id platform_id..., 10205, False)
+583.33 ms in get_gene_fold_change(<Gse GSE54565>, False, 0, None)
+Loading data for GSE54566, id = 10206
+293.81 ms in get_probes(4)
+  3.81 s in load_gse( series_id platform_id..., 10206, False)
+547.21 ms in get_gene_fold_change(<Gse GSE54566>, False, 0, None)
+Loading data for GSE54567, id = 10207
+292.41 ms in get_probes(4)
+  3.47 s in load_gse( series_id platform_id..., 10207, False)
+593.89 ms in get_gene_fold_change(<Gse GSE54567>, False, 0, None)
+Loading data for GSE54568, id = 10208
+293.10 ms in get_probes(4)
+  3.66 s in load_gse( series_id platform_id..., 10208, False)
+590.14 ms in get_gene_fold_change(<Gse GSE54568>, False, 0, None)
+Loading data for GSE54570, id = 10210
+202.25 ms in get_probes(2)
+  1.20 s in load_gse( series_id platform_id..., 10210, False)
+293.56 ms in get_gene_fold_change(<Gse GSE54570>, False, 0, None)
+Loading data for GSE54571, id = 10211
+293.11 ms in get_probes(4)
+  3.22 s in load_gse( series_id platform_id..., 10211, False)
+569.31 ms in get_gene_fold_change(<Gse GSE54571>, False, 0, None)
+Loading data for GSE54572, id = 10212
+293.69 ms in get_probes(4)
+  3.01 s in load_gse( series_id platform_id..., 10212, False)
+545.52 ms in get_gene_fold_change(<Gse GSE54572>, False, 0, None)
+Loading data for GSE54575, id = 10213
+183.07 ms in get_probes(2)
+  1.13 s in load_gse( series_id platform_id..., 10213, False)
+270.75 ms in get_gene_fold_change(<Gse GSE54575>, False, 0, None)
+ 56.19 s in Load/fold for DOID_1595
+Meta-Analyzing DOID_1595
+ 60.12 s in meta analysis of real data for DOID_1595
+313.83 ms in meta analysis of permutations for DOID_1595
+ 20.98 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 60.52 s in Meta analysis for DOID_1595
+DONE DOID_1595 analysis
+117.25 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_1595 analysis
+540.61 ms in get_analysis_df("Depression == 'Depres..., "MDD_control == 'MDD_c..., '')
+541.46 ms in Loading dataframe for DOID_1595
+Matching sources: 19
+Excluded 5 sources as single-class
+Stats: 14 sources, 14 series, 6 platforms, 533 samples
+Loading data and calculating fold change for DOID_1595
+Loading data for GSE12654, id = 704
+199.87 ms in get_probes(7)
+  1.47 s in load_gse( series_id platform_id..., 704, False)
+187.10 ms in get_gene_fold_change(<Gse GSE12654>, False, 0, None)
+Loading data for GSE19738, id = 2518
+327.76 ms in get_probes(282)
+  6.93 s in load_gse( series_id platform_id..., 2518, False)
+  1.25 s in get_gene_fold_change(<Gse GSE19738>, False, 0, None)
+Loading data for GSE39653, id = 7363
+338.86 ms in get_probes(674)
+  4.70 s in load_gse( series_id platform_id..., 7363, False)
+607.97 ms in get_gene_fold_change(<Gse GSE39653>, False, 0, None)
+Loading data for GSE54562, id = 10202
+266.40 ms in get_probes(389)
+  2.43 s in load_gse( series_id platform_id..., 10202, False)
+372.83 ms in get_gene_fold_change(<Gse GSE54562>, False, 0, None)
+Loading data for GSE54563, id = 10203
+257.08 ms in get_probes(389)
+  5.11 s in load_gse( series_id platform_id..., 10203, False)
+595.31 ms in get_gene_fold_change(<Gse GSE54563>, False, 0, None)
+Loading data for GSE54564, id = 10204
+265.28 ms in get_probes(389)
+  4.14 s in load_gse( series_id platform_id..., 10204, False)
+509.48 ms in get_gene_fold_change(<Gse GSE54564>, False, 0, None)
+Loading data for GSE54565, id = 10205
+303.34 ms in get_probes(4)
+  4.26 s in load_gse( series_id platform_id..., 10205, False)
+612.90 ms in get_gene_fold_change(<Gse GSE54565>, False, 0, None)
+Loading data for GSE54566, id = 10206
+303.06 ms in get_probes(4)
+  3.82 s in load_gse( series_id platform_id..., 10206, False)
+564.33 ms in get_gene_fold_change(<Gse GSE54566>, False, 0, None)
+Loading data for GSE54567, id = 10207
+301.41 ms in get_probes(4)
+  3.53 s in load_gse( series_id platform_id..., 10207, False)
+623.95 ms in get_gene_fold_change(<Gse GSE54567>, False, 0, None)
+Loading data for GSE54568, id = 10208
+304.75 ms in get_probes(4)
+  3.75 s in load_gse( series_id platform_id..., 10208, False)
+633.05 ms in get_gene_fold_change(<Gse GSE54568>, False, 0, None)
+Loading data for GSE54570, id = 10210
+242.52 ms in get_probes(2)
+  1.24 s in load_gse( series_id platform_id..., 10210, False)
+300.65 ms in get_gene_fold_change(<Gse GSE54570>, False, 0, None)
+Loading data for GSE54571, id = 10211
+302.06 ms in get_probes(4)
+  3.30 s in load_gse( series_id platform_id..., 10211, False)
+575.45 ms in get_gene_fold_change(<Gse GSE54571>, False, 0, None)
+Loading data for GSE54572, id = 10212
+308.14 ms in get_probes(4)
+  3.06 s in load_gse( series_id platform_id..., 10212, False)
+552.53 ms in get_gene_fold_change(<Gse GSE54572>, False, 0, None)
+Loading data for GSE54575, id = 10213
+241.26 ms in get_probes(2)
+  1.17 s in load_gse( series_id platform_id..., 10213, False)
+283.59 ms in get_gene_fold_change(<Gse GSE54575>, False, 0, None)
+ 57.62 s in Load/fold for DOID_1595
+Meta-Analyzing DOID_1595
+ 62.70 s in meta analysis of real data for DOID_1595
+326.95 ms in meta analysis of permutations for DOID_1595
+ 20.98 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 63.11 s in Meta analysis for DOID_1595
+DONE DOID_1595 analysis
+121.31 s in perform_analysis({'analysis_name': 'DOI...)

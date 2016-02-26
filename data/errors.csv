@@ -1,5 +1,4 @@
 slim_id,slim_name,case_query,control_query,error,name
-DOID:0050742,nicotine dependence,Smoker == 'Smoker',Nonsmoker == 'Nonsmoker','Int64Index' object has no attribute 'labels',DOID_0050742
 DOID:11054,urinary bladder cancer,bladder_cancer == 'bladder_cancer',bladder_cancer_control == 'bladder_cancer_control','Int64Index' object has no attribute 'labels',DOID_11054
 DOID:11714,gestational diabetes,GDM == 'GDM',GDM_control == 'GDM_control','mygene_sym',DOID_11714
 DOID:12849,autistic disorder,autism == 'autism',autism_control == 'autism_control',zero-size array to reduction operation maximum which has no identity,DOID_12849
@@ -7,4 +6,3 @@ DOID:14221,metabolic syndrome X,MetS == 'MetS',MetS_Control == 'MetS_Control','I
 DOID:2998,testicular cancer,testicular_cancer == 'testicular_cancer',testicular_cancer_control == 'testicular_cancer_control','Int64Index' object has no attribute 'labels',DOID_2998
 DOID:3083,chronic obstructive pulmonary disease,COPD == 'COPD',COPD_control == 'COPD_control',"Can't find matrix file for series 6962, platform 4",DOID_3083
 DOID:4606,bile duct cancer,bile_duct_cancer == 'bile_duct_cancer',bile_duct_cancer_control == 'bile_duct_cancer_control','Int64Index' object has no attribute 'labels',DOID_4606
-DOID:635,acquired immunodeficiency syndrome,HIV_Stage1 == 'HIV_Stage1' or HIV_stage2 == 'HIV_stage2' or HIV_stage3 == 'HIV_stage3',HIV_healthycontrol == 'HIV_healthycontrol','Int64Index' object has no attribute 'labels',DOID_635

@@ -94,3 +94,67 @@ Meta-Analyzing DOID_9206
 257.42 s in Meta analysis for DOID_9206
 DONE DOID_9206 analysis
 320.96 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_9206 analysis
+301.22 ms in get_analysis_df("BE_Tissue == 'BE_Tiss..., "EAC_Non_Tumor == 'EAC..., '')
+302.10 ms in Loading dataframe for DOID_9206
+Matching sources: 16
+Excluded 10 sources as single-class
+Excluded 2 sources by min samples
+Stats: 4 sources, 4 series, 3 platforms, 155 samples
+Loading data and calculating fold change for DOID_9206
+Loading data for GSE34619, id = 6215
+247.67 ms in get_probes(283)
+  1.86 s in load_gse( series_id platform_id..., 6215, False)
+293.66 ms in get_gene_fold_change(<Gse GSE34619>, False, 0, None)
+Loading data for GSE36223, id = 6608
+237.82 ms in get_probes(9)
+  1.50 s in load_gse( series_id platform_id..., 6608, False)
+371.37 ms in get_gene_fold_change(<Gse GSE36223>, False, 0, None)
+Loading data for GSE39491, id = 7332
+245.63 ms in get_probes(9)
+  4.49 s in load_gse( series_id platform_id..., 7332, False)
+578.34 ms in get_gene_fold_change(<Gse GSE39491>, False, 0, None)
+Loading data for GSE6059, id = 10854
+ 69.97 ms in get_probes(1512)
+  1.59 s in load_gse( series_id platform_id..., 10854, False)
+ 64.81 ms in get_gene_fold_change(<Gse GSE6059>, False, 0, None)
+ 10.94 s in Load/fold for DOID_9206
+Meta-Analyzing DOID_9206
+ 35.06 s in meta analysis of real data for DOID_9206
+ 42.37 ms in meta analysis of permutations for DOID_9206
+ 26.94 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 35.19 s in Meta analysis for DOID_9206
+DONE DOID_9206 analysis
+ 46.46 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_9206 analysis
+288.95 ms in get_analysis_df("BE_Tissue == 'BE_Tiss..., "EAC_Non_Tumor == 'EAC..., '')
+289.78 ms in Loading dataframe for DOID_9206
+Matching sources: 16
+Excluded 10 sources as single-class
+Excluded 2 sources by min samples
+Stats: 4 sources, 4 series, 3 platforms, 155 samples
+Loading data and calculating fold change for DOID_9206
+Loading data for GSE34619, id = 6215
+244.94 ms in get_probes(283)
+  1.79 s in load_gse( series_id platform_id..., 6215, False)
+302.71 ms in get_gene_fold_change(<Gse GSE34619>, False, 0, None)
+Loading data for GSE36223, id = 6608
+183.92 ms in get_probes(9)
+  1.19 s in load_gse( series_id platform_id..., 6608, False)
+376.56 ms in get_gene_fold_change(<Gse GSE36223>, False, 0, None)
+Loading data for GSE39491, id = 7332
+242.15 ms in get_probes(9)
+  4.38 s in load_gse( series_id platform_id..., 7332, False)
+558.40 ms in get_gene_fold_change(<Gse GSE39491>, False, 0, None)
+Loading data for GSE6059, id = 10854
+ 64.46 ms in get_probes(1512)
+  1.52 s in load_gse( series_id platform_id..., 10854, False)
+ 61.94 ms in get_gene_fold_change(<Gse GSE6059>, False, 0, None)
+ 10.37 s in Load/fold for DOID_9206
+Meta-Analyzing DOID_9206
+ 34.16 s in meta analysis of real data for DOID_9206
+ 43.68 ms in meta analysis of permutations for DOID_9206
+ 14.78 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 34.29 s in Meta analysis for DOID_9206
+DONE DOID_9206 analysis
+ 44.98 s in perform_analysis({'analysis_name': 'DOI...)

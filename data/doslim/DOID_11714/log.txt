@@ -52,3 +52,43 @@ Meta-Analyzing DOID_11714
  19.71 s in meta analysis of real data for DOID_11714
  19.71 s in Meta analysis for DOID_11714
  34.95 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_11714 analysis
+192.46 ms in get_analysis_df("GDM == 'GDM'", "GDM_control == 'GDM_c..., '')
+193.27 ms in Loading dataframe for DOID_11714
+Matching sources: 4
+Excluded 2 sources by min samples
+Stats: 2 sources, 2 series, 2 platforms, 12 samples
+Loading data and calculating fold change for DOID_11714
+Loading data for GSE49524, id = 9415
+234.91 ms in get_probes(482)
+834.59 ms in load_gse( series_id platform_id..., 9415, False)
+199.04 ms in get_gene_fold_change(<Gse GSE49524>, False, 0, None)
+Loading data for GSE65737, id = 13510
+ 32.90 ms in get_probes(1802)
+  1.20 s in load_gse( series_id platform_id..., 13510, False)
+ 46.34 ms in get_gene_fold_change(<Gse GSE65737>, False, 0, None)
+  2.32 s in Load/fold for DOID_11714
+Meta-Analyzing DOID_11714
+  3.12 s in meta analysis of real data for DOID_11714
+  3.12 s in Meta analysis for DOID_11714
+  5.65 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_11714 analysis
+192.23 ms in get_analysis_df("GDM == 'GDM'", "GDM_control == 'GDM_c..., '')
+193.06 ms in Loading dataframe for DOID_11714
+Matching sources: 4
+Excluded 2 sources by min samples
+Stats: 2 sources, 2 series, 2 platforms, 12 samples
+Loading data and calculating fold change for DOID_11714
+Loading data for GSE49524, id = 9415
+240.55 ms in get_probes(482)
+842.13 ms in load_gse( series_id platform_id..., 9415, False)
+199.25 ms in get_gene_fold_change(<Gse GSE49524>, False, 0, None)
+Loading data for GSE65737, id = 13510
+ 33.56 ms in get_probes(1802)
+  1.26 s in load_gse( series_id platform_id..., 13510, False)
+ 47.68 ms in get_gene_fold_change(<Gse GSE65737>, False, 0, None)
+  2.39 s in Load/fold for DOID_11714
+Meta-Analyzing DOID_11714
+  3.28 s in meta analysis of real data for DOID_11714
+  3.28 s in Meta analysis for DOID_11714
+  5.89 s in perform_analysis({'analysis_name': 'DOI...)

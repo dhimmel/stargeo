@@ -19,3 +19,17 @@ Matching sources: 1
 Excluded 1 source by min samples
 FAIL Can't perform meta-analysis on no data
 905.34 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_11949 analysis
+150.45 ms in get_analysis_df("CJD == 'CJD'", "CJD_control == 'CJD_c..., '')
+151.30 ms in Loading dataframe for DOID_11949
+Matching sources: 1
+Excluded 1 source by min samples
+FAIL Can't perform meta-analysis on no data
+171.38 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_11949 analysis
+151.05 ms in get_analysis_df("CJD == 'CJD'", "CJD_control == 'CJD_c..., '')
+151.92 ms in Loading dataframe for DOID_11949
+Matching sources: 1
+Excluded 1 source by min samples
+FAIL Can't perform meta-analysis on no data
+173.31 ms in perform_analysis({'analysis_name': 'DOI...)

@@ -13,3 +13,13 @@ Started DOID_2998 analysis
 821.78 ms in Loading dataframe for DOID_2998
 Matching sources: 0
 902.58 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_2998 analysis
+227.22 ms in get_analysis_df("testicular_cancer == ..., "testicular_cancer_con..., '')
+228.04 ms in Loading dataframe for DOID_2998
+Matching sources: 0
+236.77 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_2998 analysis
+220.81 ms in get_analysis_df("testicular_cancer == ..., "testicular_cancer_con..., '')
+221.63 ms in Loading dataframe for DOID_2998
+Matching sources: 0
+230.53 ms in perform_analysis({'analysis_name': 'DOI...)

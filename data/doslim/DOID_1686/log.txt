@@ -101,3 +101,85 @@ Meta-Analyzing DOID_1686
 358.22 s in Meta analysis for DOID_1686
 DONE DOID_1686 analysis
 421.05 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_1686 analysis
+355.92 ms in get_analysis_df("glaucoma == 'glaucoma'", "glaucoma_control == '..., '')
+356.75 ms in Loading dataframe for DOID_1686
+Matching sources: 11
+Excluded 1 source as single-class
+Excluded 3 sources by min samples
+Stats: 7 sources, 6 series, 5 platforms, 138 samples
+Loading data and calculating fold change for DOID_1686
+Loading data for GSE2378, id = 3554
+199.33 ms in get_probes(7)
+747.15 ms in load_gse( series_id platform_id..., 3554, False)
+139.00 ms in get_gene_fold_change(<Gse GSE2378>, False, 0, None)
+Loading data for GSE27276, id = 4448
+254.60 ms in get_probes(39)
+  3.61 s in load_gse( series_id platform_id..., 4448, False)
+316.76 ms in get_gene_fold_change(<Gse GSE27276>, False, 0, None)
+Loading data for GSE45570, id = 8697
+232.96 ms in get_probes(280)
+  1.12 s in load_gse( series_id platform_id..., 8697, False)
+316.81 ms in get_gene_fold_change(<Gse GSE45570>, False, 0, None)
+Loading data for GSE9944, id = 11879
+246.72 ms in get_probes(9)
+107.22 ms in get_probes(7)
+  2.37 s in load_gse( series_id platform_id..., 11879, False)
+496.05 ms in get_gene_fold_change(<Gse GSE9944>, False, 0, None)
+Loading data for GSE27057, id = 11946
+ 33.38 ms in get_probes(1703)
+285.18 ms in load_gse( series_id platform_id..., 11946, False)
+ 39.34 ms in get_gene_fold_change(<Gse GSE27057>, False, 0, None)
+Loading data for GSE27058, id = 11947
+ 33.35 ms in get_probes(1703)
+273.97 ms in load_gse( series_id platform_id..., 11947, False)
+ 36.72 ms in get_gene_fold_change(<Gse GSE27058>, False, 0, None)
+ 10.02 s in Load/fold for DOID_1686
+Meta-Analyzing DOID_1686
+ 44.34 s in meta analysis of real data for DOID_1686
+ 65.98 ms in meta analysis of permutations for DOID_1686
+ 15.97 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 44.49 s in Meta analysis for DOID_1686
+DONE DOID_1686 analysis
+ 54.90 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_1686 analysis
+318.63 ms in get_analysis_df("glaucoma == 'glaucoma'", "glaucoma_control == '..., '')
+319.50 ms in Loading dataframe for DOID_1686
+Matching sources: 11
+Excluded 1 source as single-class
+Excluded 3 sources by min samples
+Stats: 7 sources, 6 series, 5 platforms, 138 samples
+Loading data and calculating fold change for DOID_1686
+Loading data for GSE2378, id = 3554
+207.32 ms in get_probes(7)
+723.93 ms in load_gse( series_id platform_id..., 3554, False)
+146.14 ms in get_gene_fold_change(<Gse GSE2378>, False, 0, None)
+Loading data for GSE27276, id = 4448
+238.81 ms in get_probes(39)
+  3.58 s in load_gse( series_id platform_id..., 4448, False)
+316.12 ms in get_gene_fold_change(<Gse GSE27276>, False, 0, None)
+Loading data for GSE45570, id = 8697
+258.74 ms in get_probes(280)
+  1.15 s in load_gse( series_id platform_id..., 8697, False)
+341.87 ms in get_gene_fold_change(<Gse GSE45570>, False, 0, None)
+Loading data for GSE9944, id = 11879
+246.48 ms in get_probes(9)
+117.57 ms in get_probes(7)
+  2.37 s in load_gse( series_id platform_id..., 11879, False)
+498.78 ms in get_gene_fold_change(<Gse GSE9944>, False, 0, None)
+Loading data for GSE27057, id = 11946
+ 31.81 ms in get_probes(1703)
+259.19 ms in load_gse( series_id platform_id..., 11946, False)
+ 39.10 ms in get_gene_fold_change(<Gse GSE27057>, False, 0, None)
+Loading data for GSE27058, id = 11947
+ 32.60 ms in get_probes(1703)
+263.94 ms in load_gse( series_id platform_id..., 11947, False)
+ 36.15 ms in get_gene_fold_change(<Gse GSE27058>, False, 0, None)
+ 10.02 s in Load/fold for DOID_1686
+Meta-Analyzing DOID_1686
+ 44.74 s in meta analysis of real data for DOID_1686
+ 64.19 ms in meta analysis of permutations for DOID_1686
+ 21.93 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 44.89 s in Meta analysis for DOID_1686
+DONE DOID_1686 analysis
+ 55.26 s in perform_analysis({'analysis_name': 'DOI...)

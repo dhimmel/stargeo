@@ -16,3 +16,15 @@ Started DOID_12306 analysis
 Matching sources: 1
 FAIL Can't perform meta-analysis on single source
 724.77 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_12306 analysis
+133.88 ms in get_analysis_df("vitiligo == 'vitiligo'", "vitiligo_control == '..., '')
+134.79 ms in Loading dataframe for DOID_12306
+Matching sources: 1
+FAIL Can't perform meta-analysis on single source
+154.16 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_12306 analysis
+129.42 ms in get_analysis_df("vitiligo == 'vitiligo'", "vitiligo_control == '..., '')
+130.25 ms in Loading dataframe for DOID_12306
+Matching sources: 1
+FAIL Can't perform meta-analysis on single source
+149.17 ms in perform_analysis({'analysis_name': 'DOI...)

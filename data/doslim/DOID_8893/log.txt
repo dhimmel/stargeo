@@ -122,3 +122,99 @@ Meta-Analyzing DOID_8893
 460.33 s in Meta analysis for DOID_8893
 DONE DOID_8893 analysis
 805.04 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_8893 analysis
+293.34 ms in get_analysis_df("psoriasis == 'psorias..., "psoriasis_control == ..., '')
+294.35 ms in Loading dataframe for DOID_8893
+Matching sources: 11
+Excluded 2 sources as single-class
+Excluded 1 source by min samples
+Stats: 8 sources, 8 series, 7 platforms, 429 samples
+Loading data and calculating fold change for DOID_8893
+Loading data for GSE13355, id = 878
+306.13 ms in get_probes(4)
+ 18.11 s in load_gse( series_id platform_id..., 878, False)
+  1.52 s in get_gene_fold_change(<Gse GSE13355>, False, 0, None)
+Loading data for GSE32407, id = 5703
+240.35 ms in get_probes(9)
+  2.66 s in load_gse( series_id platform_id..., 5703, False)
+455.19 ms in get_gene_fold_change(<Gse GSE32407>, False, 0, None)
+Loading data for GSE47598, id = 9087
+292.18 ms in get_probes(674)
+  2.78 s in load_gse( series_id platform_id..., 9087, False)
+437.26 ms in get_gene_fold_change(<Gse GSE47598>, False, 0, None)
+Loading data for GSE57225, id = 10556
+318.57 ms in get_probes(1010)
+  5.32 s in load_gse( series_id platform_id..., 10556, False)
+533.30 ms in get_gene_fold_change(<Gse GSE57225>, False, 0, None)
+Loading data for GSE57383, id = 12627
+306.09 ms in get_probes(901)
+  9.35 s in load_gse( series_id platform_id..., 12627, False)
+823.21 ms in get_gene_fold_change(<Gse GSE57383>, False, 0, None)
+Loading data for GSE57405, id = 12629
+314.49 ms in get_probes(901)
+  9.12 s in load_gse( series_id platform_id..., 12629, False)
+791.96 ms in get_gene_fold_change(<Gse GSE57405>, False, 0, None)
+Loading data for GSE61281, id = 12998
+296.17 ms in get_probes(53)
+  4.59 s in load_gse( series_id platform_id..., 12998, False)
+480.50 ms in get_gene_fold_change(<Gse GSE61281>, False, 0, None)
+Loading data for GSE63741, id = 13298
+ 33.24 ms in get_probes(1794)
+542.50 ms in load_gse( series_id platform_id..., 13298, False)
+ 39.58 ms in get_gene_fold_change(<Gse GSE63741>, False, 0, None)
+ 58.04 s in Load/fold for DOID_8893
+Meta-Analyzing DOID_8893
+ 62.78 s in meta analysis of real data for DOID_8893
+151.18 ms in meta analysis of permutations for DOID_8893
+ 28.13 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 63.02 s in Meta analysis for DOID_8893
+DONE DOID_8893 analysis
+121.38 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_8893 analysis
+294.17 ms in get_analysis_df("psoriasis == 'psorias..., "psoriasis_control == ..., '')
+295.00 ms in Loading dataframe for DOID_8893
+Matching sources: 11
+Excluded 2 sources as single-class
+Excluded 1 source by min samples
+Stats: 8 sources, 8 series, 7 platforms, 429 samples
+Loading data and calculating fold change for DOID_8893
+Loading data for GSE13355, id = 878
+309.96 ms in get_probes(4)
+ 15.46 s in load_gse( series_id platform_id..., 878, False)
+  1.48 s in get_gene_fold_change(<Gse GSE13355>, False, 0, None)
+Loading data for GSE32407, id = 5703
+247.08 ms in get_probes(9)
+  2.59 s in load_gse( series_id platform_id..., 5703, False)
+449.40 ms in get_gene_fold_change(<Gse GSE32407>, False, 0, None)
+Loading data for GSE47598, id = 9087
+287.18 ms in get_probes(674)
+  2.67 s in load_gse( series_id platform_id..., 9087, False)
+423.82 ms in get_gene_fold_change(<Gse GSE47598>, False, 0, None)
+Loading data for GSE57225, id = 10556
+313.52 ms in get_probes(1010)
+  5.12 s in load_gse( series_id platform_id..., 10556, False)
+500.95 ms in get_gene_fold_change(<Gse GSE57225>, False, 0, None)
+Loading data for GSE57383, id = 12627
+311.51 ms in get_probes(901)
+  9.20 s in load_gse( series_id platform_id..., 12627, False)
+773.44 ms in get_gene_fold_change(<Gse GSE57383>, False, 0, None)
+Loading data for GSE57405, id = 12629
+303.68 ms in get_probes(901)
+  9.37 s in load_gse( series_id platform_id..., 12629, False)
+782.33 ms in get_gene_fold_change(<Gse GSE57405>, False, 0, None)
+Loading data for GSE61281, id = 12998
+302.77 ms in get_probes(53)
+  4.45 s in load_gse( series_id platform_id..., 12998, False)
+472.37 ms in get_gene_fold_change(<Gse GSE61281>, False, 0, None)
+Loading data for GSE63741, id = 13298
+ 32.16 ms in get_probes(1794)
+508.61 ms in load_gse( series_id platform_id..., 13298, False)
+ 37.18 ms in get_gene_fold_change(<Gse GSE63741>, False, 0, None)
+ 54.76 s in Load/fold for DOID_8893
+Meta-Analyzing DOID_8893
+ 61.04 s in meta analysis of real data for DOID_8893
+147.39 ms in meta analysis of permutations for DOID_8893
+ 20.03 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+ 61.28 s in Meta analysis for DOID_8893
+DONE DOID_8893 analysis
+116.36 s in perform_analysis({'analysis_name': 'DOI...)
