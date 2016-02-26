@@ -1,16 +1,13 @@
 id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
-1	DSS	Dengue shock syndrome	T	2014-11-21 22:05:42.000000	1	2014-11-21 22:05:42.000000	1
-2	DF	Dengue fever	T	2014-11-22 06:32:28.000000	1	2014-11-22 06:32:28.000000	1
 4	MB_YN		T	2014-11-25 16:30:26.000000	4	2014-11-25 16:30:26.000000	4
 5	Ruptured	Ruptured	T	2014-11-26 02:29:38.000000	9	2014-11-26 02:29:38.000000	9
 6	Unruptured	Unruptured	T	2014-11-26 02:31:04.000000	9	2014-11-26 02:31:04.000000	9
-7	DHF	Dengue hemorrhagic fever	T	2014-11-26 06:03:44.000000	1	2014-11-26 06:03:44.000000	1
 48	UC	ulcerative colitis (DOID:8577)	T	2015-02-04 02:46:10.000000	14	2015-07-22 21:51:32.000000	32
-80	psoriasis	psoriasis (DOID:8893)	T	2015-02-09 05:08:38.000000	16	2015-07-22 22:38:30.000000	32
 49	CD	Crohn's disease (DOID:8778)	T	2015-02-04 02:52:23.000000	14	2015-07-28 03:50:46.000000	32
 26	AD	Alzheimer's disease (DOID:10652)	T	2015-01-03 17:18:13.000000	1	2015-07-28 03:51:38.000000	32
 92	malaria	malaria (DOID:12365)	T	2015-02-10 02:04:39.000000	14	2015-09-22 00:48:51.001246	32
 47	eczema_control	atopic dermatitis (DOID:3310) control	T	2015-02-04 00:10:28.000000	16	2015-09-22 00:18:40.289091	32
+1	DSS	Dengue shock syndrome (DOID:0050125)	T	2014-11-21 22:05:42.000000	1	2014-11-21 22:05:42.000000	1
 38	MS_control	multiple sclerosis (DOID:2377) control	T	2015-01-30 04:51:54.000000	14	2015-07-28 03:57:35.000000	32
 37	MS	multiple sclerosis (DOID:2377)	T	2015-01-30 04:50:35.000000	14	2015-07-28 03:57:41.000000	32
 40	RA_control	rheumatoid arthritis (DOID:7148) control	T	2015-01-30 05:36:26.000000	14	2015-07-28 04:06:05.000000	32
@@ -30,40 +27,41 @@ id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
 118	AML_Control	acute myeloid leukemia (DOID:9119) control	T	2015-02-16 21:13:27.000000	22	2015-07-28 04:14:00.000000	32
 117	AML_Tissue	acute myeloid leukemia (DOID:9119)	T	2015-02-16 21:07:14.000000	22	2015-07-28 04:15:10.000000	32
 99	PC_tissue_control	Adjacent normal prostate tissue from PC patients 	T	2015-02-10 19:29:03.000000	22	2015-09-08 03:08:03.625091	32
-41	TB	tuberculosis	T	2015-01-31 00:06:22.000000	15	2015-01-31 00:06:22.000000	15
 42	PTB	Pre-Tuberculosis	T	2015-01-31 00:10:46.000000	15	2015-01-31 00:10:46.000000	15
-98	PC_tissue_case	Prostate carcinoma tissue 	T	2015-02-10 19:27:14.000000	22	2015-09-08 03:08:21.371250	32
-44	GB	Guillain-Barre syndrome	T	2015-02-03 18:11:54.000000	14	2015-02-03 18:11:54.000000	14
 45	GB_control	Guillain-Barre control	T	2015-02-03 18:13:05.000000	14	2015-02-03 18:13:05.000000	14
-50	HD	Huntington Disease	T	2015-02-04 19:27:20.000000	17	2015-02-04 19:27:20.000000	17
 51	HD_control	Huntington Disease Control	T	2015-02-04 19:29:11.000000	17	2015-02-04 19:29:11.000000	17
 52	Ethnicity_African	African Ethnicity	T	2015-02-06 22:31:48.000000	14	2015-02-06 22:31:48.000000	14
 71	lung_tissue_control	Normal lung tissue 	T	2015-02-07 20:54:50.000000	19	2015-09-10 04:01:13.423934	32
 54	Lymphoma_control	Healthy Control for Lymphoma	T	2015-02-07 13:58:16.000000	21	2015-02-07 13:58:16.000000	21
-55	Lymphoma	Lymphoma	T	2015-02-07 14:02:41.000000	21	2015-02-07 14:02:41.000000	21
 46	eczema	atopic dermatitis (DOID:3310)	T	2015-02-04 00:09:48.000000	16	2015-09-22 00:18:13.688550	32
-64	PAC	Pulmonary Adenocarcinoma	T	2015-02-07 17:59:17.000000	19	2015-02-07 17:59:17.000000	19
-65	SCC	Squamous Cell Carcinomas	T	2015-02-07 18:03:22.000000	19	2015-02-07 18:03:22.000000	19
-66	LCC	Large Cell Carcinoma	T	2015-02-07 18:07:15.000000	19	2015-02-07 18:07:15.000000	19
-67	HCC_Tumor	Liver cancer tissue 	T	2015-02-07 19:34:16.000000	22	2015-02-07 19:34:16.000000	22
+7	DHF	Dengue hemorrhagic fever (DOID:12206)	T	2014-11-26 06:03:44.000000	1	2014-11-26 06:03:44.000000	1
+2	DF	Dengue fever (DOID:0050143)	T	2014-11-22 06:32:28.000000	1	2014-11-22 06:32:28.000000	1
+41	TB	tuberculosis (DOID:399)	T	2015-01-31 00:06:22.000000	15	2016-01-19 20:52:35.104032	42
+98	PC_tissue	Prostate carcinoma (DOID:10286)	T	2015-02-10 19:27:14.000000	22	2016-01-20 10:14:20.913124	42
+94	ACC_Tumor	adrenocortical carcinoma (DOID:3948)	T	2015-02-10 02:58:48.000000	22	2016-01-20 16:23:42.166136	42
+66	LCC	Large Cell Carcinoma (DOID:4552)	T	2015-02-07 18:07:15.000000	19	2016-01-20 16:29:07.919562	42
 68	HCC_Non_Tumor	Noncancer liver tissue in HCC patients 	T	2015-02-07 19:44:17.000000	22	2015-02-07 19:44:17.000000	22
-77	BE_Tissue	Barrett's esophagus (premalignant condition to EAC)	T	2015-02-08 21:45:55.000000	22	2015-02-08 21:45:55.000000	22
-74	EAC_Tumor	Esophageal adenocarcinoma cancer tumor tissue 	T	2015-02-08 20:52:05.000000	22	2015-02-08 20:52:05.000000	22
+64	PAC	Pulmonary Adenocarcinoma (DOID:0050870)	T	2015-02-07 17:59:17.000000	19	2016-01-20 16:29:48.981345	42
+65	SCC	Squamous Cell Carcinomas, squamous cell neoplasm (DOID:3168)	T	2015-02-07 18:03:22.000000	19	2016-01-20 16:31:32.000917	42
+55	Lymphoma	Lymphoma (DOID:0060058)	T	2015-02-07 14:02:41.000000	21	2016-01-20 16:32:05.766528	42
+67	HCC_Tumor	Liver cancer (DOID:3571) 	T	2015-02-07 19:34:16.000000	22	2016-01-20 16:40:07.067792	42
 75	EAC_Non_Tumor	Esophageal adenocarcinoma cancer adjacent non-tumor tissue 	T	2015-02-08 20:58:08.000000	22	2015-02-08 20:58:08.000000	22
 76	ESCC_Tumor	 Esophageal squamous-cell carcinoma tumor tissue	T	2015-02-08 21:09:02.000000	22	2015-02-08 21:09:02.000000	22
-96	GIST_Tissue 	Gastrointestinal stromal tumor tissue 	T	2015-02-10 04:46:12.000000	22	2015-02-10 04:46:12.000000	22
 79	EAC_Control	Normal epithelium from healthy patient (EAC, BE, ESCC control)	T	2015-02-08 21:58:20.000000	22	2015-02-08 21:58:20.000000	22
 97	GIST_Control	Normal gastrointestinal stromal from GIST patients 	T	2015-02-10 04:49:29.000000	22	2015-02-10 04:49:29.000000	22
+74	EAC_Tumor	Esophageal adenocarcinoma cancer tumor (DOID:5625)	T	2015-02-08 20:52:05.000000	22	2016-01-20 16:46:10.191670	42
+50	HD	Huntington Disease (DOID:12858)	T	2015-02-04 19:27:20.000000	17	2016-01-20 16:47:29.805145	42
 83	MCC_Tumor	Merkel cell carcinoma tissue 	T	2015-02-09 21:05:28.000000	22	2015-02-09 21:05:28.000000	22
+90	Leishmaniasis	Leishmaniasis (DOID:9065)	T	2015-02-10 01:39:55.000000	14	2016-01-20 16:51:18.039349	42
+77	BE_Tissue	Barrett's esophagus (DOID:9206)	T	2015-02-08 21:45:55.000000	22	2016-01-20 17:10:12.674483	42
+44	GB	Guillain-Barre syndrome (DOID:12842)	T	2015-02-03 18:11:54.000000	14	2016-01-20 17:21:32.140757	42
 86	HNSCC_Tumor	Head and neck squamous cell carcinoma tissue (from several origins) 	T	2015-02-09 21:49:48.000000	22	2015-02-09 21:49:48.000000	22
 87	HNSCC_Non_Tumor	Head and neck squamous cell normal adjacent tissue in HSNCC patients (several origins)	T	2015-02-09 21:52:06.000000	22	2015-02-09 21:52:06.000000	22
-88	Chagas	Chagas Disease	T	2015-02-10 01:24:34.000000	14	2015-02-10 01:24:34.000000	14
 89	Chagas_control	Control for Chagas	T	2015-02-10 01:30:08.000000	14	2015-02-10 01:30:08.000000	14
-90	Leishmaniasis	Leishmaniasis	T	2015-02-10 01:39:55.000000	14	2015-02-10 01:39:55.000000	14
 91	Leishmaniasis_control	control for Leishmaniasis	T	2015-02-10 01:43:00.000000	14	2015-02-10 01:43:00.000000	14
-94	ACC_Tumor 	Adrenocortical carcinoma tumor tissue	T	2015-02-10 02:58:48.000000	22	2015-02-10 02:58:48.000000	22
 95	ACC_Control 	Normal adrenal cortex tissue from ACC patients 	T	2015-02-10 03:00:11.000000	22	2015-02-10 03:00:11.000000	22
-108	ALL_Cells	Acute lymphoblastic leukemia lymphocyte samples 	T	2015-02-10 21:40:46.000000	22	2015-02-10 21:40:46.000000	22
+88	Chagas	Chagas Disease (DOID:12140)	T	2015-02-10 01:24:34.000000	14	2016-01-20 17:22:10.561359	42
+80	psoriasis	psoriasis (DOID:8893)	T	2015-02-09 05:08:38.000000	16	2016-02-25 10:50:17.849454	42
 110	Leukemia_Control 	Healthy lymphoblasts, control for leukemia subtypes	T	2015-02-10 23:24:59.000000	22	2015-02-10 23:24:59.000000	22
 112	MB_Histology	Histology for Medulloblastoma Samples	T	2015-02-12 00:13:52.000000	4	2015-02-12 00:13:52.000000	4
 113	MB_Gender	Gender for Medulloblastoma samples.	T	2015-02-12 00:22:19.000000	4	2015-02-12 00:22:19.000000	4
@@ -71,13 +69,10 @@ id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
 115	dengue_control		T	2015-02-12 18:25:30.000000	23	2015-02-12 18:25:30.000000	23
 116	Female	Female gender	T	2015-02-16 16:08:17.000000	24	2015-02-16 16:08:17.000000	24
 119	Thymoma 	Thymoma 	T	2015-02-17 03:21:20.000000	19	2015-02-17 03:21:20.000000	19
-120	Thymoma_Ctrl	Thymoma  Control 	T	2015-02-17 03:23:53.000000	19	2015-02-17 03:23:53.000000	19
 180	celiac_control	celiac disease (DOID:10608) control	T	2015-03-24 21:14:24.000000	32	2015-09-21 23:29:59.098927	32
 182	HIV_standardresponse	HIV patients with a standard response	T	2015-03-25 03:53:38.000000	14	2015-03-25 03:53:38.000000	14
 137	IR	insulin resistent	T	2015-03-14 06:31:44.000000	29	2015-03-14 06:31:44.000000	29
 181	HIV_eliteresponse	HIV patients with an elite response	T	2015-03-25 03:51:56.000000	14	2015-03-25 03:54:56.000000	14
-183	CRC	Colorectal cancer 	T	2015-03-25 16:34:45.000000	22	2015-03-25 16:34:45.000000	22
-184	CRC_Control	Control tissue for colorectal cancer 	T	2015-03-25 16:36:43.000000	22	2015-03-25 16:36:43.000000	22
 185	HIV_Resistant	Patients resistant to HIV	T	2015-03-26 16:31:05.000000	22	2015-03-26 16:31:05.000000	22
 186	Diabetic_Nephropathy	Diabetic Nephropathy	T	2015-03-26 16:50:31.000000	34	2015-03-26 16:50:31.000000	34
 187	Diabetic_Nephropathy_Control	Diabetic Nephropathy Control	T	2015-03-26 16:52:20.000000	34	2015-03-26 16:52:20.000000	34
@@ -87,18 +82,13 @@ id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
 190	Dorsolateral_Prefrontal_Cortex	Dorsolateral Prefrontal Cortex of Brain	T	2015-03-30 04:25:18.000000	34	2015-03-30 04:25:18.000000	34
 191	Orbitofrontal_Cortex	Orbitofrontal cortex of brain	T	2015-03-30 04:32:51.000000	34	2015-03-30 04:32:51.000000	34
 192	Postmortem_Brain	Postmortem brain sample	T	2015-03-30 04:39:10.000000	34	2015-03-30 04:39:10.000000	34
-159	Nonsmoker	Nonsmoker	T	2015-03-16 19:28:23.000000	19	2015-03-16 19:28:23.000000	19
 193	Peripheral_Blood	Peripheral blood sample	T	2015-03-30 04:39:39.000000	34	2015-03-30 04:39:39.000000	34
-194	Lymphoblastoid_Cell_Line	Lymphoblastoid cell line sample	T	2015-03-30 04:42:26.000000	34	2015-03-30 04:42:26.000000	34
 195	Monozygotic_Twins	Monozygotic twin subjects	T	2015-03-30 04:49:08.000000	34	2015-03-30 04:49:08.000000	34
 198	Psychiatric_Control	Psychiatric control subject	T	2015-03-30 04:54:25.000000	34	2015-03-30 04:54:25.000000	34
 69	HCC_Control	Normal liver, control for HCC, HCV, HBV, etc	T	2015-02-07 20:13:33.000000	22	2015-03-22 00:34:38.000000	22
 172	HBV_HCC	Hepatitis B virus associated hepatocellular carcinoma 	T	2015-03-22 00:52:29.000000	22	2015-03-22 00:52:29.000000	22
 173	HBV_ALF	Hepatitis B virus associated acute liver failure 	T	2015-03-22 01:04:02.000000	22	2015-03-22 01:04:02.000000	22
-199	Depression	Depression	T	2015-03-30 04:55:24.000000	34	2015-03-30 04:55:24.000000	34
 179	celiac	celiac disease (DOID:10608)	T	2015-03-24 21:11:21.000000	32	2015-09-21 23:29:53.495848	32
-175	HIV_stage2	second stage of HIV (chronic)	T	2015-03-22 23:32:42.000000	14	2015-03-22 23:32:42.000000	14
-174	HIV_Stage1	First stage of HIV (acute)	T	2015-03-22 23:23:24.000000	14	2015-03-22 23:34:58.000000	14
 177	Gender_Female	Female gender	T	2015-03-23 16:43:32.000000	1	2015-03-23 16:43:32.000000	1
 178	Male	Male gender	T	2015-03-24 08:27:54.000000	1	2015-03-24 08:27:54.000000	1
 200	Prefrontal_Cortex	Prefrontal cortex of brain	T	2015-03-30 04:56:38.000000	34	2015-03-30 04:56:38.000000	34
@@ -111,10 +101,10 @@ id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
 207	Onset_Age	Age of Onset	T	2015-03-30 23:04:48.000000	34	2015-03-30 23:04:48.000000	34
 209	pH	Sample pH	T	2015-03-30 23:17:51.000000	34	2015-03-30 23:17:51.000000	34
 145	breast_cancer	breast cancer (DOID:1612)	T	2015-03-14 07:09:14.000000	29	2015-09-22 00:19:22.177420	32
+169	HIV	HIV-infected in any stage (DOID:526)	T	2015-03-22 00:17:18.000000	14	2015-10-05 19:09:02.757023	14
 197	schizophrenia_Control	schizophrenia (DOID:5419) control	T	2015-03-30 04:52:48.000000	34	2015-09-22 00:51:44.939010	32
-208	MDD	major depressive disorder (DOID:1470) case	T	2015-03-30 23:16:03.000000	34	2015-09-21 23:48:24.720466	32
-170	HIV_healthycontrol	healthy control for HIV (DOID:526)	T	2015-03-22 00:18:44.000000	14	2015-07-28 03:21:59.000000	32
-169	HIV	HIV-infected in any stage (DOID:526)	T	2015-03-22 00:17:18.000000	14	2015-07-28 03:22:11.000000	32
+194	Lymphoblastoid_Cell_Line	Lymphoblastoid cell line sample	T	2015-03-30 04:42:26.000000	34	2016-01-20 16:28:47.285504	42
+120	Thymoma_control	Thymoma  Control 	T	2015-02-17 03:23:53.000000	19	2016-01-19 15:50:25.415006	42
 165	pancreatic_cancer_control	pancreatic cancer (DOID:1793) control	T	2015-03-17 01:43:42.000000	30	2015-09-08 04:12:05.260811	32
 161	CAD_control	coronary artery disease (DOID:3393) control	T	2015-03-16 23:14:23.000000	30	2015-07-28 03:23:34.000000	32
 160	CAD	coronary artery disease (DOID:3393)	T	2015-03-16 23:14:02.000000	30	2015-07-28 03:23:44.000000	32
@@ -135,15 +125,22 @@ id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
 121	MG	myasthenia gravis (DOID:437)	T	2015-02-17 03:29:57.000000	19	2015-07-28 04:06:57.000000	32
 162	RCC	renal cell carcinoma (DOID:4450)	T	2015-03-17 01:14:36.000000	22	2015-07-28 04:13:05.000000	32
 210	MM	multiple myeloma (DOID:9538)	T	2015-04-04 01:36:15.000000	22	2015-07-28 04:16:40.000000	32
-176	HIV_stage3	Third stage of HIV (AIDS) (DOID:635)	T	2015-03-22 23:33:54.000000	14	2015-07-28 04:25:28.000000	32
+208	MDD	major depressive disorder (DOID:1470)	T	2015-03-30 23:16:03.000000	34	2016-01-20 16:55:48.973184	42
 189	bipolar_disorder	bipolar disorder (DOID:3312)	T	2015-03-30 04:15:42.000000	34	2015-07-28 03:19:37.000000	32
 134	PC_control	prostate cancer (DOID:10283) control	T	2015-03-14 04:57:03.000000	29	2015-09-08 03:26:18.942430	32
 123	melanoma	melanoma (DOID:1909)	T	2015-03-03 20:31:28.000000	21	2015-09-22 00:49:30.381283	32
 124	melanoma_control	melanoma (DOID:1909) control	T	2015-03-03 20:49:39.000000	21	2015-09-22 00:49:55.315143	32
 147	obesity	obesity (DOID:9970)	T	2015-03-14 21:24:25.000000	29	2015-09-22 00:50:41.405812	32
+170	HIV_control	healthy control for HIV (DOID:526)	T	2015-03-22 00:18:44.000000	14	2016-01-19 16:19:11.480642	42
+184	CRC_Control	Control tissue for colorectal cancer 	T	2015-03-25 16:36:43.000000	22	2016-01-19 16:39:37.805388	42
+183	CRC	Colorectal cancer (DOID:9256)	T	2015-03-25 16:34:45.000000	22	2016-01-20 16:25:27.427178	42
+199	Depression	major depressive disorder (DOID:1470)	T	2015-03-30 04:55:24.000000	34	2016-01-20 16:38:00.646359	42
+176	HIV_stage3	Third stage of HIV AIDS (DOID:635)	T	2015-03-22 23:33:54.000000	14	2016-01-20 17:07:01.289028	42
+174	HIV_Stage1	First stage of HIV acute (DOID:526)	T	2015-03-22 23:23:24.000000	14	2016-01-20 16:52:39.224049	42
+175	HIV_stage2	second stage of HIV chronic (DOID:526)	T	2015-03-22 23:32:42.000000	14	2016-01-20 16:53:14.343886	42
+159	Smoker_control	Nonsmoker	T	2015-03-16 19:28:23.000000	19	2016-02-23 20:25:58.384983	1
 212	Hearing_Loss	Hearing Loss Case	T	2015-04-13 18:48:43.000000	1	2015-04-13 18:48:43.000000	1
 214	HIV_nonresistant	individuals that are not resistant to HIV infection	T	2015-04-14 17:31:55.000000	14	2015-04-14 17:31:55.000000	14
-215	Sepsis	Septic patients	T	2015-05-06 23:30:41.000000	1	2015-05-06 23:30:41.000000	1
 216	Sepsis_control	Septic patient control	T	2015-05-06 23:33:12.000000	1	2015-05-06 23:33:12.000000	1
 218	Dengue_DOF	Dengue days of fever	T	2015-06-15 17:43:19.000000	36	2015-06-15 17:43:19.000000	36
 219	Convalescent	Convalescent dengue samples	T	2015-06-15 17:44:02.000000	36	2015-06-15 17:44:02.000000	36
@@ -208,16 +205,15 @@ id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
 271	atherosclerosis	atherosclerosis (DOID:1936)	T	2015-07-28 05:11:42.000000	32	2015-07-28 05:11:42.000000	32
 238	ADHD	attention deficit hyperactivity disorder (DOID:1094)	T	2015-07-22 20:10:24.000000	32	2015-07-22 20:10:24.000000	32
 93	malaria_control	malaria (DOID:12365) control	T	2015-02-10 02:07:51.000000	14	2015-09-22 00:48:57.100442	32
+215	Sepsis	Sepsis	T	2015-05-06 23:30:41.000000	1	2016-01-20 16:37:35.322260	42
 272	atherosclerosis_control	atherosclerosis (DOID:1936) control	T	2015-07-28 05:11:56.000000	32	2015-07-28 05:11:56.000000	32
 273	Early Dengue	<= 7 days infection	T	2015-07-31 17:31:13.000000	1	2015-07-31 17:31:13.000000	1
 278	meningioma_age		T	2015-08-04 00:25:43.000000	4	2015-08-04 00:25:43.000000	4
 279	meningioma_sex		T	2015-08-04 00:26:03.000000	4	2015-08-04 00:26:03.000000	4
 280	meningioma_grade		T	2015-08-04 00:27:08.000000	4	2015-08-04 00:27:08.000000	4
-277	meningioma_cases	Meningioma cases	T	2015-08-04 00:24:49.000000	4	2015-08-04 01:03:45.000000	4
-327	colon_cancer	colon cancer (DOID:219) case	T	2015-09-19 19:44:39.974811	32	2015-09-19 19:44:39.975490	32
+307	EDM	Ependymoma	T	2015-08-05 02:32:48.000000	4	2016-01-20 16:42:28.164599	42
 282	meningioma_control	Normal meninges	T	2015-08-04 00:32:42.000000	4	2015-08-04 01:04:17.000000	4
 281	meningioma_histology		T	2015-08-04 00:31:26.000000	4	2015-08-04 01:04:27.000000	4
-283	ODG_cases	oligodendroglioma	T	2015-08-04 01:09:58.000000	4	2015-08-04 01:09:58.000000	4
 284	ODG_controls	normal oligodendrocyte/brain matter	T	2015-08-04 01:10:17.000000	4	2015-08-04 01:10:17.000000	4
 285	ODG_sex		T	2015-08-04 01:10:25.000000	4	2015-08-04 01:10:25.000000	4
 286	ODG_histology		T	2015-08-04 01:10:33.000000	4	2015-08-04 01:10:33.000000	4
@@ -228,7 +224,6 @@ id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
 291	azoospermia_control	azoospermia (DOID:14227) control	T	2015-08-04 03:10:03.000000	32	2015-08-04 03:10:11.000000	32
 292	GDM	gestational diabetes (DOID:11714)	T	2015-08-04 03:45:18.000000	32	2015-08-04 03:45:18.000000	32
 293	GDM_control	gestational diabetes (DOID:11714) control	T	2015-08-04 03:45:32.000000	32	2015-08-04 03:45:32.000000	32
-307	EDM_cases	Ependymoma cases	T	2015-08-05 02:32:48.000000	4	2015-08-05 02:32:48.000000	4
 308	EDM_controls	Ependymoma controls	T	2015-08-05 02:33:07.000000	4	2015-08-05 02:33:07.000000	4
 224	vitiligo	vitiligo (DOID:12306)	T	2015-07-21 18:24:40.000000	1	2015-07-21 22:35:23.000000	32
 309	astrocytoma	astrocytoma	T	2015-08-26 21:45:11.000000	37	2015-08-26 21:45:11.000000	37
@@ -237,22 +232,76 @@ id	tag_name	description	is_active	created_on	created_by	modified_on	modified_by
 313	NB_mycn_non_amplified	non myc-n amplified neuroblastoma	T	2015-08-31 17:30:14.000000	38	2015-08-31 17:30:35.000000	38
 312	NB_mycn_amplified	myc-N amplified Neuroblastoma	T	2015-08-31 17:29:51.000000	38	2015-08-31 17:30:48.000000	38
 315	Folic_Acid	Folic Acid Treatment	T	2015-09-02 17:59:45.000000	1	2015-09-02 17:59:45.000000	1
-319	stomach_cancer_tissue	stomach cancer (DOID:10534) tissue	T	2015-09-08 03:58:54.025762	32	2015-09-08 04:01:12.124269	32
 320	stomach_cancer_tissue_control	stomach cancer (DOID:10534) tissue control	T	2015-09-08 03:59:09.495515	32	2015-09-08 04:01:28.655670	32
-305	testicular_cancer	testicular cancer (DOID:2998) or germ cell tumor	T	2015-08-04 05:20:28.000000	29	2015-09-08 04:10:39.795575	32
 306	testicular_cancer_control	normal testis tissue (DOID:2998)	T	2015-08-04 05:20:47.000000	29	2015-09-08 04:11:12.210822	32
 321	bladder_cancer	urinary bladder cancer (DOID:11054)	T	2015-09-08 04:15:31.872847	32	2015-09-08 04:27:23.219904	32
 322	bladder_cancer_control	urinary bladder cancer (DOID:11054) control	T	2015-09-08 04:15:48.817999	32	2015-09-08 04:27:34.994799	32
-323	lung_cancer	lung cancer (DOID:1324) case	T	2015-09-10 04:08:54.722159	32	2015-09-10 04:08:54.722230	32
 324	lung_cancer_control	lung cancer (DOID:1324) control	T	2015-09-10 04:09:15.771808	32	2015-09-10 04:09:15.771878	32
 325	ovarian_cancer	ovarian cancer (DOID:2394)	T	2015-09-10 04:16:06.949919	32	2015-09-10 04:16:06.949992	32
 326	ovarian_cancer_control	ovarian cancer (DOID:2394) control	T	2015-09-10 04:16:19.375066	32	2015-09-10 04:18:37.011057	32
 328	colon_cancer_control	colon cancer (DOID:219) control	T	2015-09-19 19:45:07.302021	32	2015-09-19 19:45:07.302093	32
-329	Dengue_Acute	dengue fever within 0 to 7 days onset	T	2015-09-21 22:25:49.972487	37	2015-09-21 22:26:09.362641	37
-303	bile_duct_cancer	bile duct cancer (DOID:4606) case	T	2015-08-04 05:07:00.000000	29	2015-09-21 23:28:12.463115	32
 304	bile_duct_cancer_control	bile duct cancer (DOID:4606) control	T	2015-08-04 05:07:19.000000	29	2015-09-21 23:28:57.995853	32
 330	MDD_control	major depressive disorder (DOID:1470) control	T	2015-09-21 23:48:39.694740	32	2015-09-21 23:48:39.694811	32
 331	breast_cancer_control	breast cancer (DOID:1612) control	T	2015-09-22 00:20:00.310669	32	2015-09-22 00:20:00.310740	32
 300	leprosy	leprosy (DOID:1024) case	T	2015-08-04 04:42:25.000000	29	2015-09-22 00:45:06.331838	32
 301	leprosy_control	leprosy (DOID:1024) control	T	2015-08-04 04:42:40.000000	29	2015-09-22 00:45:20.780854	32
 302	borderline_leprosy	borderline leprosy (DOID:1023)	T	2015-08-04 04:48:48.000000	29	2015-09-22 00:53:26.489269	32
+332	Senescent	Senescent cells	T	2015-09-26 08:08:10.286542	1	2015-09-26 08:08:10.286637	1
+333	Senescent_control	Non senescent cells	T	2015-09-26 08:08:44.067515	1	2015-09-26 08:08:44.067590	1
+334	GBM_samples	Glioblastoma	T	2015-09-28 04:09:15.143733	4	2015-09-28 04:09:15.143804	4
+335	GBM_controls	normal cerebrum	T	2015-09-28 04:09:42.816616	4	2015-09-28 04:09:42.816685	4
+336	GBM_recurrent	Recurrent GBM	T	2015-09-28 04:09:49.164759	4	2015-09-28 04:09:49.164833	4
+339	MB_Group4		T	2015-09-28 04:44:12.443566	4	2015-09-28 04:44:12.443636	4
+338	delete	GBM samples treated with temozolomide (GSE43452 specific)	T	2015-09-28 04:20:18.084214	4	2015-09-28 04:58:47.585218	4
+337	delete1	Untreated GBM samples (GSE43452 specific)	T	2015-09-28 04:20:03.301443	4	2015-09-28 04:59:05.778912	4
+340	GBM_treated	GBM samples treated with temozolomide (GSE43452 specific)	T	2015-09-28 04:59:13.414045	4	2015-09-28 04:59:13.414112	4
+341	GBM_untreated		T	2015-09-28 04:59:20.517738	4	2015-09-28 04:59:20.517804	4
+342	MB004		T	2015-09-29 00:11:30.926534	4	2015-09-29 00:11:30.926620	4
+343	BEnd_Samples	Brain Endothelium	T	2015-10-01 01:10:39.664410	4	2015-10-01 01:10:39.664501	4
+344	Human_Fibroblasts		T	2015-10-01 01:11:22.419007	4	2015-10-01 01:11:22.419077	4
+345	leukemia	tag for leukemia	T	2015-10-19 04:45:37.028251	37	2015-10-19 04:45:37.028304	37
+346	acute_leukemia	acute leukemia	T	2015-10-19 04:47:23.944030	37	2015-10-19 04:47:23.944082	37
+347	MB_Group3		T	2015-10-24 22:18:42.617396	1	2015-10-24 22:18:42.617438	1
+348	MB_SHH		T	2015-10-24 22:18:46.419950	1	2015-10-24 22:18:46.419993	1
+349	MB_WNT		T	2015-10-24 22:18:49.891368	1	2015-10-24 22:18:49.891410	1
+350	MB_unlabeled		T	2015-10-24 22:19:04.570911	1	2015-10-24 22:19:04.570960	1
+351	Tissue_skin	Skin tissue	T	2015-11-06 18:14:24.755157	1	2015-11-06 18:14:24.755206	1
+352	normal_skin	normal skin	T	2015-11-09 19:50:17.711756	1	2015-11-09 19:50:17.711799	1
+319	stomach_cancer_tissue	stomach cancer (DOID:10534)	T	2015-09-08 03:58:54.025762	32	2016-01-20 17:08:48.970293	42
+277	meningioma	Meningioma (DOID:3565)	T	2015-08-04 00:24:49.000000	4	2016-01-20 16:33:04.379377	42
+354	lung_adenocarcinoma_control	lung adenocarcinoma (DOID:3910) control	T	2016-01-19 16:12:44.802125	42	2016-01-19 16:12:44.802172	42
+355	hyperplastic_polyp	hyperplastic polyp	T	2016-01-19 16:37:36.624747	42	2016-01-19 16:37:36.624791	42
+356	adenomatous_polyp	adenomatous polyp	T	2016-01-19 16:37:59.320974	42	2016-01-19 16:37:59.321015	42
+357	still_disease	Still's disease (DOID:14256)	T	2016-01-19 18:51:32.979149	42	2016-01-19 18:51:32.979192	42
+305	testicular_cancer	testicular cancer or germ cell tumor (DOID:2998)	T	2015-08-04 05:20:28.000000	29	2016-01-20 16:46:56.334138	42
+327	colon_cancer	colon cancer (DOID:219)	T	2015-09-19 19:44:39.974811	32	2016-01-20 16:56:16.537952	42
+283	ODG	oligodendroglioma (DOID:3181)	T	2015-08-04 01:09:58.000000	4	2016-01-20 16:56:54.985088	42
+329	Dengue_Acute	dengue fever within 0 to 7 days onset (DOID:12206)	T	2015-09-21 22:25:49.972487	37	2016-01-20 17:27:10.337552	42
+303	bile_duct_cancer	bile duct cancer (DOID:4606)	T	2015-08-04 05:07:00.000000	29	2016-01-20 17:10:35.843530	42
+323	lung_cancer	lung cancer (DOID:1324)	T	2015-09-10 04:08:54.722159	32	2016-01-20 17:11:09.196711	42
+358	still_disease_control	Still's disease (DOID:14256) control	T	2016-01-19 19:05:34.743587	42	2016-01-19 19:05:34.743630	42
+359	TB_control	tuberculosis (DOID:399) control	T	2016-01-19 20:52:07.419153	42	2016-01-19 20:52:46.004892	42
+360	osteoarthritis	osteoarthritis (DOID:8398)	T	2016-01-20 13:13:49.964794	42	2016-01-20 13:13:49.965227	42
+361	medulloblastoma	medulloblastoma (DOID:0050902)	T	2016-01-20 13:57:48.721029	42	2016-01-20 13:57:48.721081	42
+362	medulloblastoma_control	medulloblastoma (DOID:0050902) control	T	2016-01-20 13:58:04.088490	42	2016-01-20 13:58:04.088541	42
+353	lung_adenocarcinoma	lung adenocarcinoma (DOID:3910)	T	2016-01-19 16:11:57.313275	42	2016-01-20 16:24:32.596079	42
+96	GIST_Tissue	Gastrointestinal stromal tumor (DOID:9253)	T	2015-02-10 04:46:12.000000	22	2016-01-20 16:26:17.443128	42
+108	ALL_Cells	Acute lymphoblastic leukemia lymphocyte (DOID:9952)	T	2015-02-10 21:40:46.000000	22	2016-01-20 16:43:56.782346	42
+364	nonresponder_RA_control	Infliximab responder of rheumatoid arthritis (control)	T	2016-01-25 19:41:57.999785	42	2016-01-25 19:41:57.999835	42
+363	nonresponder_RA	Infliximab nonresponder of rheumatoid arthritis	T	2016-01-25 19:40:27.903492	42	2016-01-25 20:39:02.657869	42
+365	infliximab_nonresponder	infliximab nonresponder for rheumatoid arthritis	T	2016-01-25 20:40:27.012710	42	2016-01-25 20:40:27.012762	42
+366	infliximab_nonresponder_control	infliximab nonresponder for rheumatoid arthritis (control)	T	2016-01-25 20:40:56.376429	42	2016-01-25 20:40:56.376478	42
+367	BMI217_schizo_brain_cases_nodrug	Gene expression signature for schizophrenia cases, brain samples only, with no known drug treatments	T	2016-01-28 01:38:38.305764	4	2016-01-28 01:38:38.305810	4
+368	BMI217_schizo_brain_controls	Controls for schizophrenia cases, from brains, no drugs.	T	2016-01-28 01:38:58.988906	4	2016-01-28 01:38:58.988948	4
+369	BMI217_schizo_brain_cases_all	Gene expression signature for schizophrenia cases, brain samples only, without and unknown drug treatments	T	2016-01-28 01:41:47.830110	4	2016-01-28 01:41:47.830158	4
+370	ER_Neg	Estrogen Negative Breast Cancer	T	2016-02-04 18:44:37.375050	44	2016-02-04 18:44:37.375101	44
+371	ER_Pos	Estrogen Positive Breast Cancer	T	2016-02-04 18:44:57.940976	44	2016-02-04 18:44:57.941030	44
+373	breast_tissue_normal		T	2016-02-04 20:53:53.318186	44	2016-02-04 20:53:53.318236	44
+372	breast_tissue_tumor		T	2016-02-04 20:53:39.800359	44	2016-02-04 21:02:37.616977	44
+374	BMI217_schizo_brain_cases	BMI217_schizo_brain_cases	T	2016-02-09 04:21:30.589318	4	2016-02-09 04:21:30.589367	4
+375	BMI217_schizo_blood_cases	BMI217_schizo_blood_cases	T	2016-02-09 04:21:42.366989	4	2016-02-09 04:21:42.367043	4
+376	BMI217_schizo_blood_controls	BMI217_schizo_blood_controls	T	2016-02-09 04:22:05.383652	4	2016-02-09 04:22:05.383700	4
+377	BMI217_schizo_stemcells_cases	BMI217_schizo_stemcells_cases	T	2016-02-09 04:22:13.162134	4	2016-02-09 04:22:13.162185	4
+378	BMI217_schizo_stemcells_controls	BMI217_schizo_stemcells_controls	T	2016-02-09 04:22:19.374725	4	2016-02-09 04:22:19.374774	4
+379	age		T	2016-02-20 04:17:22.951292	4	2016-02-20 04:17:22.951333	4
+380	sex		T	2016-02-20 04:17:27.028789	4	2016-02-20 04:17:27.028830	4
