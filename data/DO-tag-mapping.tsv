@@ -12,7 +12,7 @@ DOID:13378	Kawasaki disease	0	Kawasaki	Kawasaki_control
 DOID:5408	Paget's disease of bone	0			
 DOID:14330	Parkinson's disease	0	PD	PD_control	
 DOID:7693	abdominal aortic aneurysm	0	AAA	AAA_control	
-DOID:635	acquired immunodeficiency syndrome	0	HIV_Stage1;HIV_stage2;HIV_stage3	HIV_healthycontrol	
+DOID:635	acquired immunodeficiency syndrome	0	HIV;HIV_Stage1;HIV_stage2;HIV_stage3	HIV_control	
 DOID:3953	adrenal gland cancer	0			
 DOID:10871	age related macular degeneration	0	AMD	AMD_control	
 DOID:0050741	alcohol dependence	0	alcoholism	alcoholism_control	
@@ -85,7 +85,7 @@ DOID:4045	muscle cancer	0
 DOID:8986	narcolepsy	0	narcolepsy	narcolepsy_control	
 DOID:10811	nasal cavity cancer	0			
 DOID:585	nephrolithiasis	0			
-DOID:0050742	nicotine dependence	0	Smoker	Nonsmoker	
+DOID:0050742	nicotine dependence	0	Smoker	Smoker_control	
 DOID:9970	obesity	0	obesity	obesity_control	
 DOID:2174	ocular cancer	0			
 DOID:8398	osteoarthritis	0			
@@ -102,7 +102,7 @@ DOID:1725	peritoneum cancer	0
 DOID:0060119	pharynx cancer	0			
 DOID:11612	polycystic ovary syndrome	0	PCOS	PCOS_control	
 DOID:12236	primary biliary cirrhosis	0			
-DOID:10283	prostate cancer	0	PC;PC_tissue_case	PC_control;PC_tissue_control	
+DOID:10283	prostate cancer	0	PC	PC_control;PC_tissue_control	
 DOID:8893	psoriasis	0	psoriasis	psoriasis_control	
 DOID:9008	psoriatic arthritis	0	PsA	PsA_control	
 DOID:1993	rectum cancer	0			
