@@ -47,3 +47,10 @@ Matching sources: 2
 Excluded 1 source as single-class
 FAIL Can't perform meta-analysis on single source
 206.25 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_10534 analysis
+688.48 ms in get_analysis_df("stomach_cancer_tissue..., "stomach_cancer_tissue..., '')
+692.69 ms in Loading dataframe for DOID_10534
+Matching sources: 2
+Excluded 1 source as single-class
+FAIL Can't perform meta-analysis on single source
+830.04 ms in perform_analysis({'analysis_name': 'DOI...)

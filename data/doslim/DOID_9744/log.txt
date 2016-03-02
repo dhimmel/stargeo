@@ -241,3 +241,52 @@ Meta-Analyzing DOID_9744
  57.51 s in Meta analysis for DOID_9744
 DONE DOID_9744 analysis
 100.34 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_9744 analysis
+  1.27 s in get_analysis_df("T1D == 'T1D'", "T1D_control == 'T1D_c..., '')
+  1.28 s in Loading dataframe for DOID_9744
+Matching sources: 13
+Excluded 3 sources as single-class
+Stats: 10 sources, 8 series, 6 platforms, 416 samples
+Loading data and calculating fold change for DOID_9744
+Loading data for GSE10586, id = 157
+650.84 ms in get_probes(4)
+ 17.91 s in load_gse( series_id platform_id..., 157, False)
+  3.43 s in get_gene_fold_change(<Gse GSE10586>, False, 0, None)
+Loading data for GSE11907, id = 488
+387.05 ms in get_probes(2)
+341.26 ms in get_probes(50)
+ 95.77 s in load_gse( series_id platform_id..., 488, False)
+  2.51 s in get_gene_fold_change(<Gse GSE11907>, False, 0, None)
+Loading data for GSE14368, id = 1122
+422.50 ms in get_probes(331)
+  5.16 s in load_gse( series_id platform_id..., 1122, False)
+  1.51 s in get_gene_fold_change(<Gse GSE14368>, False, 0, None)
+Loading data for GSE24147, id = 3647
+619.02 ms in get_probes(4)
+ 28.71 s in load_gse( series_id platform_id..., 3647, False)
+  4.19 s in get_gene_fold_change(<Gse GSE24147>, False, 0, None)
+Loading data for GSE29142, id = 4902
+455.26 ms in get_probes(937)
+ 11.17 s in load_gse( series_id platform_id..., 4902, False)
+  2.01 s in get_gene_fold_change(<Gse GSE29142>, False, 0, None)
+Loading data for GSE3447, id = 6176
+114.41 ms in get_probes(654)
+  2.49 s in load_gse( series_id platform_id..., 6176, False)
+379.35 ms in get_gene_fold_change(<Gse GSE3447>, False, 0, None)
+Loading data for GSE55098, id = 10293
+616.36 ms in get_probes(4)
+ 14.53 s in load_gse( series_id platform_id..., 10293, False)
+  3.07 s in get_gene_fold_change(<Gse GSE55098>, False, 0, None)
+Loading data for GSE9006, id = 11628
+386.35 ms in get_probes(2)
+333.29 ms in get_probes(50)
+ 43.06 s in load_gse( series_id platform_id..., 11628, False)
+  6.98 s in get_gene_fold_change(<Gse GSE9006>, False, 0, None)
+245.71 s in Load/fold for DOID_9744
+Meta-Analyzing DOID_9744
+413.09 s in meta analysis of real data for DOID_9744
+665.44 ms in meta analysis of permutations for DOID_9744
+109.91 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+414.34 s in Meta analysis for DOID_9744
+DONE DOID_9744 analysis
+661.53 s in perform_analysis({'analysis_name': 'DOI...)

@@ -113,3 +113,26 @@ Meta-Analyzing DOID_7147
  28.42 s in Meta analysis for DOID_7147
 DONE DOID_7147 analysis
  35.12 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_7147 analysis
+  1.03 s in get_analysis_df("ankylosing_spondyliti..., "ankylosing_spondyliti..., '')
+  1.03 s in Loading dataframe for DOID_7147
+Matching sources: 3
+Excluded 1 source by min samples
+Stats: 2 sources, 2 series, 2 platforms, 65 samples
+Loading data and calculating fold change for DOID_7147
+Loading data for GSE11886, id = 479
+638.99 ms in get_probes(4)
+ 22.72 s in load_gse( series_id platform_id..., 479, False)
+  3.68 s in get_gene_fold_change(<Gse GSE11886>, False, 0, None)
+Loading data for GSE25101, id = 3902
+513.57 ms in get_probes(389)
+  7.90 s in load_gse( series_id platform_id..., 3902, False)
+  2.11 s in get_gene_fold_change(<Gse GSE25101>, False, 0, None)
+ 37.20 s in Load/fold for DOID_7147
+Meta-Analyzing DOID_7147
+207.42 s in meta analysis of real data for DOID_7147
+200.72 ms in meta analysis of permutations for DOID_7147
+106.10 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper I..., Empty DataFrame Column...)
+208.24 s in Meta analysis for DOID_7147
+DONE DOID_7147 analysis
+246.64 s in perform_analysis({'analysis_name': 'DOI...)

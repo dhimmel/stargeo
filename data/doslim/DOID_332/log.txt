@@ -273,3 +273,58 @@ Meta-Analyzing DOID_332
  62.26 s in Meta analysis for DOID_332
 DONE DOID_332 analysis
 126.70 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_332 analysis
+851.23 ms in get_analysis_df("ALS == 'ALS'", "ALS_control == 'ALS_c..., '')
+855.41 ms in Loading dataframe for DOID_332
+Matching sources: 11
+Excluded 1 source as single-class
+Stats: 10 sources, 10 series, 7 platforms, 171 samples
+Loading data and calculating fold change for DOID_332
+Loading data for GSE18920, id = 2315
+  4.71 s in get_probes(54)
+111.90 s in load_gse( series_id platform_id..., 2315, False)
+ 35.83 s in get_gene_fold_change(<Gse GSE18920>, False, 0, None)
+Loading data for GSE19332, id = 2413
+632.54 ms in get_probes(4)
+  8.82 s in load_gse( series_id platform_id..., 2413, False)
+  2.45 s in get_gene_fold_change(<Gse GSE19332>, False, 0, None)
+Loading data for GSE26276, id = 4160
+406.72 ms in get_probes(283)
+  6.01 s in load_gse( series_id platform_id..., 4160, False)
+  1.42 s in get_gene_fold_change(<Gse GSE26276>, False, 0, None)
+Loading data for GSE28253, id = 4659
+672.36 ms in get_probes(10)
+ 15.94 s in load_gse( series_id platform_id..., 4659, False)
+  2.47 s in get_gene_fold_change(<Gse GSE28253>, False, 0, None)
+Loading data for GSE33855, id = 6038
+  4.88 s in get_probes(54)
+ 63.26 s in load_gse( series_id platform_id..., 6038, False)
+ 21.54 s in get_gene_fold_change(<Gse GSE33855>, False, 0, None)
+Loading data for GSE40328, id = 7530
+ 40.42 ms in get_probes(643)
+984.98 ms in load_gse( series_id platform_id..., 7530, False)
+508.12 ms in get_gene_fold_change(<Gse GSE40328>, False, 0, None)
+Loading data for GSE4595, id = 8780
+659.16 ms in get_probes(26)
+ 10.63 s in load_gse( series_id platform_id..., 8780, False)
+  2.34 s in get_gene_fold_change(<Gse GSE4595>, False, 0, None)
+Loading data for GSE56500, id = 10463
+  4.89 s in get_probes(54)
+ 50.09 s in load_gse( series_id platform_id..., 10463, False)
+ 18.34 s in get_gene_fold_change(<Gse GSE56500>, False, 0, None)
+Loading data for GSE56808, id = 10498
+626.72 ms in get_probes(4)
+ 12.26 s in load_gse( series_id platform_id..., 10498, False)
+  2.29 s in get_gene_fold_change(<Gse GSE56808>, False, 0, None)
+Loading data for GSE833, id = 11454
+299.55 ms in get_probes(22)
+  2.16 s in load_gse( series_id platform_id..., 11454, False)
+701.36 ms in get_gene_fold_change(<Gse GSE833>, False, 0, None)
+377.61 s in Load/fold for DOID_332
+Meta-Analyzing DOID_332
+451.50 s in meta analysis of real data for DOID_332
+  5.83 s in meta analysis of permutations for DOID_332
+145.91 mks in get_balanced_permutations({'analysis_name': 'DOI...,  C H H_lower H_upper \..., Empty DataFrame Column...)
+457.96 s in Meta analysis for DOID_332
+DONE DOID_332 analysis
+836.62 s in perform_analysis({'analysis_name': 'DOI...)

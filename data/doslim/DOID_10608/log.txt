@@ -40,3 +40,9 @@ Started DOID_10608 analysis
 Matching sources: 1
 FAIL Can't perform meta-analysis on single source
 186.97 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_10608 analysis
+602.89 ms in get_analysis_df("celiac == 'celiac'", "celiac_control == 'ce..., '')
+607.10 ms in Loading dataframe for DOID_10608
+Matching sources: 1
+FAIL Can't perform meta-analysis on single source
+741.56 ms in perform_analysis({'analysis_name': 'DOI...)

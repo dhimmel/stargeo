@@ -34,3 +34,9 @@ Started DOID_10871 analysis
 Matching sources: 1
 FAIL Can't perform meta-analysis on single source
 267.23 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_10871 analysis
+848.31 ms in get_analysis_df("AMD == 'AMD'", "AMD_control == 'AMD_c..., '')
+852.83 ms in Loading dataframe for DOID_10871
+Matching sources: 1
+FAIL Can't perform meta-analysis on single source
+992.27 ms in perform_analysis({'analysis_name': 'DOI...)

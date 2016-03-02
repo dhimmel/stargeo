@@ -92,3 +92,24 @@ Meta-Analyzing DOID_11714
   3.28 s in meta analysis of real data for DOID_11714
   3.28 s in Meta analysis for DOID_11714
   5.89 s in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_11714 analysis
+  1.16 s in get_analysis_df("GDM == 'GDM'", "GDM_control == 'GDM_c..., '')
+  1.17 s in Loading dataframe for DOID_11714
+Matching sources: 4
+Excluded 2 sources by min samples
+Stats: 2 sources, 2 series, 2 platforms, 12 samples
+Loading data and calculating fold change for DOID_11714
+Loading data for GSE49524, id = 9415
+383.56 ms in get_probes(482)
+  3.80 s in load_gse( series_id platform_id..., 9415, False)
+  1.29 s in get_gene_fold_change(<Gse GSE49524>, False, 0, None)
+Loading data for GSE65737, id = 13510
+ 39.08 ms in get_probes(1802)
+  7.65 s in load_gse( series_id platform_id..., 13510, False)
+259.91 ms in get_gene_fold_change(<Gse GSE65737>, False, 0, None)
+ 13.24 s in Load/fold for DOID_11714
+Meta-Analyzing DOID_11714
+FAIL Got empty meta-analysis
+ 24.41 s in meta analysis of real data for DOID_11714
+ 24.41 s in Meta analysis for DOID_11714
+ 38.99 s in perform_analysis({'analysis_name': 'DOI...)

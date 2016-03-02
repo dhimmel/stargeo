@@ -28,3 +28,9 @@ Started DOID_11054 analysis
 171.07 ms in Loading dataframe for DOID_11054
 Matching sources: 0
 179.72 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_11054 analysis
+187.60 ms in get_analysis_df("bladder_cancer == 'bl..., "bladder_cancer_contro..., '')
+192.53 ms in Loading dataframe for DOID_11054
+Matching sources: 0
+FAIL Can't perform meta-analysis on no data
+257.00 ms in perform_analysis({'analysis_name': 'DOI...)

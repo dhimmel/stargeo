@@ -23,3 +23,9 @@ Started DOID_4606 analysis
 233.87 ms in Loading dataframe for DOID_4606
 Matching sources: 0
 242.82 ms in perform_analysis({'analysis_name': 'DOI...)
+Started DOID_4606 analysis
+883.26 ms in get_analysis_df("bile_duct_cancer == '..., "bile_duct_cancer_cont..., '')
+887.41 ms in Loading dataframe for DOID_4606
+Matching sources: 0
+FAIL Can't perform meta-analysis on no data
+950.47 ms in perform_analysis({'analysis_name': 'DOI...)
