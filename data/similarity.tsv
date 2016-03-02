@@ -1,0 +1,757 @@
+doid_0	disease_0	doid_1	disease_1	similarity
+DOID:986	alopecia areata	DOID:14227	azoospermia	0.1113
+DOID:986	alopecia areata	DOID:263	kidney cancer	0.1101
+DOID:986	alopecia areata	DOID:0050742	nicotine dependence	0.09671
+DOID:986	alopecia areata	DOID:9206	Barrett's esophagus	0.09575
+DOID:986	alopecia areata	DOID:8577	ulcerative colitis	0.08989
+DOID:986	alopecia areata	DOID:10652	Alzheimer's disease	0.07226
+DOID:986	alopecia areata	DOID:2986	IgA glomerulonephritis	0.07119
+DOID:986	alopecia areata	DOID:3083	chronic obstructive pulmonary disease	0.06747
+DOID:986	alopecia areata	DOID:1612	breast cancer	0.06723
+DOID:986	alopecia areata	DOID:418	systemic scleroderma	0.05549
+DOID:986	alopecia areata	DOID:1909	melanoma	0.05197
+DOID:986	alopecia areata	DOID:635	acquired immunodeficiency syndrome	0.04971
+DOID:986	alopecia areata	DOID:219	colon cancer	0.04653
+DOID:986	alopecia areata	DOID:9074	systemic lupus erythematosus	0.04381
+DOID:986	alopecia areata	DOID:1793	pancreatic cancer	0.03482
+DOID:986	alopecia areata	DOID:8893	psoriasis	0.03303
+DOID:986	alopecia areata	DOID:5419	schizophrenia	0.03108
+DOID:986	alopecia areata	DOID:0050156	idiopathic pulmonary fibrosis	0.0292
+DOID:986	alopecia areata	DOID:8778	Crohn's disease	0.02637
+DOID:986	alopecia areata	DOID:9008	psoriatic arthritis	0.02617
+DOID:986	alopecia areata	DOID:7148	rheumatoid arthritis	0.02368
+DOID:986	alopecia areata	DOID:7693	abdominal aortic aneurysm	0.02358
+DOID:986	alopecia areata	DOID:12365	malaria	0.02143
+DOID:986	alopecia areata	DOID:14330	Parkinson's disease	0.01948
+DOID:986	alopecia areata	DOID:3310	atopic dermatitis	0.01827
+DOID:986	alopecia areata	DOID:2531	hematologic cancer	0.0174
+DOID:986	alopecia areata	DOID:11612	polycystic ovary syndrome	0.01601
+DOID:9206	Barrett's esophagus	DOID:2986	IgA glomerulonephritis	0.13
+DOID:9206	Barrett's esophagus	DOID:1909	melanoma	0.1288
+DOID:9206	Barrett's esophagus	DOID:1612	breast cancer	0.1243
+DOID:9206	Barrett's esophagus	DOID:263	kidney cancer	0.1227
+DOID:9206	Barrett's esophagus	DOID:0050742	nicotine dependence	0.1198
+DOID:9206	Barrett's esophagus	DOID:8577	ulcerative colitis	0.1187
+DOID:9206	Barrett's esophagus	DOID:10652	Alzheimer's disease	0.115
+DOID:9206	Barrett's esophagus	DOID:14227	azoospermia	0.09593
+DOID:9206	Barrett's esophagus	DOID:986	alopecia areata	0.09575
+DOID:9206	Barrett's esophagus	DOID:219	colon cancer	0.09134
+DOID:9206	Barrett's esophagus	DOID:635	acquired immunodeficiency syndrome	0.08682
+DOID:9206	Barrett's esophagus	DOID:3083	chronic obstructive pulmonary disease	0.07857
+DOID:9206	Barrett's esophagus	DOID:1793	pancreatic cancer	0.06907
+DOID:9206	Barrett's esophagus	DOID:9074	systemic lupus erythematosus	0.06079
+DOID:9206	Barrett's esophagus	DOID:418	systemic scleroderma	0.05928
+DOID:9206	Barrett's esophagus	DOID:0050156	idiopathic pulmonary fibrosis	0.05156
+DOID:9206	Barrett's esophagus	DOID:8778	Crohn's disease	0.04438
+DOID:9206	Barrett's esophagus	DOID:8893	psoriasis	0.04267
+DOID:9206	Barrett's esophagus	DOID:3310	atopic dermatitis	0.03079
+DOID:9206	Barrett's esophagus	DOID:14330	Parkinson's disease	0.03009
+DOID:9206	Barrett's esophagus	DOID:5419	schizophrenia	0.02663
+DOID:9206	Barrett's esophagus	DOID:2531	hematologic cancer	0.02612
+DOID:9206	Barrett's esophagus	DOID:7693	abdominal aortic aneurysm	0.02592
+DOID:9206	Barrett's esophagus	DOID:7148	rheumatoid arthritis	0.02323
+DOID:9206	Barrett's esophagus	DOID:12365	malaria	0.02171
+DOID:9206	Barrett's esophagus	DOID:9008	psoriatic arthritis	0.01795
+DOID:9206	Barrett's esophagus	DOID:11612	polycystic ovary syndrome	0.01733
+DOID:9074	systemic lupus erythematosus	DOID:635	acquired immunodeficiency syndrome	0.2054
+DOID:9074	systemic lupus erythematosus	DOID:8577	ulcerative colitis	0.09951
+DOID:9074	systemic lupus erythematosus	DOID:1612	breast cancer	0.09276
+DOID:9074	systemic lupus erythematosus	DOID:8893	psoriasis	0.08613
+DOID:9074	systemic lupus erythematosus	DOID:3083	chronic obstructive pulmonary disease	0.07435
+DOID:9074	systemic lupus erythematosus	DOID:0050156	idiopathic pulmonary fibrosis	0.0739
+DOID:9074	systemic lupus erythematosus	DOID:418	systemic scleroderma	0.07379
+DOID:9074	systemic lupus erythematosus	DOID:263	kidney cancer	0.07237
+DOID:9074	systemic lupus erythematosus	DOID:8778	Crohn's disease	0.07083
+DOID:9074	systemic lupus erythematosus	DOID:12365	malaria	0.06883
+DOID:9074	systemic lupus erythematosus	DOID:1793	pancreatic cancer	0.06764
+DOID:9074	systemic lupus erythematosus	DOID:1909	melanoma	0.06698
+DOID:9074	systemic lupus erythematosus	DOID:0050742	nicotine dependence	0.06667
+DOID:9074	systemic lupus erythematosus	DOID:9206	Barrett's esophagus	0.06079
+DOID:9074	systemic lupus erythematosus	DOID:10652	Alzheimer's disease	0.05765
+DOID:9074	systemic lupus erythematosus	DOID:2986	IgA glomerulonephritis	0.05707
+DOID:9074	systemic lupus erythematosus	DOID:219	colon cancer	0.0528
+DOID:9074	systemic lupus erythematosus	DOID:986	alopecia areata	0.04381
+DOID:9074	systemic lupus erythematosus	DOID:7148	rheumatoid arthritis	0.04225
+DOID:9074	systemic lupus erythematosus	DOID:14227	azoospermia	0.04154
+DOID:9074	systemic lupus erythematosus	DOID:3310	atopic dermatitis	0.0411
+DOID:9074	systemic lupus erythematosus	DOID:2531	hematologic cancer	0.03585
+DOID:9074	systemic lupus erythematosus	DOID:7693	abdominal aortic aneurysm	0.0331
+DOID:9074	systemic lupus erythematosus	DOID:5419	schizophrenia	0.02562
+DOID:9074	systemic lupus erythematosus	DOID:14330	Parkinson's disease	0.01817
+DOID:9074	systemic lupus erythematosus	DOID:11612	polycystic ovary syndrome	0.01466
+DOID:9074	systemic lupus erythematosus	DOID:9008	psoriatic arthritis	0.0145
+DOID:9008	psoriatic arthritis	DOID:986	alopecia areata	0.02617
+DOID:9008	psoriatic arthritis	DOID:8893	psoriasis	0.02587
+DOID:9008	psoriatic arthritis	DOID:219	colon cancer	0.02413
+DOID:9008	psoriatic arthritis	DOID:2986	IgA glomerulonephritis	0.02124
+DOID:9008	psoriatic arthritis	DOID:14227	azoospermia	0.01975
+DOID:9008	psoriatic arthritis	DOID:7148	rheumatoid arthritis	0.01937
+DOID:9008	psoriatic arthritis	DOID:418	systemic scleroderma	0.01883
+DOID:9008	psoriatic arthritis	DOID:9206	Barrett's esophagus	0.01795
+DOID:9008	psoriatic arthritis	DOID:635	acquired immunodeficiency syndrome	0.01729
+DOID:9008	psoriatic arthritis	DOID:1612	breast cancer	0.01651
+DOID:9008	psoriatic arthritis	DOID:263	kidney cancer	0.01631
+DOID:9008	psoriatic arthritis	DOID:0050742	nicotine dependence	0.01614
+DOID:9008	psoriatic arthritis	DOID:10652	Alzheimer's disease	0.01489
+DOID:9008	psoriatic arthritis	DOID:9074	systemic lupus erythematosus	0.0145
+DOID:9008	psoriatic arthritis	DOID:8577	ulcerative colitis	0.01427
+DOID:9008	psoriatic arthritis	DOID:3083	chronic obstructive pulmonary disease	0.01274
+DOID:9008	psoriatic arthritis	DOID:1909	melanoma	0.01248
+DOID:9008	psoriatic arthritis	DOID:2531	hematologic cancer	0.009066
+DOID:9008	psoriatic arthritis	DOID:0050156	idiopathic pulmonary fibrosis	0.008989
+DOID:9008	psoriatic arthritis	DOID:1793	pancreatic cancer	0.008396
+DOID:9008	psoriatic arthritis	DOID:8778	Crohn's disease	0.007948
+DOID:9008	psoriatic arthritis	DOID:5419	schizophrenia	0.007448
+DOID:9008	psoriatic arthritis	DOID:7693	abdominal aortic aneurysm	0.006311
+DOID:9008	psoriatic arthritis	DOID:3310	atopic dermatitis	0.005618
+DOID:9008	psoriatic arthritis	DOID:14330	Parkinson's disease	0.004259
+DOID:9008	psoriatic arthritis	DOID:11612	polycystic ovary syndrome	0.004188
+DOID:9008	psoriatic arthritis	DOID:12365	malaria	0.003817
+DOID:8893	psoriasis	DOID:635	acquired immunodeficiency syndrome	0.1143
+DOID:8893	psoriasis	DOID:1612	breast cancer	0.09982
+DOID:8893	psoriasis	DOID:8577	ulcerative colitis	0.0976
+DOID:8893	psoriasis	DOID:9074	systemic lupus erythematosus	0.08613
+DOID:8893	psoriasis	DOID:219	colon cancer	0.07254
+DOID:8893	psoriasis	DOID:1793	pancreatic cancer	0.07154
+DOID:8893	psoriasis	DOID:1909	melanoma	0.06593
+DOID:8893	psoriasis	DOID:3310	atopic dermatitis	0.06569
+DOID:8893	psoriasis	DOID:263	kidney cancer	0.06409
+DOID:8893	psoriasis	DOID:3083	chronic obstructive pulmonary disease	0.06029
+DOID:8893	psoriasis	DOID:8778	Crohn's disease	0.05728
+DOID:8893	psoriasis	DOID:7148	rheumatoid arthritis	0.05661
+DOID:8893	psoriasis	DOID:0050742	nicotine dependence	0.05576
+DOID:8893	psoriasis	DOID:2986	IgA glomerulonephritis	0.04998
+DOID:8893	psoriasis	DOID:0050156	idiopathic pulmonary fibrosis	0.04614
+DOID:8893	psoriasis	DOID:418	systemic scleroderma	0.04531
+DOID:8893	psoriasis	DOID:9206	Barrett's esophagus	0.04267
+DOID:8893	psoriasis	DOID:2531	hematologic cancer	0.0388
+DOID:8893	psoriasis	DOID:14227	azoospermia	0.03694
+DOID:8893	psoriasis	DOID:12365	malaria	0.03405
+DOID:8893	psoriasis	DOID:10652	Alzheimer's disease	0.03387
+DOID:8893	psoriasis	DOID:986	alopecia areata	0.03303
+DOID:8893	psoriasis	DOID:7693	abdominal aortic aneurysm	0.03092
+DOID:8893	psoriasis	DOID:9008	psoriatic arthritis	0.02587
+DOID:8893	psoriasis	DOID:5419	schizophrenia	0.01294
+DOID:8893	psoriasis	DOID:11612	polycystic ovary syndrome	0.01134
+DOID:8893	psoriasis	DOID:14330	Parkinson's disease	0.009475
+DOID:8778	Crohn's disease	DOID:8577	ulcerative colitis	0.1028
+DOID:8778	Crohn's disease	DOID:9074	systemic lupus erythematosus	0.07083
+DOID:8778	Crohn's disease	DOID:635	acquired immunodeficiency syndrome	0.05978
+DOID:8778	Crohn's disease	DOID:8893	psoriasis	0.05728
+DOID:8778	Crohn's disease	DOID:12365	malaria	0.04479
+DOID:8778	Crohn's disease	DOID:9206	Barrett's esophagus	0.04438
+DOID:8778	Crohn's disease	DOID:0050156	idiopathic pulmonary fibrosis	0.04427
+DOID:8778	Crohn's disease	DOID:1793	pancreatic cancer	0.044
+DOID:8778	Crohn's disease	DOID:3083	chronic obstructive pulmonary disease	0.04244
+DOID:8778	Crohn's disease	DOID:219	colon cancer	0.04214
+DOID:8778	Crohn's disease	DOID:1909	melanoma	0.04028
+DOID:8778	Crohn's disease	DOID:7148	rheumatoid arthritis	0.03983
+DOID:8778	Crohn's disease	DOID:263	kidney cancer	0.0392
+DOID:8778	Crohn's disease	DOID:2986	IgA glomerulonephritis	0.03724
+DOID:8778	Crohn's disease	DOID:1612	breast cancer	0.034
+DOID:8778	Crohn's disease	DOID:10652	Alzheimer's disease	0.03274
+DOID:8778	Crohn's disease	DOID:0050742	nicotine dependence	0.03243
+DOID:8778	Crohn's disease	DOID:418	systemic scleroderma	0.03167
+DOID:8778	Crohn's disease	DOID:2531	hematologic cancer	0.02793
+DOID:8778	Crohn's disease	DOID:3310	atopic dermatitis	0.0267
+DOID:8778	Crohn's disease	DOID:986	alopecia areata	0.02637
+DOID:8778	Crohn's disease	DOID:14227	azoospermia	0.0254
+DOID:8778	Crohn's disease	DOID:5419	schizophrenia	0.02415
+DOID:8778	Crohn's disease	DOID:7693	abdominal aortic aneurysm	0.02327
+DOID:8778	Crohn's disease	DOID:14330	Parkinson's disease	0.01652
+DOID:8778	Crohn's disease	DOID:9008	psoriatic arthritis	0.007948
+DOID:8778	Crohn's disease	DOID:11612	polycystic ovary syndrome	0.007702
+DOID:8577	ulcerative colitis	DOID:263	kidney cancer	0.2718
+DOID:8577	ulcerative colitis	DOID:1612	breast cancer	0.2063
+DOID:8577	ulcerative colitis	DOID:0050742	nicotine dependence	0.1807
+DOID:8577	ulcerative colitis	DOID:635	acquired immunodeficiency syndrome	0.1574
+DOID:8577	ulcerative colitis	DOID:219	colon cancer	0.1519
+DOID:8577	ulcerative colitis	DOID:1909	melanoma	0.1269
+DOID:8577	ulcerative colitis	DOID:3083	chronic obstructive pulmonary disease	0.1215
+DOID:8577	ulcerative colitis	DOID:14227	azoospermia	0.1199
+DOID:8577	ulcerative colitis	DOID:9206	Barrett's esophagus	0.1187
+DOID:8577	ulcerative colitis	DOID:2986	IgA glomerulonephritis	0.1128
+DOID:8577	ulcerative colitis	DOID:10652	Alzheimer's disease	0.108
+DOID:8577	ulcerative colitis	DOID:8778	Crohn's disease	0.1028
+DOID:8577	ulcerative colitis	DOID:9074	systemic lupus erythematosus	0.09951
+DOID:8577	ulcerative colitis	DOID:8893	psoriasis	0.0976
+DOID:8577	ulcerative colitis	DOID:986	alopecia areata	0.08989
+DOID:8577	ulcerative colitis	DOID:0050156	idiopathic pulmonary fibrosis	0.07007
+DOID:8577	ulcerative colitis	DOID:418	systemic scleroderma	0.06915
+DOID:8577	ulcerative colitis	DOID:1793	pancreatic cancer	0.06538
+DOID:8577	ulcerative colitis	DOID:3310	atopic dermatitis	0.05118
+DOID:8577	ulcerative colitis	DOID:7693	abdominal aortic aneurysm	0.03873
+DOID:8577	ulcerative colitis	DOID:12365	malaria	0.03234
+DOID:8577	ulcerative colitis	DOID:7148	rheumatoid arthritis	0.03205
+DOID:8577	ulcerative colitis	DOID:5419	schizophrenia	0.02399
+DOID:8577	ulcerative colitis	DOID:14330	Parkinson's disease	0.02263
+DOID:8577	ulcerative colitis	DOID:2531	hematologic cancer	0.01991
+DOID:8577	ulcerative colitis	DOID:11612	polycystic ovary syndrome	0.01904
+DOID:8577	ulcerative colitis	DOID:9008	psoriatic arthritis	0.01427
+DOID:7693	abdominal aortic aneurysm	DOID:1612	breast cancer	0.04125
+DOID:7693	abdominal aortic aneurysm	DOID:8577	ulcerative colitis	0.03873
+DOID:7693	abdominal aortic aneurysm	DOID:635	acquired immunodeficiency syndrome	0.03816
+DOID:7693	abdominal aortic aneurysm	DOID:263	kidney cancer	0.03408
+DOID:7693	abdominal aortic aneurysm	DOID:9074	systemic lupus erythematosus	0.0331
+DOID:7693	abdominal aortic aneurysm	DOID:3083	chronic obstructive pulmonary disease	0.03239
+DOID:7693	abdominal aortic aneurysm	DOID:1909	melanoma	0.03227
+DOID:7693	abdominal aortic aneurysm	DOID:8893	psoriasis	0.03092
+DOID:7693	abdominal aortic aneurysm	DOID:0050156	idiopathic pulmonary fibrosis	0.02831
+DOID:7693	abdominal aortic aneurysm	DOID:1793	pancreatic cancer	0.02715
+DOID:7693	abdominal aortic aneurysm	DOID:0050742	nicotine dependence	0.02668
+DOID:7693	abdominal aortic aneurysm	DOID:9206	Barrett's esophagus	0.02592
+DOID:7693	abdominal aortic aneurysm	DOID:219	colon cancer	0.02528
+DOID:7693	abdominal aortic aneurysm	DOID:7148	rheumatoid arthritis	0.02507
+DOID:7693	abdominal aortic aneurysm	DOID:3310	atopic dermatitis	0.02498
+DOID:7693	abdominal aortic aneurysm	DOID:2986	IgA glomerulonephritis	0.02481
+DOID:7693	abdominal aortic aneurysm	DOID:10652	Alzheimer's disease	0.0246
+DOID:7693	abdominal aortic aneurysm	DOID:986	alopecia areata	0.02358
+DOID:7693	abdominal aortic aneurysm	DOID:8778	Crohn's disease	0.02327
+DOID:7693	abdominal aortic aneurysm	DOID:12365	malaria	0.01887
+DOID:7693	abdominal aortic aneurysm	DOID:418	systemic scleroderma	0.0169
+DOID:7693	abdominal aortic aneurysm	DOID:14227	azoospermia	0.0156
+DOID:7693	abdominal aortic aneurysm	DOID:2531	hematologic cancer	0.01541
+DOID:7693	abdominal aortic aneurysm	DOID:11612	polycystic ovary syndrome	0.01322
+DOID:7693	abdominal aortic aneurysm	DOID:14330	Parkinson's disease	0.01205
+DOID:7693	abdominal aortic aneurysm	DOID:5419	schizophrenia	0.01175
+DOID:7693	abdominal aortic aneurysm	DOID:9008	psoriatic arthritis	0.006311
+DOID:7148	rheumatoid arthritis	DOID:8893	psoriasis	0.05661
+DOID:7148	rheumatoid arthritis	DOID:635	acquired immunodeficiency syndrome	0.04574
+DOID:7148	rheumatoid arthritis	DOID:9074	systemic lupus erythematosus	0.04225
+DOID:7148	rheumatoid arthritis	DOID:8778	Crohn's disease	0.03983
+DOID:7148	rheumatoid arthritis	DOID:8577	ulcerative colitis	0.03205
+DOID:7148	rheumatoid arthritis	DOID:1612	breast cancer	0.02955
+DOID:7148	rheumatoid arthritis	DOID:1793	pancreatic cancer	0.02796
+DOID:7148	rheumatoid arthritis	DOID:0050156	idiopathic pulmonary fibrosis	0.02642
+DOID:7148	rheumatoid arthritis	DOID:2986	IgA glomerulonephritis	0.02532
+DOID:7148	rheumatoid arthritis	DOID:7693	abdominal aortic aneurysm	0.02507
+DOID:7148	rheumatoid arthritis	DOID:12365	malaria	0.0243
+DOID:7148	rheumatoid arthritis	DOID:986	alopecia areata	0.02368
+DOID:7148	rheumatoid arthritis	DOID:9206	Barrett's esophagus	0.02323
+DOID:7148	rheumatoid arthritis	DOID:263	kidney cancer	0.02293
+DOID:7148	rheumatoid arthritis	DOID:0050742	nicotine dependence	0.02215
+DOID:7148	rheumatoid arthritis	DOID:3310	atopic dermatitis	0.02202
+DOID:7148	rheumatoid arthritis	DOID:2531	hematologic cancer	0.02191
+DOID:7148	rheumatoid arthritis	DOID:3083	chronic obstructive pulmonary disease	0.02166
+DOID:7148	rheumatoid arthritis	DOID:219	colon cancer	0.02093
+DOID:7148	rheumatoid arthritis	DOID:1909	melanoma	0.02032
+DOID:7148	rheumatoid arthritis	DOID:418	systemic scleroderma	0.01996
+DOID:7148	rheumatoid arthritis	DOID:9008	psoriatic arthritis	0.01937
+DOID:7148	rheumatoid arthritis	DOID:14227	azoospermia	0.01777
+DOID:7148	rheumatoid arthritis	DOID:10652	Alzheimer's disease	0.01726
+DOID:7148	rheumatoid arthritis	DOID:5419	schizophrenia	0.01304
+DOID:7148	rheumatoid arthritis	DOID:11612	polycystic ovary syndrome	0.01202
+DOID:7148	rheumatoid arthritis	DOID:14330	Parkinson's disease	0.007353
+DOID:635	acquired immunodeficiency syndrome	DOID:9074	systemic lupus erythematosus	0.2054
+DOID:635	acquired immunodeficiency syndrome	DOID:1612	breast cancer	0.1599
+DOID:635	acquired immunodeficiency syndrome	DOID:8577	ulcerative colitis	0.1574
+DOID:635	acquired immunodeficiency syndrome	DOID:263	kidney cancer	0.1228
+DOID:635	acquired immunodeficiency syndrome	DOID:8893	psoriasis	0.1143
+DOID:635	acquired immunodeficiency syndrome	DOID:219	colon cancer	0.1013
+DOID:635	acquired immunodeficiency syndrome	DOID:0050742	nicotine dependence	0.09765
+DOID:635	acquired immunodeficiency syndrome	DOID:1909	melanoma	0.09153
+DOID:635	acquired immunodeficiency syndrome	DOID:3083	chronic obstructive pulmonary disease	0.089
+DOID:635	acquired immunodeficiency syndrome	DOID:2986	IgA glomerulonephritis	0.087
+DOID:635	acquired immunodeficiency syndrome	DOID:9206	Barrett's esophagus	0.08682
+DOID:635	acquired immunodeficiency syndrome	DOID:0050156	idiopathic pulmonary fibrosis	0.0796
+DOID:635	acquired immunodeficiency syndrome	DOID:418	systemic scleroderma	0.07793
+DOID:635	acquired immunodeficiency syndrome	DOID:1793	pancreatic cancer	0.07435
+DOID:635	acquired immunodeficiency syndrome	DOID:10652	Alzheimer's disease	0.06868
+DOID:635	acquired immunodeficiency syndrome	DOID:14227	azoospermia	0.06199
+DOID:635	acquired immunodeficiency syndrome	DOID:12365	malaria	0.05997
+DOID:635	acquired immunodeficiency syndrome	DOID:8778	Crohn's disease	0.05978
+DOID:635	acquired immunodeficiency syndrome	DOID:3310	atopic dermatitis	0.05607
+DOID:635	acquired immunodeficiency syndrome	DOID:986	alopecia areata	0.04971
+DOID:635	acquired immunodeficiency syndrome	DOID:7148	rheumatoid arthritis	0.04574
+DOID:635	acquired immunodeficiency syndrome	DOID:7693	abdominal aortic aneurysm	0.03816
+DOID:635	acquired immunodeficiency syndrome	DOID:2531	hematologic cancer	0.03708
+DOID:635	acquired immunodeficiency syndrome	DOID:14330	Parkinson's disease	0.01872
+DOID:635	acquired immunodeficiency syndrome	DOID:9008	psoriatic arthritis	0.01729
+DOID:635	acquired immunodeficiency syndrome	DOID:5419	schizophrenia	0.01507
+DOID:635	acquired immunodeficiency syndrome	DOID:11612	polycystic ovary syndrome	0.01411
+DOID:5419	schizophrenia	DOID:10652	Alzheimer's disease	0.04174
+DOID:5419	schizophrenia	DOID:418	systemic scleroderma	0.04005
+DOID:5419	schizophrenia	DOID:14227	azoospermia	0.03296
+DOID:5419	schizophrenia	DOID:986	alopecia areata	0.03108
+DOID:5419	schizophrenia	DOID:0050742	nicotine dependence	0.03104
+DOID:5419	schizophrenia	DOID:263	kidney cancer	0.02982
+DOID:5419	schizophrenia	DOID:9206	Barrett's esophagus	0.02663
+DOID:5419	schizophrenia	DOID:14330	Parkinson's disease	0.02602
+DOID:5419	schizophrenia	DOID:9074	systemic lupus erythematosus	0.02562
+DOID:5419	schizophrenia	DOID:8778	Crohn's disease	0.02415
+DOID:5419	schizophrenia	DOID:8577	ulcerative colitis	0.02399
+DOID:5419	schizophrenia	DOID:2986	IgA glomerulonephritis	0.0224
+DOID:5419	schizophrenia	DOID:3083	chronic obstructive pulmonary disease	0.02069
+DOID:5419	schizophrenia	DOID:1612	breast cancer	0.02038
+DOID:5419	schizophrenia	DOID:219	colon cancer	0.01944
+DOID:5419	schizophrenia	DOID:1793	pancreatic cancer	0.01782
+DOID:5419	schizophrenia	DOID:11612	polycystic ovary syndrome	0.0177
+DOID:5419	schizophrenia	DOID:12365	malaria	0.01715
+DOID:5419	schizophrenia	DOID:635	acquired immunodeficiency syndrome	0.01507
+DOID:5419	schizophrenia	DOID:3310	atopic dermatitis	0.01348
+DOID:5419	schizophrenia	DOID:7148	rheumatoid arthritis	0.01304
+DOID:5419	schizophrenia	DOID:8893	psoriasis	0.01294
+DOID:5419	schizophrenia	DOID:1909	melanoma	0.01245
+DOID:5419	schizophrenia	DOID:7693	abdominal aortic aneurysm	0.01175
+DOID:5419	schizophrenia	DOID:0050156	idiopathic pulmonary fibrosis	0.0116
+DOID:5419	schizophrenia	DOID:2531	hematologic cancer	0.007707
+DOID:5419	schizophrenia	DOID:9008	psoriatic arthritis	0.007448
+DOID:418	systemic scleroderma	DOID:263	kidney cancer	0.0784
+DOID:418	systemic scleroderma	DOID:635	acquired immunodeficiency syndrome	0.07793
+DOID:418	systemic scleroderma	DOID:1612	breast cancer	0.07465
+DOID:418	systemic scleroderma	DOID:0050742	nicotine dependence	0.07453
+DOID:418	systemic scleroderma	DOID:9074	systemic lupus erythematosus	0.07379
+DOID:418	systemic scleroderma	DOID:14227	azoospermia	0.07038
+DOID:418	systemic scleroderma	DOID:8577	ulcerative colitis	0.06915
+DOID:418	systemic scleroderma	DOID:2986	IgA glomerulonephritis	0.06652
+DOID:418	systemic scleroderma	DOID:10652	Alzheimer's disease	0.06629
+DOID:418	systemic scleroderma	DOID:9206	Barrett's esophagus	0.05928
+DOID:418	systemic scleroderma	DOID:3083	chronic obstructive pulmonary disease	0.05861
+DOID:418	systemic scleroderma	DOID:986	alopecia areata	0.05549
+DOID:418	systemic scleroderma	DOID:219	colon cancer	0.0521
+DOID:418	systemic scleroderma	DOID:1909	melanoma	0.05051
+DOID:418	systemic scleroderma	DOID:8893	psoriasis	0.04531
+DOID:418	systemic scleroderma	DOID:0050156	idiopathic pulmonary fibrosis	0.04426
+DOID:418	systemic scleroderma	DOID:1793	pancreatic cancer	0.04276
+DOID:418	systemic scleroderma	DOID:5419	schizophrenia	0.04005
+DOID:418	systemic scleroderma	DOID:8778	Crohn's disease	0.03167
+DOID:418	systemic scleroderma	DOID:3310	atopic dermatitis	0.03061
+DOID:418	systemic scleroderma	DOID:12365	malaria	0.02983
+DOID:418	systemic scleroderma	DOID:14330	Parkinson's disease	0.02135
+DOID:418	systemic scleroderma	DOID:2531	hematologic cancer	0.02052
+DOID:418	systemic scleroderma	DOID:7148	rheumatoid arthritis	0.01996
+DOID:418	systemic scleroderma	DOID:9008	psoriatic arthritis	0.01883
+DOID:418	systemic scleroderma	DOID:11612	polycystic ovary syndrome	0.01715
+DOID:418	systemic scleroderma	DOID:7693	abdominal aortic aneurysm	0.0169
+DOID:3310	atopic dermatitis	DOID:8893	psoriasis	0.06569
+DOID:3310	atopic dermatitis	DOID:635	acquired immunodeficiency syndrome	0.05607
+DOID:3310	atopic dermatitis	DOID:1612	breast cancer	0.05199
+DOID:3310	atopic dermatitis	DOID:8577	ulcerative colitis	0.05118
+DOID:3310	atopic dermatitis	DOID:263	kidney cancer	0.0431
+DOID:3310	atopic dermatitis	DOID:1909	melanoma	0.0427
+DOID:3310	atopic dermatitis	DOID:9074	systemic lupus erythematosus	0.0411
+DOID:3310	atopic dermatitis	DOID:3083	chronic obstructive pulmonary disease	0.04084
+DOID:3310	atopic dermatitis	DOID:0050742	nicotine dependence	0.0392
+DOID:3310	atopic dermatitis	DOID:219	colon cancer	0.03665
+DOID:3310	atopic dermatitis	DOID:2986	IgA glomerulonephritis	0.03595
+DOID:3310	atopic dermatitis	DOID:1793	pancreatic cancer	0.03278
+DOID:3310	atopic dermatitis	DOID:9206	Barrett's esophagus	0.03079
+DOID:3310	atopic dermatitis	DOID:418	systemic scleroderma	0.03061
+DOID:3310	atopic dermatitis	DOID:0050156	idiopathic pulmonary fibrosis	0.03034
+DOID:3310	atopic dermatitis	DOID:10652	Alzheimer's disease	0.02677
+DOID:3310	atopic dermatitis	DOID:8778	Crohn's disease	0.0267
+DOID:3310	atopic dermatitis	DOID:7693	abdominal aortic aneurysm	0.02498
+DOID:3310	atopic dermatitis	DOID:7148	rheumatoid arthritis	0.02202
+DOID:3310	atopic dermatitis	DOID:14227	azoospermia	0.02005
+DOID:3310	atopic dermatitis	DOID:2531	hematologic cancer	0.01993
+DOID:3310	atopic dermatitis	DOID:986	alopecia areata	0.01827
+DOID:3310	atopic dermatitis	DOID:14330	Parkinson's disease	0.01823
+DOID:3310	atopic dermatitis	DOID:12365	malaria	0.01572
+DOID:3310	atopic dermatitis	DOID:5419	schizophrenia	0.01348
+DOID:3310	atopic dermatitis	DOID:11612	polycystic ovary syndrome	0.01285
+DOID:3310	atopic dermatitis	DOID:9008	psoriatic arthritis	0.005618
+DOID:3083	chronic obstructive pulmonary disease	DOID:0050742	nicotine dependence	0.2566
+DOID:3083	chronic obstructive pulmonary disease	DOID:8577	ulcerative colitis	0.1215
+DOID:3083	chronic obstructive pulmonary disease	DOID:263	kidney cancer	0.1207
+DOID:3083	chronic obstructive pulmonary disease	DOID:1612	breast cancer	0.1121
+DOID:3083	chronic obstructive pulmonary disease	DOID:635	acquired immunodeficiency syndrome	0.089
+DOID:3083	chronic obstructive pulmonary disease	DOID:14227	azoospermia	0.08325
+DOID:3083	chronic obstructive pulmonary disease	DOID:9206	Barrett's esophagus	0.07857
+DOID:3083	chronic obstructive pulmonary disease	DOID:9074	systemic lupus erythematosus	0.07435
+DOID:3083	chronic obstructive pulmonary disease	DOID:2986	IgA glomerulonephritis	0.07309
+DOID:3083	chronic obstructive pulmonary disease	DOID:10652	Alzheimer's disease	0.07101
+DOID:3083	chronic obstructive pulmonary disease	DOID:986	alopecia areata	0.06747
+DOID:3083	chronic obstructive pulmonary disease	DOID:1909	melanoma	0.06668
+DOID:3083	chronic obstructive pulmonary disease	DOID:219	colon cancer	0.06062
+DOID:3083	chronic obstructive pulmonary disease	DOID:8893	psoriasis	0.06029
+DOID:3083	chronic obstructive pulmonary disease	DOID:418	systemic scleroderma	0.05861
+DOID:3083	chronic obstructive pulmonary disease	DOID:1793	pancreatic cancer	0.05808
+DOID:3083	chronic obstructive pulmonary disease	DOID:0050156	idiopathic pulmonary fibrosis	0.04708
+DOID:3083	chronic obstructive pulmonary disease	DOID:8778	Crohn's disease	0.04244
+DOID:3083	chronic obstructive pulmonary disease	DOID:3310	atopic dermatitis	0.04084
+DOID:3083	chronic obstructive pulmonary disease	DOID:7693	abdominal aortic aneurysm	0.03239
+DOID:3083	chronic obstructive pulmonary disease	DOID:12365	malaria	0.02746
+DOID:3083	chronic obstructive pulmonary disease	DOID:7148	rheumatoid arthritis	0.02166
+DOID:3083	chronic obstructive pulmonary disease	DOID:5419	schizophrenia	0.02069
+DOID:3083	chronic obstructive pulmonary disease	DOID:2531	hematologic cancer	0.0203
+DOID:3083	chronic obstructive pulmonary disease	DOID:14330	Parkinson's disease	0.015
+DOID:3083	chronic obstructive pulmonary disease	DOID:11612	polycystic ovary syndrome	0.01406
+DOID:3083	chronic obstructive pulmonary disease	DOID:9008	psoriatic arthritis	0.01274
+DOID:2986	IgA glomerulonephritis	DOID:263	kidney cancer	0.1644
+DOID:2986	IgA glomerulonephritis	DOID:1612	breast cancer	0.1427
+DOID:2986	IgA glomerulonephritis	DOID:9206	Barrett's esophagus	0.13
+DOID:2986	IgA glomerulonephritis	DOID:219	colon cancer	0.1279
+DOID:2986	IgA glomerulonephritis	DOID:10652	Alzheimer's disease	0.1223
+DOID:2986	IgA glomerulonephritis	DOID:8577	ulcerative colitis	0.1128
+DOID:2986	IgA glomerulonephritis	DOID:0050742	nicotine dependence	0.1076
+DOID:2986	IgA glomerulonephritis	DOID:14227	azoospermia	0.09486
+DOID:2986	IgA glomerulonephritis	DOID:635	acquired immunodeficiency syndrome	0.087
+DOID:2986	IgA glomerulonephritis	DOID:1909	melanoma	0.08368
+DOID:2986	IgA glomerulonephritis	DOID:3083	chronic obstructive pulmonary disease	0.07309
+DOID:2986	IgA glomerulonephritis	DOID:986	alopecia areata	0.07119
+DOID:2986	IgA glomerulonephritis	DOID:418	systemic scleroderma	0.06652
+DOID:2986	IgA glomerulonephritis	DOID:9074	systemic lupus erythematosus	0.05707
+DOID:2986	IgA glomerulonephritis	DOID:0050156	idiopathic pulmonary fibrosis	0.05653
+DOID:2986	IgA glomerulonephritis	DOID:1793	pancreatic cancer	0.05631
+DOID:2986	IgA glomerulonephritis	DOID:8893	psoriasis	0.04998
+DOID:2986	IgA glomerulonephritis	DOID:8778	Crohn's disease	0.03724
+DOID:2986	IgA glomerulonephritis	DOID:3310	atopic dermatitis	0.03595
+DOID:2986	IgA glomerulonephritis	DOID:2531	hematologic cancer	0.02542
+DOID:2986	IgA glomerulonephritis	DOID:7148	rheumatoid arthritis	0.02532
+DOID:2986	IgA glomerulonephritis	DOID:7693	abdominal aortic aneurysm	0.02481
+DOID:2986	IgA glomerulonephritis	DOID:14330	Parkinson's disease	0.02382
+DOID:2986	IgA glomerulonephritis	DOID:5419	schizophrenia	0.0224
+DOID:2986	IgA glomerulonephritis	DOID:9008	psoriatic arthritis	0.02124
+DOID:2986	IgA glomerulonephritis	DOID:12365	malaria	0.01966
+DOID:2986	IgA glomerulonephritis	DOID:11612	polycystic ovary syndrome	0.01861
+DOID:263	kidney cancer	DOID:1612	breast cancer	0.2819
+DOID:263	kidney cancer	DOID:8577	ulcerative colitis	0.2718
+DOID:263	kidney cancer	DOID:0050742	nicotine dependence	0.2295
+DOID:263	kidney cancer	DOID:14227	azoospermia	0.2009
+DOID:263	kidney cancer	DOID:2986	IgA glomerulonephritis	0.1644
+DOID:263	kidney cancer	DOID:10652	Alzheimer's disease	0.1404
+DOID:263	kidney cancer	DOID:219	colon cancer	0.1356
+DOID:263	kidney cancer	DOID:635	acquired immunodeficiency syndrome	0.1228
+DOID:263	kidney cancer	DOID:9206	Barrett's esophagus	0.1227
+DOID:263	kidney cancer	DOID:3083	chronic obstructive pulmonary disease	0.1207
+DOID:263	kidney cancer	DOID:1909	melanoma	0.1121
+DOID:263	kidney cancer	DOID:986	alopecia areata	0.1101
+DOID:263	kidney cancer	DOID:418	systemic scleroderma	0.0784
+DOID:263	kidney cancer	DOID:9074	systemic lupus erythematosus	0.07237
+DOID:263	kidney cancer	DOID:8893	psoriasis	0.06409
+DOID:263	kidney cancer	DOID:1793	pancreatic cancer	0.06389
+DOID:263	kidney cancer	DOID:0050156	idiopathic pulmonary fibrosis	0.05561
+DOID:263	kidney cancer	DOID:3310	atopic dermatitis	0.0431
+DOID:263	kidney cancer	DOID:8778	Crohn's disease	0.0392
+DOID:263	kidney cancer	DOID:7693	abdominal aortic aneurysm	0.03408
+DOID:263	kidney cancer	DOID:5419	schizophrenia	0.02982
+DOID:263	kidney cancer	DOID:12365	malaria	0.02488
+DOID:263	kidney cancer	DOID:14330	Parkinson's disease	0.02322
+DOID:263	kidney cancer	DOID:7148	rheumatoid arthritis	0.02293
+DOID:263	kidney cancer	DOID:11612	polycystic ovary syndrome	0.0203
+DOID:263	kidney cancer	DOID:2531	hematologic cancer	0.0181
+DOID:263	kidney cancer	DOID:9008	psoriatic arthritis	0.01631
+DOID:2531	hematologic cancer	DOID:8893	psoriasis	0.0388
+DOID:2531	hematologic cancer	DOID:635	acquired immunodeficiency syndrome	0.03708
+DOID:2531	hematologic cancer	DOID:9074	systemic lupus erythematosus	0.03585
+DOID:2531	hematologic cancer	DOID:1909	melanoma	0.03084
+DOID:2531	hematologic cancer	DOID:8778	Crohn's disease	0.02793
+DOID:2531	hematologic cancer	DOID:219	colon cancer	0.0269
+DOID:2531	hematologic cancer	DOID:9206	Barrett's esophagus	0.02612
+DOID:2531	hematologic cancer	DOID:2986	IgA glomerulonephritis	0.02542
+DOID:2531	hematologic cancer	DOID:1612	breast cancer	0.02514
+DOID:2531	hematologic cancer	DOID:0050156	idiopathic pulmonary fibrosis	0.0241
+DOID:2531	hematologic cancer	DOID:7148	rheumatoid arthritis	0.02191
+DOID:2531	hematologic cancer	DOID:1793	pancreatic cancer	0.02182
+DOID:2531	hematologic cancer	DOID:418	systemic scleroderma	0.02052
+DOID:2531	hematologic cancer	DOID:3083	chronic obstructive pulmonary disease	0.0203
+DOID:2531	hematologic cancer	DOID:3310	atopic dermatitis	0.01993
+DOID:2531	hematologic cancer	DOID:8577	ulcerative colitis	0.01991
+DOID:2531	hematologic cancer	DOID:0050742	nicotine dependence	0.01955
+DOID:2531	hematologic cancer	DOID:10652	Alzheimer's disease	0.01951
+DOID:2531	hematologic cancer	DOID:263	kidney cancer	0.0181
+DOID:2531	hematologic cancer	DOID:14330	Parkinson's disease	0.01783
+DOID:2531	hematologic cancer	DOID:986	alopecia areata	0.0174
+DOID:2531	hematologic cancer	DOID:12365	malaria	0.0173
+DOID:2531	hematologic cancer	DOID:7693	abdominal aortic aneurysm	0.01541
+DOID:2531	hematologic cancer	DOID:14227	azoospermia	0.0126
+DOID:2531	hematologic cancer	DOID:9008	psoriatic arthritis	0.009066
+DOID:2531	hematologic cancer	DOID:5419	schizophrenia	0.007707
+DOID:2531	hematologic cancer	DOID:11612	polycystic ovary syndrome	0.004747
+DOID:219	colon cancer	DOID:1612	breast cancer	0.1597
+DOID:219	colon cancer	DOID:8577	ulcerative colitis	0.1519
+DOID:219	colon cancer	DOID:263	kidney cancer	0.1356
+DOID:219	colon cancer	DOID:2986	IgA glomerulonephritis	0.1279
+DOID:219	colon cancer	DOID:1909	melanoma	0.1051
+DOID:219	colon cancer	DOID:635	acquired immunodeficiency syndrome	0.1013
+DOID:219	colon cancer	DOID:10652	Alzheimer's disease	0.09244
+DOID:219	colon cancer	DOID:9206	Barrett's esophagus	0.09134
+DOID:219	colon cancer	DOID:0050742	nicotine dependence	0.08712
+DOID:219	colon cancer	DOID:8893	psoriasis	0.07254
+DOID:219	colon cancer	DOID:14227	azoospermia	0.0707
+DOID:219	colon cancer	DOID:3083	chronic obstructive pulmonary disease	0.06062
+DOID:219	colon cancer	DOID:1793	pancreatic cancer	0.05559
+DOID:219	colon cancer	DOID:9074	systemic lupus erythematosus	0.0528
+DOID:219	colon cancer	DOID:418	systemic scleroderma	0.0521
+DOID:219	colon cancer	DOID:986	alopecia areata	0.04653
+DOID:219	colon cancer	DOID:0050156	idiopathic pulmonary fibrosis	0.04329
+DOID:219	colon cancer	DOID:8778	Crohn's disease	0.04214
+DOID:219	colon cancer	DOID:3310	atopic dermatitis	0.03665
+DOID:219	colon cancer	DOID:2531	hematologic cancer	0.0269
+DOID:219	colon cancer	DOID:14330	Parkinson's disease	0.02579
+DOID:219	colon cancer	DOID:7693	abdominal aortic aneurysm	0.02528
+DOID:219	colon cancer	DOID:9008	psoriatic arthritis	0.02413
+DOID:219	colon cancer	DOID:12365	malaria	0.02105
+DOID:219	colon cancer	DOID:7148	rheumatoid arthritis	0.02093
+DOID:219	colon cancer	DOID:5419	schizophrenia	0.01944
+DOID:219	colon cancer	DOID:11612	polycystic ovary syndrome	0.012
+DOID:1909	melanoma	DOID:1612	breast cancer	0.1307
+DOID:1909	melanoma	DOID:9206	Barrett's esophagus	0.1288
+DOID:1909	melanoma	DOID:8577	ulcerative colitis	0.1269
+DOID:1909	melanoma	DOID:263	kidney cancer	0.1121
+DOID:1909	melanoma	DOID:219	colon cancer	0.1051
+DOID:1909	melanoma	DOID:635	acquired immunodeficiency syndrome	0.09153
+DOID:1909	melanoma	DOID:0050742	nicotine dependence	0.08717
+DOID:1909	melanoma	DOID:2986	IgA glomerulonephritis	0.08368
+DOID:1909	melanoma	DOID:10652	Alzheimer's disease	0.06967
+DOID:1909	melanoma	DOID:9074	systemic lupus erythematosus	0.06698
+DOID:1909	melanoma	DOID:3083	chronic obstructive pulmonary disease	0.06668
+DOID:1909	melanoma	DOID:8893	psoriasis	0.06593
+DOID:1909	melanoma	DOID:0050156	idiopathic pulmonary fibrosis	0.05202
+DOID:1909	melanoma	DOID:986	alopecia areata	0.05197
+DOID:1909	melanoma	DOID:14227	azoospermia	0.0507
+DOID:1909	melanoma	DOID:418	systemic scleroderma	0.05051
+DOID:1909	melanoma	DOID:1793	pancreatic cancer	0.04959
+DOID:1909	melanoma	DOID:3310	atopic dermatitis	0.0427
+DOID:1909	melanoma	DOID:8778	Crohn's disease	0.04028
+DOID:1909	melanoma	DOID:7693	abdominal aortic aneurysm	0.03227
+DOID:1909	melanoma	DOID:2531	hematologic cancer	0.03084
+DOID:1909	melanoma	DOID:12365	malaria	0.03013
+DOID:1909	melanoma	DOID:7148	rheumatoid arthritis	0.02032
+DOID:1909	melanoma	DOID:14330	Parkinson's disease	0.01997
+DOID:1909	melanoma	DOID:11612	polycystic ovary syndrome	0.01606
+DOID:1909	melanoma	DOID:9008	psoriatic arthritis	0.01248
+DOID:1909	melanoma	DOID:5419	schizophrenia	0.01245
+DOID:1793	pancreatic cancer	DOID:1612	breast cancer	0.07521
+DOID:1793	pancreatic cancer	DOID:635	acquired immunodeficiency syndrome	0.07435
+DOID:1793	pancreatic cancer	DOID:8893	psoriasis	0.07154
+DOID:1793	pancreatic cancer	DOID:9206	Barrett's esophagus	0.06907
+DOID:1793	pancreatic cancer	DOID:9074	systemic lupus erythematosus	0.06764
+DOID:1793	pancreatic cancer	DOID:8577	ulcerative colitis	0.06538
+DOID:1793	pancreatic cancer	DOID:263	kidney cancer	0.06389
+DOID:1793	pancreatic cancer	DOID:3083	chronic obstructive pulmonary disease	0.05808
+DOID:1793	pancreatic cancer	DOID:2986	IgA glomerulonephritis	0.05631
+DOID:1793	pancreatic cancer	DOID:219	colon cancer	0.05559
+DOID:1793	pancreatic cancer	DOID:0050742	nicotine dependence	0.05524
+DOID:1793	pancreatic cancer	DOID:0050156	idiopathic pulmonary fibrosis	0.0546
+DOID:1793	pancreatic cancer	DOID:1909	melanoma	0.04959
+DOID:1793	pancreatic cancer	DOID:10652	Alzheimer's disease	0.04626
+DOID:1793	pancreatic cancer	DOID:8778	Crohn's disease	0.044
+DOID:1793	pancreatic cancer	DOID:418	systemic scleroderma	0.04276
+DOID:1793	pancreatic cancer	DOID:14227	azoospermia	0.03934
+DOID:1793	pancreatic cancer	DOID:986	alopecia areata	0.03482
+DOID:1793	pancreatic cancer	DOID:3310	atopic dermatitis	0.03278
+DOID:1793	pancreatic cancer	DOID:12365	malaria	0.02923
+DOID:1793	pancreatic cancer	DOID:7148	rheumatoid arthritis	0.02796
+DOID:1793	pancreatic cancer	DOID:7693	abdominal aortic aneurysm	0.02715
+DOID:1793	pancreatic cancer	DOID:2531	hematologic cancer	0.02182
+DOID:1793	pancreatic cancer	DOID:5419	schizophrenia	0.01782
+DOID:1793	pancreatic cancer	DOID:11612	polycystic ovary syndrome	0.01516
+DOID:1793	pancreatic cancer	DOID:14330	Parkinson's disease	0.01401
+DOID:1793	pancreatic cancer	DOID:9008	psoriatic arthritis	0.008396
+DOID:1612	breast cancer	DOID:263	kidney cancer	0.2819
+DOID:1612	breast cancer	DOID:0050742	nicotine dependence	0.2106
+DOID:1612	breast cancer	DOID:8577	ulcerative colitis	0.2063
+DOID:1612	breast cancer	DOID:635	acquired immunodeficiency syndrome	0.1599
+DOID:1612	breast cancer	DOID:219	colon cancer	0.1597
+DOID:1612	breast cancer	DOID:2986	IgA glomerulonephritis	0.1427
+DOID:1612	breast cancer	DOID:14227	azoospermia	0.132
+DOID:1612	breast cancer	DOID:1909	melanoma	0.1307
+DOID:1612	breast cancer	DOID:9206	Barrett's esophagus	0.1243
+DOID:1612	breast cancer	DOID:3083	chronic obstructive pulmonary disease	0.1121
+DOID:1612	breast cancer	DOID:8893	psoriasis	0.09982
+DOID:1612	breast cancer	DOID:10652	Alzheimer's disease	0.09923
+DOID:1612	breast cancer	DOID:9074	systemic lupus erythematosus	0.09276
+DOID:1612	breast cancer	DOID:1793	pancreatic cancer	0.07521
+DOID:1612	breast cancer	DOID:418	systemic scleroderma	0.07465
+DOID:1612	breast cancer	DOID:0050156	idiopathic pulmonary fibrosis	0.07154
+DOID:1612	breast cancer	DOID:986	alopecia areata	0.06723
+DOID:1612	breast cancer	DOID:3310	atopic dermatitis	0.05199
+DOID:1612	breast cancer	DOID:7693	abdominal aortic aneurysm	0.04125
+DOID:1612	breast cancer	DOID:8778	Crohn's disease	0.034
+DOID:1612	breast cancer	DOID:7148	rheumatoid arthritis	0.02955
+DOID:1612	breast cancer	DOID:12365	malaria	0.02867
+DOID:1612	breast cancer	DOID:2531	hematologic cancer	0.02514
+DOID:1612	breast cancer	DOID:5419	schizophrenia	0.02038
+DOID:1612	breast cancer	DOID:14330	Parkinson's disease	0.01662
+DOID:1612	breast cancer	DOID:9008	psoriatic arthritis	0.01651
+DOID:1612	breast cancer	DOID:11612	polycystic ovary syndrome	0.01612
+DOID:14330	Parkinson's disease	DOID:10652	Alzheimer's disease	0.04629
+DOID:14330	Parkinson's disease	DOID:9206	Barrett's esophagus	0.03009
+DOID:14330	Parkinson's disease	DOID:5419	schizophrenia	0.02602
+DOID:14330	Parkinson's disease	DOID:219	colon cancer	0.02579
+DOID:14330	Parkinson's disease	DOID:2986	IgA glomerulonephritis	0.02382
+DOID:14330	Parkinson's disease	DOID:263	kidney cancer	0.02322
+DOID:14330	Parkinson's disease	DOID:8577	ulcerative colitis	0.02263
+DOID:14330	Parkinson's disease	DOID:418	systemic scleroderma	0.02135
+DOID:14330	Parkinson's disease	DOID:0050742	nicotine dependence	0.02085
+DOID:14330	Parkinson's disease	DOID:1909	melanoma	0.01997
+DOID:14330	Parkinson's disease	DOID:986	alopecia areata	0.01948
+DOID:14330	Parkinson's disease	DOID:635	acquired immunodeficiency syndrome	0.01872
+DOID:14330	Parkinson's disease	DOID:3310	atopic dermatitis	0.01823
+DOID:14330	Parkinson's disease	DOID:9074	systemic lupus erythematosus	0.01817
+DOID:14330	Parkinson's disease	DOID:2531	hematologic cancer	0.01783
+DOID:14330	Parkinson's disease	DOID:1612	breast cancer	0.01662
+DOID:14330	Parkinson's disease	DOID:8778	Crohn's disease	0.01652
+DOID:14330	Parkinson's disease	DOID:12365	malaria	0.01589
+DOID:14330	Parkinson's disease	DOID:3083	chronic obstructive pulmonary disease	0.015
+DOID:14330	Parkinson's disease	DOID:1793	pancreatic cancer	0.01401
+DOID:14330	Parkinson's disease	DOID:14227	azoospermia	0.01284
+DOID:14330	Parkinson's disease	DOID:11612	polycystic ovary syndrome	0.01272
+DOID:14330	Parkinson's disease	DOID:0050156	idiopathic pulmonary fibrosis	0.01221
+DOID:14330	Parkinson's disease	DOID:7693	abdominal aortic aneurysm	0.01205
+DOID:14330	Parkinson's disease	DOID:8893	psoriasis	0.009475
+DOID:14330	Parkinson's disease	DOID:7148	rheumatoid arthritis	0.007353
+DOID:14330	Parkinson's disease	DOID:9008	psoriatic arthritis	0.004259
+DOID:14227	azoospermia	DOID:263	kidney cancer	0.2009
+DOID:14227	azoospermia	DOID:0050742	nicotine dependence	0.1626
+DOID:14227	azoospermia	DOID:1612	breast cancer	0.132
+DOID:14227	azoospermia	DOID:8577	ulcerative colitis	0.1199
+DOID:14227	azoospermia	DOID:986	alopecia areata	0.1113
+DOID:14227	azoospermia	DOID:10652	Alzheimer's disease	0.09801
+DOID:14227	azoospermia	DOID:9206	Barrett's esophagus	0.09593
+DOID:14227	azoospermia	DOID:2986	IgA glomerulonephritis	0.09486
+DOID:14227	azoospermia	DOID:3083	chronic obstructive pulmonary disease	0.08325
+DOID:14227	azoospermia	DOID:219	colon cancer	0.0707
+DOID:14227	azoospermia	DOID:418	systemic scleroderma	0.07038
+DOID:14227	azoospermia	DOID:635	acquired immunodeficiency syndrome	0.06199
+DOID:14227	azoospermia	DOID:1909	melanoma	0.0507
+DOID:14227	azoospermia	DOID:9074	systemic lupus erythematosus	0.04154
+DOID:14227	azoospermia	DOID:1793	pancreatic cancer	0.03934
+DOID:14227	azoospermia	DOID:8893	psoriasis	0.03694
+DOID:14227	azoospermia	DOID:0050156	idiopathic pulmonary fibrosis	0.03501
+DOID:14227	azoospermia	DOID:5419	schizophrenia	0.03296
+DOID:14227	azoospermia	DOID:8778	Crohn's disease	0.0254
+DOID:14227	azoospermia	DOID:3310	atopic dermatitis	0.02005
+DOID:14227	azoospermia	DOID:9008	psoriatic arthritis	0.01975
+DOID:14227	azoospermia	DOID:7148	rheumatoid arthritis	0.01777
+DOID:14227	azoospermia	DOID:11612	polycystic ovary syndrome	0.01592
+DOID:14227	azoospermia	DOID:12365	malaria	0.01566
+DOID:14227	azoospermia	DOID:7693	abdominal aortic aneurysm	0.0156
+DOID:14227	azoospermia	DOID:14330	Parkinson's disease	0.01284
+DOID:14227	azoospermia	DOID:2531	hematologic cancer	0.0126
+DOID:12365	malaria	DOID:9074	systemic lupus erythematosus	0.06883
+DOID:12365	malaria	DOID:635	acquired immunodeficiency syndrome	0.05997
+DOID:12365	malaria	DOID:8778	Crohn's disease	0.04479
+DOID:12365	malaria	DOID:8893	psoriasis	0.03405
+DOID:12365	malaria	DOID:8577	ulcerative colitis	0.03234
+DOID:12365	malaria	DOID:0050156	idiopathic pulmonary fibrosis	0.03183
+DOID:12365	malaria	DOID:1909	melanoma	0.03013
+DOID:12365	malaria	DOID:418	systemic scleroderma	0.02983
+DOID:12365	malaria	DOID:1793	pancreatic cancer	0.02923
+DOID:12365	malaria	DOID:1612	breast cancer	0.02867
+DOID:12365	malaria	DOID:3083	chronic obstructive pulmonary disease	0.02746
+DOID:12365	malaria	DOID:10652	Alzheimer's disease	0.02725
+DOID:12365	malaria	DOID:0050742	nicotine dependence	0.02555
+DOID:12365	malaria	DOID:263	kidney cancer	0.02488
+DOID:12365	malaria	DOID:7148	rheumatoid arthritis	0.0243
+DOID:12365	malaria	DOID:9206	Barrett's esophagus	0.02171
+DOID:12365	malaria	DOID:986	alopecia areata	0.02143
+DOID:12365	malaria	DOID:219	colon cancer	0.02105
+DOID:12365	malaria	DOID:2986	IgA glomerulonephritis	0.01966
+DOID:12365	malaria	DOID:7693	abdominal aortic aneurysm	0.01887
+DOID:12365	malaria	DOID:2531	hematologic cancer	0.0173
+DOID:12365	malaria	DOID:5419	schizophrenia	0.01715
+DOID:12365	malaria	DOID:14330	Parkinson's disease	0.01589
+DOID:12365	malaria	DOID:3310	atopic dermatitis	0.01572
+DOID:12365	malaria	DOID:14227	azoospermia	0.01566
+DOID:12365	malaria	DOID:11612	polycystic ovary syndrome	0.01361
+DOID:12365	malaria	DOID:9008	psoriatic arthritis	0.003817
+DOID:11612	polycystic ovary syndrome	DOID:263	kidney cancer	0.0203
+DOID:11612	polycystic ovary syndrome	DOID:8577	ulcerative colitis	0.01904
+DOID:11612	polycystic ovary syndrome	DOID:2986	IgA glomerulonephritis	0.01861
+DOID:11612	polycystic ovary syndrome	DOID:5419	schizophrenia	0.0177
+DOID:11612	polycystic ovary syndrome	DOID:10652	Alzheimer's disease	0.01764
+DOID:11612	polycystic ovary syndrome	DOID:9206	Barrett's esophagus	0.01733
+DOID:11612	polycystic ovary syndrome	DOID:418	systemic scleroderma	0.01715
+DOID:11612	polycystic ovary syndrome	DOID:0050742	nicotine dependence	0.01681
+DOID:11612	polycystic ovary syndrome	DOID:1612	breast cancer	0.01612
+DOID:11612	polycystic ovary syndrome	DOID:1909	melanoma	0.01606
+DOID:11612	polycystic ovary syndrome	DOID:986	alopecia areata	0.01601
+DOID:11612	polycystic ovary syndrome	DOID:14227	azoospermia	0.01592
+DOID:11612	polycystic ovary syndrome	DOID:1793	pancreatic cancer	0.01516
+DOID:11612	polycystic ovary syndrome	DOID:9074	systemic lupus erythematosus	0.01466
+DOID:11612	polycystic ovary syndrome	DOID:635	acquired immunodeficiency syndrome	0.01411
+DOID:11612	polycystic ovary syndrome	DOID:3083	chronic obstructive pulmonary disease	0.01406
+DOID:11612	polycystic ovary syndrome	DOID:12365	malaria	0.01361
+DOID:11612	polycystic ovary syndrome	DOID:7693	abdominal aortic aneurysm	0.01322
+DOID:11612	polycystic ovary syndrome	DOID:3310	atopic dermatitis	0.01285
+DOID:11612	polycystic ovary syndrome	DOID:14330	Parkinson's disease	0.01272
+DOID:11612	polycystic ovary syndrome	DOID:7148	rheumatoid arthritis	0.01202
+DOID:11612	polycystic ovary syndrome	DOID:219	colon cancer	0.012
+DOID:11612	polycystic ovary syndrome	DOID:8893	psoriasis	0.01134
+DOID:11612	polycystic ovary syndrome	DOID:0050156	idiopathic pulmonary fibrosis	0.0109
+DOID:11612	polycystic ovary syndrome	DOID:8778	Crohn's disease	0.007702
+DOID:11612	polycystic ovary syndrome	DOID:2531	hematologic cancer	0.004747
+DOID:11612	polycystic ovary syndrome	DOID:9008	psoriatic arthritis	0.004188
+DOID:10652	Alzheimer's disease	DOID:263	kidney cancer	0.1404
+DOID:10652	Alzheimer's disease	DOID:2986	IgA glomerulonephritis	0.1223
+DOID:10652	Alzheimer's disease	DOID:9206	Barrett's esophagus	0.115
+DOID:10652	Alzheimer's disease	DOID:8577	ulcerative colitis	0.108
+DOID:10652	Alzheimer's disease	DOID:0050742	nicotine dependence	0.1025
+DOID:10652	Alzheimer's disease	DOID:1612	breast cancer	0.09923
+DOID:10652	Alzheimer's disease	DOID:14227	azoospermia	0.09801
+DOID:10652	Alzheimer's disease	DOID:219	colon cancer	0.09244
+DOID:10652	Alzheimer's disease	DOID:986	alopecia areata	0.07226
+DOID:10652	Alzheimer's disease	DOID:3083	chronic obstructive pulmonary disease	0.07101
+DOID:10652	Alzheimer's disease	DOID:1909	melanoma	0.06967
+DOID:10652	Alzheimer's disease	DOID:635	acquired immunodeficiency syndrome	0.06868
+DOID:10652	Alzheimer's disease	DOID:418	systemic scleroderma	0.06629
+DOID:10652	Alzheimer's disease	DOID:9074	systemic lupus erythematosus	0.05765
+DOID:10652	Alzheimer's disease	DOID:14330	Parkinson's disease	0.04629
+DOID:10652	Alzheimer's disease	DOID:1793	pancreatic cancer	0.04626
+DOID:10652	Alzheimer's disease	DOID:5419	schizophrenia	0.04174
+DOID:10652	Alzheimer's disease	DOID:0050156	idiopathic pulmonary fibrosis	0.03836
+DOID:10652	Alzheimer's disease	DOID:8893	psoriasis	0.03387
+DOID:10652	Alzheimer's disease	DOID:8778	Crohn's disease	0.03274
+DOID:10652	Alzheimer's disease	DOID:12365	malaria	0.02725
+DOID:10652	Alzheimer's disease	DOID:3310	atopic dermatitis	0.02677
+DOID:10652	Alzheimer's disease	DOID:7693	abdominal aortic aneurysm	0.0246
+DOID:10652	Alzheimer's disease	DOID:2531	hematologic cancer	0.01951
+DOID:10652	Alzheimer's disease	DOID:11612	polycystic ovary syndrome	0.01764
+DOID:10652	Alzheimer's disease	DOID:7148	rheumatoid arthritis	0.01726
+DOID:10652	Alzheimer's disease	DOID:9008	psoriatic arthritis	0.01489
+DOID:0050742	nicotine dependence	DOID:3083	chronic obstructive pulmonary disease	0.2566
+DOID:0050742	nicotine dependence	DOID:263	kidney cancer	0.2295
+DOID:0050742	nicotine dependence	DOID:1612	breast cancer	0.2106
+DOID:0050742	nicotine dependence	DOID:8577	ulcerative colitis	0.1807
+DOID:0050742	nicotine dependence	DOID:14227	azoospermia	0.1626
+DOID:0050742	nicotine dependence	DOID:9206	Barrett's esophagus	0.1198
+DOID:0050742	nicotine dependence	DOID:2986	IgA glomerulonephritis	0.1076
+DOID:0050742	nicotine dependence	DOID:10652	Alzheimer's disease	0.1025
+DOID:0050742	nicotine dependence	DOID:635	acquired immunodeficiency syndrome	0.09765
+DOID:0050742	nicotine dependence	DOID:986	alopecia areata	0.09671
+DOID:0050742	nicotine dependence	DOID:1909	melanoma	0.08717
+DOID:0050742	nicotine dependence	DOID:219	colon cancer	0.08712
+DOID:0050742	nicotine dependence	DOID:418	systemic scleroderma	0.07453
+DOID:0050742	nicotine dependence	DOID:9074	systemic lupus erythematosus	0.06667
+DOID:0050742	nicotine dependence	DOID:8893	psoriasis	0.05576
+DOID:0050742	nicotine dependence	DOID:1793	pancreatic cancer	0.05524
+DOID:0050742	nicotine dependence	DOID:0050156	idiopathic pulmonary fibrosis	0.05359
+DOID:0050742	nicotine dependence	DOID:3310	atopic dermatitis	0.0392
+DOID:0050742	nicotine dependence	DOID:8778	Crohn's disease	0.03243
+DOID:0050742	nicotine dependence	DOID:5419	schizophrenia	0.03104
+DOID:0050742	nicotine dependence	DOID:7693	abdominal aortic aneurysm	0.02668
+DOID:0050742	nicotine dependence	DOID:12365	malaria	0.02555
+DOID:0050742	nicotine dependence	DOID:7148	rheumatoid arthritis	0.02215
+DOID:0050742	nicotine dependence	DOID:14330	Parkinson's disease	0.02085
+DOID:0050742	nicotine dependence	DOID:2531	hematologic cancer	0.01955
+DOID:0050742	nicotine dependence	DOID:11612	polycystic ovary syndrome	0.01681
+DOID:0050742	nicotine dependence	DOID:9008	psoriatic arthritis	0.01614
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:635	acquired immunodeficiency syndrome	0.0796
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:9074	systemic lupus erythematosus	0.0739
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:1612	breast cancer	0.07154
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:8577	ulcerative colitis	0.07007
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:2986	IgA glomerulonephritis	0.05653
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:263	kidney cancer	0.05561
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:1793	pancreatic cancer	0.0546
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:0050742	nicotine dependence	0.05359
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:1909	melanoma	0.05202
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:9206	Barrett's esophagus	0.05156
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:3083	chronic obstructive pulmonary disease	0.04708
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:8893	psoriasis	0.04614
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:8778	Crohn's disease	0.04427
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:418	systemic scleroderma	0.04426
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:219	colon cancer	0.04329
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:10652	Alzheimer's disease	0.03836
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:14227	azoospermia	0.03501
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:12365	malaria	0.03183
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:3310	atopic dermatitis	0.03034
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:986	alopecia areata	0.0292
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:7693	abdominal aortic aneurysm	0.02831
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:7148	rheumatoid arthritis	0.02642
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:2531	hematologic cancer	0.0241
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:14330	Parkinson's disease	0.01221
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:5419	schizophrenia	0.0116
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:11612	polycystic ovary syndrome	0.0109
+DOID:0050156	idiopathic pulmonary fibrosis	DOID:9008	psoriatic arthritis	0.008989
