@@ -1,49 +1,49 @@
 slim_id	slim_name	down	up
-DOID:0050156	idiopathic pulmonary fibrosis	799.0	963.0
-DOID:0050741	alcohol dependence	143.0	163.0
-DOID:0050742	nicotine dependence	5178.0	4277.0
-DOID:10283	prostate cancer	37.0	43.0
-DOID:10652	Alzheimer's disease	2218.0	2189.0
-DOID:10763	hypertension	54.0	50.0
-DOID:11612	polycystic ovary syndrome	328.0	358.0
-DOID:12365	malaria	406.0	407.0
-DOID:12849	autistic disorder	2.0	2.0
-DOID:13223	uterine fibroid	160.0	235.0
-DOID:1324	lung cancer	132.0	343.0
-DOID:14227	azoospermia	3399.0	4428.0
-DOID:14330	Parkinson's disease	353.0	322.0
-DOID:1612	breast cancer	4628.0	5348.0
-DOID:1686	glaucoma	3.0	10.0
-DOID:1793	pancreatic cancer	889.0	782.0
-DOID:1909	melanoma	1847.0	1270.0
-DOID:1936	atherosclerosis	1.0	0.0
-DOID:219	colon cancer	1457.0	2232.0
-DOID:2377	multiple sclerosis	16.0	0.0
-DOID:2394	ovarian cancer	108.0	63.0
-DOID:2531	hematologic cancer	351.0	251.0
-DOID:263	kidney cancer	6267.0	6417.0
-DOID:2841	asthma	0.0	4.0
-DOID:2986	IgA glomerulonephritis	2227.0	2360.0
-DOID:3083	chronic obstructive pulmonary disease	2009.0	2068.0
-DOID:3310	atopic dermatitis	460.0	1010.0
-DOID:3312	bipolar disorder	8.0	5.0
-DOID:332	amyotrophic lateral sclerosis	280.0	190.0
-DOID:3393	coronary artery disease	31.0	27.0
-DOID:418	systemic scleroderma	1412.0	1262.0
-DOID:4481	allergic rhinitis	3.0	4.0
-DOID:5419	schizophrenia	616.0	373.0
-DOID:635	acquired immunodeficiency syndrome	1745.0	1807.0
-DOID:7147	ankylosing spondylitis	73.0	77.0
-DOID:7148	rheumatoid arthritis	294.0	292.0
-DOID:7693	abdominal aortic aneurysm	438.0	496.0
-DOID:824	periodontitis	51.0	24.0
-DOID:8577	ulcerative colitis	3714.0	3379.0
-DOID:8778	Crohn's disease	315.0	578.0
-DOID:8893	psoriasis	650.0	1104.0
-DOID:9008	psoriatic arthritis	248.0	274.0
-DOID:9074	systemic lupus erythematosus	1133.0	1059.0
-DOID:9206	Barrett's esophagus	2245.0	2197.0
-DOID:9352	type 2 diabetes mellitus	0.0	1.0
-DOID:9744	type 1 diabetes mellitus	8.0	9.0
-DOID:986	alopecia areata	1907.0	1460.0
-DOID:9970	obesity	45.0	74.0
+DOID:0050156	idiopathic pulmonary fibrosis	799	963
+DOID:0050741	alcohol dependence	143	163
+DOID:0050742	nicotine dependence	5178	4277
+DOID:10283	prostate cancer	37	43
+DOID:10652	Alzheimer's disease	2218	2189
+DOID:10763	hypertension	54	50
+DOID:11612	polycystic ovary syndrome	328	358
+DOID:12365	malaria	406	407
+DOID:12849	autistic disorder	2	2
+DOID:13223	uterine fibroid	160	235
+DOID:1324	lung cancer	132	343
+DOID:14227	azoospermia	3399	4428
+DOID:14330	Parkinson's disease	353	322
+DOID:1612	breast cancer	4628	5348
+DOID:1686	glaucoma	3	10
+DOID:1793	pancreatic cancer	889	782
+DOID:1909	melanoma	1847	1270
+DOID:1936	atherosclerosis	1	0
+DOID:219	colon cancer	1457	2232
+DOID:2377	multiple sclerosis	16	0
+DOID:2394	ovarian cancer	108	63
+DOID:2531	hematologic cancer	351	251
+DOID:263	kidney cancer	6267	6417
+DOID:2841	asthma	0	4
+DOID:2986	IgA glomerulonephritis	2227	2360
+DOID:3083	chronic obstructive pulmonary disease	2009	2068
+DOID:3310	atopic dermatitis	460	1010
+DOID:3312	bipolar disorder	8	5
+DOID:332	amyotrophic lateral sclerosis	280	190
+DOID:3393	coronary artery disease	31	27
+DOID:418	systemic scleroderma	1412	1262
+DOID:4481	allergic rhinitis	3	4
+DOID:5419	schizophrenia	616	373
+DOID:635	acquired immunodeficiency syndrome	1745	1807
+DOID:7147	ankylosing spondylitis	73	77
+DOID:7148	rheumatoid arthritis	294	292
+DOID:7693	abdominal aortic aneurysm	438	496
+DOID:824	periodontitis	51	24
+DOID:8577	ulcerative colitis	3714	3379
+DOID:8778	Crohn's disease	315	578
+DOID:8893	psoriasis	650	1104
+DOID:9008	psoriatic arthritis	248	274
+DOID:9074	systemic lupus erythematosus	1133	1059
+DOID:9206	Barrett's esophagus	2245	2197
+DOID:9352	type 2 diabetes mellitus	0	1
+DOID:9744	type 1 diabetes mellitus	8	9
+DOID:986	alopecia areata	1907	1460
+DOID:9970	obesity	45	74
