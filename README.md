@@ -1,5 +1,7 @@
 # Differential expression signatures for disease using STARGEO
 
+[![DOI: 10.5281/zenodo.46866.svg](https://zenodo.org/badge/doi/10.5281/zenodo.46866.svg)](https://doi.org/10.5281/zenodo.46866) (corresponds to [`v1.0`](https://github.com/dhimmel/stargeo/releases/tag/v1.0))
+
 [STARGEO](http://stargeo.org/) is a webapp which allows users to identify differentially expressed genes between samples of their choosing. Users annotate studies in [GEO](http://www.ncbi.nlm.nih.gov/geo/ "Gene Expression Omnibus") to indicate which samples belong to which conditions. We've annotated many samples for their membership to specific disease or control classes. Then for a specific query (case versus control specification), STARGEO meta-analyzes across all the studies with relevant samples.
 
 Here, we perform STARGEO analyses for diseases in our drug repurposing hetnet. See the [_Thinklab_ discussion](https://doi.org/10.15363/thinklab.d96) for more information.
